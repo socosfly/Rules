@@ -1,0 +1,22 @@
+payload:
+  # > friDay
+  - PROCESS-NAME,net.fetnet.fetvod
+  - PROCESS-NAME,net.fetnet.fetvod.tv
+  - DOMAIN-SUFFIX,friday.tw
+  
+  # > myVideo
+  - PROCESS-NAME,com.taiwanmobile.myVideo
+  - PROCESS-NAME,com.taiwanmobile.myVideotv
+  - DOMAIN-SUFFIX,myvideo.net.tw
+  - DOMAIN-SUFFIX,catch.net.tw
+
+  # > CATCHPLAY+
+  # USER-AGENT,CATCHPLAY*
+  - PROCESS-NAME,com.catchplay.asiaplay
+  - PROCESS-NAME,com.catchplay.asiaplay.tv
+  - PROCESS-NAME,com.catchplay.asiaplay.common.tv
+  - DOMAIN-SUFFIX,catchplay.com
+  - DOMAIN,asiaplay-origin.s3.amazonaws.com
+  - DOMAIN,tra-ww000-cp.akamaized.net
+  - DOMAIN,ols-ww000-cp.akamaized.net
+  - DOMAIN,ols-ww100-cp.akamaized.net

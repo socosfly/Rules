@@ -1,0 +1,38 @@
+payload:
+  # > Alipay HK
+  - DOMAIN-SUFFIX,alipayhk.com
+
+  # > Tap & Go
+  - DOMAIN-SUFFIX,tapngo.com.hk
+
+  # > Octopus
+  - DOMAIN-SUFFIX,octopus.com.hk
+  - DOMAIN-SUFFIX,octopuscards.com
+  - DOMAIN-SUFFIX,octopus-cards.com
+  - DOMAIN,e11620.dscb.akamaiedge.net
+  - DOMAIN-SUFFIX,octopuscards.com-v1.edgekey.net
+  - DOMAIN-SUFFIX,octopus.com.hk-v1.edgekey.net
+
+  # > CSL and ClubSIM
+  - DOMAIN-SUFFIX,clubsim.com.hk
+  - DOMAIN-SUFFIX,hkcsl.com
+  - DOMAIN-SUFFIX,theclub.com.hk
+  - DOMAIN-SUFFIX,1010.com.hk
+
+  # > CMHK
+  - DOMAIN-SUFFIX,hk.chinamobile.com
+  - DOMAIN-SUFFIX,mylink.komect.com
+
+  # > Others
+  - DOMAIN-SUFFIX,pccw.com
+  - DOMAIN-SUFFIX,three.com.hk
+  - DOMAIN-SUFFIX,rthk.hk
+  - DOMAIN-SUFFIX,hk01.com
+  - DOMAIN-SUFFIX,hket.com
+  - DOMAIN-SUFFIX,koreastardaily.com
+  - DOMAIN-SUFFIX,pcmarket.com.hk
+  - DOMAIN-SUFFIX,ulifestyle.com.hk
+  - DOMAIN-SUFFIX,appledaily.com
+  - DOMAIN,hk.news.yahoo.com
+  - DOMAIN-SUFFIX,mingpao.com
+  - DOMAIN,stardream.pro

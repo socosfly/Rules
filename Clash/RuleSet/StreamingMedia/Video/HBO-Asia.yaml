@@ -1,21 +1,30 @@
 payload:
-  # > HBO Asia
+  # > HBO GO HKG
   - PROCESS-NAME,hk.hbo.hbogo
+  - PROCESS-NAME,com.hbo.asia.androidtv
+  - PROCESS-NAME,sg.hbo.hbogo
+  - PROCESS-NAME,tw.hbo.hbogo 
   - DOMAIN-SUFFIX,hbogoasia.com
+  - DOMAIN-KEYWORD,hbogoasia
+  - DOMAIN-KEYWORD,hboasia
   - DOMAIN-SUFFIX,hbogoasia.hk
-  - DOMAIN-KEYWORD,.hbogoasia.
-  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
+  - DOMAIN-SUFFIX,hbogoasia.tw
+  - DOMAIN-SUFFIX,hbogoasia.sg
+  - DOMAIN-SUFFIX,hbogoasia.ph
+  - DOMAIN,hbolb.onwardsmg.com
+  - DOMAIN,hbounify-prod.evergent.com
   - DOMAIN,bcbolthboa-a.akamaihd.net
-  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
+  - DOMAIN,hbogoprod-vod.akamaized.net
+  - DOMAIN,hboasialive.akamaized.net
   - DOMAIN,dai3fd1oh325y.cloudfront.net
+  
+  - DOMAIN,players.brightcove.net
+  - DOMAIN,s3-ap-southeast-1.amazonaws.com
+  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - DOMAIN,hboasia1-i.akamaihd.net
   - DOMAIN,hboasia2-i.akamaihd.net
   - DOMAIN,hboasia3-i.akamaihd.net
   - DOMAIN,hboasia4-i.akamaihd.net
   - DOMAIN,hboasia5-i.akamaihd.net
-  - DOMAIN,hboasialive.akamaized.net
-  - DOMAIN,hbogoprod-vod.akamaized.net
-  - DOMAIN,hbolb.onwardsmg.com
-  - DOMAIN,hbounify-prod.evergent.com
-  - DOMAIN,players.brightcove.net
-  - DOMAIN,s3-ap-southeast-1.amazonaws.com
+  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
+  - DOMAIN,2ac6fbdbd2d44a9019f6cbc6eb1ebdda47ae3bd8.cws.conviva.com

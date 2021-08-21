@@ -1,0 +1,13 @@
+payload:
+  # > Fast
+  - PROCESS-NAME,com.netflix.Speedtest
+  - DOMAIN-SUFFIX,fast.com
+
+  # > Speedtest by Ookla
+  # - User-Agent,SpeedTest*
+  - PROCESS-NAME,org.zwanoo.android.speedtest
+  - DOMAIN-KEYWORD,speedtest
+  - DOMAIN-SUFFIX,ooklaserver.net
+
+  # > Speed Test by Cloudflare
+  - DOMAIN-SUFFIX,speed.cloudflare.com

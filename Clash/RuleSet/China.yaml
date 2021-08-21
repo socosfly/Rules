@@ -1,366 +1,250 @@
-payload:
-  # China Area Network
-  # > 360
-  - DOMAIN-SUFFIX,qhres.com
-  - DOMAIN-SUFFIX,qhimg.com
-  # > Alibaba
-  # USER-AGENT,%E4%BC%98%E9%85%B7*
-  - DOMAIN-SUFFIX,alibaba.com
-  - DOMAIN-SUFFIX,alibabausercontent.com
-  - DOMAIN-SUFFIX,alicdn.com
-  - DOMAIN-SUFFIX,alikunlun.com
-  - DOMAIN-SUFFIX,alipay.com
-  - DOMAIN-SUFFIX,amap.com
-  - DOMAIN-SUFFIX,autonavi.com
-  - DOMAIN-SUFFIX,dingtalk.com
-  - DOMAIN-SUFFIX,mxhichina.com
-  - DOMAIN-SUFFIX,soku.com
-  - DOMAIN-SUFFIX,taobao.com
-  - DOMAIN-SUFFIX,tmall.com
-  - DOMAIN-SUFFIX,tmall.hk
-  - DOMAIN-SUFFIX,ykimg.com
-  - DOMAIN-SUFFIX,youku.com
-  - DOMAIN-SUFFIX,xiami.com
-  - DOMAIN-SUFFIX,xiami.net
-  # > Apple
-  - DOMAIN-SUFFIX,aaplimg.com
-  - DOMAIN-SUFFIX,apple.co
-  - DOMAIN-SUFFIX,apple.com
-  - DOMAIN-SUFFIX,apple-cloudkit.com
-  - DOMAIN-SUFFIX,appstore.com
-  - DOMAIN-SUFFIX,cdn-apple.com
-  - DOMAIN-SUFFIX,icloud.com
-  - DOMAIN-SUFFIX,icloud-content.com
-  - DOMAIN-SUFFIX,me.com
-  - DOMAIN-SUFFIX,mzstatic.com
-  # - DOMAIN-KEYWORD,apple.com.akadns.net
-  # - DOMAIN-KEYWORD,icloud.com.akadns.net
-  # > Baidu
-  - DOMAIN-SUFFIX,baidu.com
-  - DOMAIN-SUFFIX,baidubcr.com
-  - DOMAIN-SUFFIX,baidupan.com
-  - DOMAIN-SUFFIX,baidupcs.com
-  - DOMAIN-SUFFIX,bdimg.com
-  - DOMAIN-SUFFIX,bdstatic.com
-  - DOMAIN-SUFFIX,yunjiasu-cdn.net
-  # > Battle
-  - DOMAIN-SUFFIX,battle.net
-  - DOMAIN-SUFFIX,blizzard.com
-  # > bilibili
-  - DOMAIN-SUFFIX,acgvideo.com
-  - DOMAIN-SUFFIX,biliapi.com
-  - DOMAIN-SUFFIX,biliapi.net
-  - DOMAIN-SUFFIX,bilibili.com
-  - DOMAIN-SUFFIX,bilibili.tv
-  - DOMAIN-SUFFIX,hdslb.com
-  # > ByteDance
-  - DOMAIN-SUFFIX,feiliao.com
-  - DOMAIN-SUFFIX,pstatp.com
-  - DOMAIN-SUFFIX,snssdk.com
-  - DOMAIN-SUFFIX,iesdouyin.com
-  - DOMAIN-SUFFIX,toutiao.com
-  # > CCTV
-  - DOMAIN-SUFFIX,cctv.com
-  - DOMAIN-SUFFIX,cctvpic.com
-  - DOMAIN-SUFFIX,livechina.com
-  # > ChinaTelecom
-  - DOMAIN-SUFFIX,21cn.com
-  # > DiDi
-  - DOMAIN-SUFFIX,didialift.com
-  - DOMAIN-SUFFIX,didiglobal.com
-  - DOMAIN-SUFFIX,udache.com
-  # > HunanTV
-  - DOMAIN-SUFFIX,hitv.com
-  - DOMAIN-SUFFIX,mgtv.com
-  # > iQiyi
-  - DOMAIN-SUFFIX,iqiyi.com
-  - DOMAIN-SUFFIX,iqiyipic.com
-  - DOMAIN-SUFFIX,71.am
-  # > JD
-  - DOMAIN-SUFFIX,jd.com
-  - DOMAIN-SUFFIX,jd.hk
-  - DOMAIN-SUFFIX,jdpay.com
-  - DOMAIN-SUFFIX,360buyimg.com
-  # > Kingsoft
-  - DOMAIN-SUFFIX,iciba.com
-  - DOMAIN-SUFFIX,ksosoft.com
-  # > Meitu
-  - DOMAIN-SUFFIX,meitu.com
-  - DOMAIN-SUFFIX,meitudata.com
-  - DOMAIN-SUFFIX,meitustat.com
-  - DOMAIN-SUFFIX,meipai.com
-  # > Meituan
-  - DOMAIN-SUFFIX,dianping.com
-  - DOMAIN-SUFFIX,dpfile.com
-  - DOMAIN-SUFFIX,meituan.com
-  - DOMAIN-SUFFIX,meituan.net
-  # > MI
-  - DOMAIN-SUFFIX,duokan.com
-  - DOMAIN-SUFFIX,mi.com
-  - DOMAIN-SUFFIX,mi-img.com
-  - DOMAIN-SUFFIX,miui.com
-  - DOMAIN-SUFFIX,miwifi.com
-  - DOMAIN-SUFFIX,xiaomi.com
-  - DOMAIN-SUFFIX,xiaomi.net
-  # > Microsoft
-  # - DOMAIN-SUFFIX,microsoft.com
-  # - DOMAIN-SUFFIX,msecnd.net
-  # - DOMAIN-SUFFIX,office.com
-  # - DOMAIN-SUFFIX,office365.com
-  # - DOMAIN-SUFFIX,s-microsoft.com
-  # - DOMAIN-SUFFIX,windows.com
-  - DOMAIN-SUFFIX,visualstudio.com
-  # >> Microsoft Software Download
-  # - DOMAIN,software-download.microsoft.com
-  # - DOMAIN-KEYWORD,-microsoft-com.akamaized.net
-  # >> OneDrive
-  # - DOMAIN-SUFFIX,1drv.com
-  # - DOMAIN-SUFFIX,storage.live.com
-  # >> Outlook
-  - DOMAIN-SUFFIX,hotmail.com
-  - DOMAIN-SUFFIX,outlook.com
-  - DOMAIN,outlook.office365.com
-  - DOMAIN,smtp.office365.com
-  # >> Windows Server Update Services
-  - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
-  - DOMAIN-SUFFIX,update.microsoft.com
-  - DOMAIN-SUFFIX,windowsupdate.com
-  - DOMAIN-SUFFIX,windowsupdate.microsoft.com
-  - DOMAIN,download.microsoft.com
-  - DOMAIN,wustat.windows.com
-  - DOMAIN,ntservicepack.microsoft.com
-  # > NetEase
-  # USER-AGENT,NeteaseMusic*
-  # USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
-  - DOMAIN-SUFFIX,163.com
-  - DOMAIN-SUFFIX,126.com
-  - DOMAIN-SUFFIX,126.net
-  - DOMAIN-SUFFIX,127.net
-  - DOMAIN-SUFFIX,163yun.com
-  - DOMAIN-SUFFIX,lofter.com
-  - DOMAIN-SUFFIX,netease.com
-  - DOMAIN-SUFFIX,ydstatic.com
-  - DOMAIN-SUFFIX,youdao.com
-  # > PayPal
-  # USER-AGENT,PayPal*
-  - DOMAIN-SUFFIX,paypal.com
-  - DOMAIN-SUFFIX,paypal.me
-  - DOMAIN-SUFFIX,paypalobjects.com
-  # > Sina
-  - DOMAIN-SUFFIX,sina.com
-  - DOMAIN-SUFFIX,weibo.com
-  - DOMAIN-SUFFIX,weibocdn.com
-  # > Sohu
-  - DOMAIN-SUFFIX,sohu.com
-  - DOMAIN-SUFFIX,sohucs.com
-  - DOMAIN-SUFFIX,sohu-inc.com
-  - DOMAIN-SUFFIX,v-56.com
-  # > Sogo
-  - DOMAIN-SUFFIX,sogo.com
-  - DOMAIN-SUFFIX,sogou.com
-  - DOMAIN-SUFFIX,sogoucdn.com
-  # > Steam
-  - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,steampowered.com
-  - DOMAIN-SUFFIX,steamstatic.com
-  # > Tencent
-  # USER-AGENT,MicroMessenger*
-  # USER-AGENT,WeChat*
-  # USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
-  - DOMAIN-SUFFIX,gtimg.com
-  - DOMAIN-SUFFIX,idqqimg.com
-  - DOMAIN-SUFFIX,igamecj.com
-  - DOMAIN-SUFFIX,myapp.com
-  - DOMAIN-SUFFIX,myqcloud.com
-  - DOMAIN-SUFFIX,qq.com
-  - DOMAIN-SUFFIX,qqmail.com
-  - DOMAIN-SUFFIX,servicewechat.com
-  - DOMAIN-SUFFIX,tencent.com
-  - DOMAIN-SUFFIX,tencent-cloud.net
-  - DOMAIN-SUFFIX,tenpay.com
-  - DOMAIN-SUFFIX,wechat.com
-  - DOMAIN,file-igamecj.akamaized.net
-  - IP-CIDR,182.254.116.0/24,no-resolve
-  - IP-CIDR,203.205.254.0/23,no-resolve
-  # > Content Delivery Network
-  - DOMAIN-SUFFIX,ccgslb.com
-  - DOMAIN-SUFFIX,ccgslb.net
-  - DOMAIN-SUFFIX,chinanetcenter.com
-  - DOMAIN-SUFFIX,meixincdn.com
-  - DOMAIN-SUFFIX,ourdvs.com
-  - DOMAIN-SUFFIX,staticdn.net
-  - DOMAIN-SUFFIX,wangsu.com
-  # > IP Query
-  - DOMAIN-SUFFIX,ipip.net
-  - DOMAIN-SUFFIX,ip.la
-  - DOMAIN-SUFFIX,ip.sb
-  - DOMAIN-SUFFIX,ip-cdn.com
-  - DOMAIN-SUFFIX,ipv6-test.com
-  - DOMAIN-SUFFIX,myip.la
-  - DOMAIN-SUFFIX,test-ipv6.com
-  - DOMAIN-SUFFIX,whatismyip.com
-  - DOMAIN,ip.istatmenus.app
-  - DOMAIN,sms.imagetasks.com
-  # > Speed Test
-  # - DOMAIN-SUFFIX,speedtest.net
-  - DOMAIN-SUFFIX,netspeedtestmaster.com
-  - DOMAIN,speedtest.macpaw.com
-  # > Private Tracker
-  - DOMAIN-SUFFIX,acg.rip
-  - DOMAIN-SUFFIX,animebytes.tv
-  - DOMAIN-SUFFIX,awesome-hd.me
-  - DOMAIN-SUFFIX,broadcasthe.net
-  - DOMAIN-SUFFIX,chdbits.co
-  - DOMAIN-SUFFIX,classix-unlimited.co.uk
-  - DOMAIN-SUFFIX,comicat.org
-  - DOMAIN-SUFFIX,empornium.me
-  - DOMAIN-SUFFIX,gazellegames.net
-  - DOMAIN-SUFFIX,hdbits.org
-  - DOMAIN-SUFFIX,hdchina.org
-  - DOMAIN-SUFFIX,hddolby.com
-  - DOMAIN-SUFFIX,hdhome.org
-  - DOMAIN-SUFFIX,hdsky.me
-  - DOMAIN-SUFFIX,icetorrent.org
-  - DOMAIN-SUFFIX,jpopsuki.eu
-  - DOMAIN-SUFFIX,keepfrds.com
-  - DOMAIN-SUFFIX,madsrevolution.net
-  - DOMAIN-SUFFIX,morethan.tv
-  - DOMAIN-SUFFIX,m-team.cc
-  - DOMAIN-SUFFIX,myanonamouse.net
-  - DOMAIN-SUFFIX,nanyangpt.com
-  - DOMAIN-SUFFIX,ncore.cc
-  - DOMAIN-SUFFIX,open.cd
-  - DOMAIN-SUFFIX,ourbits.club
-  - DOMAIN-SUFFIX,passthepopcorn.me
-  - DOMAIN-SUFFIX,privatehd.to
-  - DOMAIN-SUFFIX,pterclub.com
-  - DOMAIN-SUFFIX,redacted.ch
-  - DOMAIN-SUFFIX,springsunday.net
-  - DOMAIN-SUFFIX,tjupt.org
-  - DOMAIN-SUFFIX,totheglory.im
-  # > Other
-  - DOMAIN-SUFFIX,cn
-  - DOMAIN-SUFFIX,115.com
-  - DOMAIN-SUFFIX,360in.com
-  - DOMAIN-SUFFIX,51ym.me
-  - DOMAIN-SUFFIX,8686c.com
-  - DOMAIN-SUFFIX,99.com
-  - DOMAIN-SUFFIX,abchina.com
-  - DOMAIN-SUFFIX,accuweather.com
-  - DOMAIN-SUFFIX,agora.io
-  - DOMAIN-SUFFIX,aicoinstorge.com
-  - DOMAIN-SUFFIX,air-matters.com
-  - DOMAIN-SUFFIX,air-matters.io
-  - DOMAIN-SUFFIX,aixifan.com
-  - DOMAIN-SUFFIX,amd.com
-  - DOMAIN-SUFFIX,b612.net
-  - DOMAIN-SUFFIX,bdatu.com
-  - DOMAIN-SUFFIX,beitaichufang.com
-  - DOMAIN-SUFFIX,booking.com
-  - DOMAIN-SUFFIX,bstatic.com
-  - DOMAIN-SUFFIX,cailianpress.com
-  - DOMAIN-SUFFIX,camera360.com
-  - DOMAIN-SUFFIX,chaoxing.com
-  - DOMAIN-SUFFIX,chaoxing.com
-  - DOMAIN-SUFFIX,chinaso.com
-  - DOMAIN-SUFFIX,chuimg.com
-  - DOMAIN-SUFFIX,chunyu.mobi
-  - DOMAIN-SUFFIX,cmbchina.com
-  - DOMAIN-SUFFIX,cmbimg.com
-  - DOMAIN-SUFFIX,coolapk.com
-  - DOMAIN-SUFFIX,ctrip.com
-  - DOMAIN-SUFFIX,dfcfw.com
-  - DOMAIN-SUFFIX,dji.net
-  - DOMAIN-SUFFIX,docschina.org
-  - DOMAIN-SUFFIX,douban.com
-  - DOMAIN-SUFFIX,doubanio.com
-  - DOMAIN-SUFFIX,douyu.com
-  - DOMAIN-SUFFIX,dxycdn.com
-  - DOMAIN-SUFFIX,dytt8.net
-  - DOMAIN-SUFFIX,eastmoney.com
-  - DOMAIN-SUFFIX,eudic.net
-  - DOMAIN-SUFFIX,feng.com
-  - DOMAIN-SUFFIX,fengkongcloud.com
-  - DOMAIN-SUFFIX,frdic.com
-  - DOMAIN-SUFFIX,futu5.com
-  - DOMAIN-SUFFIX,futunn.com
-  - DOMAIN-SUFFIX,gandi.net
-  - DOMAIN-SUFFIX,gcores.com
-  - DOMAIN-SUFFIX,geilicdn.com
-  - DOMAIN-SUFFIX,getpricetag.com
-  - DOMAIN-SUFFIX,gifshow.com
-  - DOMAIN-SUFFIX,godic.net
-  - DOMAIN-SUFFIX,heweather.net
-  - DOMAIN-SUFFIX,hicloud.com
-  - DOMAIN-SUFFIX,hongxiu.com
-  - DOMAIN-SUFFIX,hostbuf.com
-  - DOMAIN-SUFFIX,huxiucdn.com
-  - DOMAIN-SUFFIX,huya.com
-  - DOMAIN-SUFFIX,ibm.com
-  - DOMAIN-SUFFIX,infinitynewtab.com
-  - DOMAIN-SUFFIX,ithome.com
-  - DOMAIN-SUFFIX,java.com
-  - DOMAIN-SUFFIX,jianguoyun.com
-  - DOMAIN-SUFFIX,jianshu.com
-  - DOMAIN-SUFFIX,jianshu.io
-  - DOMAIN-SUFFIX,jidian.im
-  - DOMAIN-SUFFIX,kaiyanapp.com
-  - DOMAIN-SUFFIX,kaspersky-labs.com
-  - DOMAIN-SUFFIX,keepcdn.com
-  - DOMAIN-SUFFIX,kkmh.com
-  - DOMAIN-SUFFIX,lanzous.com
-  - DOMAIN-SUFFIX,licdn.com
-  - DOMAIN-SUFFIX,linkedin.com
-  - DOMAIN-SUFFIX,luojilab.com
-  - DOMAIN-SUFFIX,maoyan.com
-  - DOMAIN-SUFFIX,maoyun.tv
-  - DOMAIN-SUFFIX,mls-cdn.com
-  - DOMAIN-SUFFIX,mobike.com
-  - DOMAIN-SUFFIX,moke.com
-  - DOMAIN-SUFFIX,mubu.com
-  - DOMAIN-SUFFIX,myzaker.com
-  - DOMAIN-SUFFIX,nim-lang-cn.org
-  - DOMAIN-SUFFIX,ntp.org
-  - DOMAIN-SUFFIX,nvidia.com
-  - DOMAIN-SUFFIX,oracle.com
-  - DOMAIN-SUFFIX,plex.tv
-  - DOMAIN-SUFFIX,qidian.com
-  - DOMAIN-SUFFIX,qweather.com
-  - DOMAIN-SUFFIX,qyer.com
-  - DOMAIN-SUFFIX,qyerstatic.com
-  - DOMAIN-SUFFIX,raychase.net
-  - DOMAIN-SUFFIX,ronghub.com
-  - DOMAIN-SUFFIX,ruguoapp.com
-  - DOMAIN-SUFFIX,sankuai.com
-  - DOMAIN-SUFFIX,scomper.me
-  - DOMAIN-SUFFIX,seafile.com
-  - DOMAIN-SUFFIX,sm.ms
-  - DOMAIN-SUFFIX,smzdm.com
-  - DOMAIN-SUFFIX,snapdrop.net
-  - DOMAIN-SUFFIX,snwx.com
-  - DOMAIN-SUFFIX,s-reader.com
-  - DOMAIN-SUFFIX,sspai.com
-  - DOMAIN-SUFFIX,subhd.tv
-  - DOMAIN-SUFFIX,takungpao.com
-  - DOMAIN-SUFFIX,teamviewer.com
-  - DOMAIN-SUFFIX,tianyancha.com
-  - DOMAIN-SUFFIX,tophub.today
-  - DOMAIN-SUFFIX,uning.com
-  - DOMAIN-SUFFIX,weather.com
-  - DOMAIN-SUFFIX,weico.cc
-  - DOMAIN-SUFFIX,weidian.com
-  - DOMAIN-SUFFIX,xiachufang.com
-  - DOMAIN-SUFFIX,xiaoka.tv
-  - DOMAIN-SUFFIX,ximalaya.com
-  - DOMAIN-SUFFIX,xinhuanet.com
-  - DOMAIN-SUFFIX,xmcdn.com
-  - DOMAIN-SUFFIX,yangkeduo.com
-  - DOMAIN-SUFFIX,yizhibo.com
-  - DOMAIN-SUFFIX,zhangzishi.cc
-  - DOMAIN-SUFFIX,zhihu.com
-  - DOMAIN-SUFFIX,zhihuishu.com
-  - DOMAIN-SUFFIX,zhimg.com
-  - DOMAIN-SUFFIX,zhuihd.com
+# Port of HTTP(S) proxy server on the local end
+# port: 7890
 
-  - DOMAIN,download.jetbrains.com
-  - DOMAIN,images-cn.ssl-images-amazon.com
+# Port of SOCKS5 proxy server on the local end
+# socks-port: 7891
+
+# Transparent proxy server port for Linux and macOS
+# redir-port: 7892
+
+# HTTP(S) and SOCKS5 server on the same port
+mixed-port: 7890
+
+# authentication of local SOCKS5/HTTP(S) server
+# authentication:
+#  - "user1:pass1"
+#  - "user2:pass2"
+
+# Set to true to allow connections to local-end server from
+# other LAN IP addresses
+allow-lan: false
+
+# This is only applicable when `allow-lan` is `true`
+# '*': bind all IP addresses
+# 192.168.122.11: bind a single IPv4 address
+# "[aaaa::a8aa:ff:fe09:57d8]": bind a single IPv6 address
+bind-address: '*'
+
+# Clash router working mode
+# rule: rule-based packet routing
+# global: all packets will be forwarded to a single endpoint
+# direct: directly forward the packets to the Internet
+mode: rule
+
+# Clash by default prints logs to STDOUT
+# info / warning / error / debug / silent
+log-level: info
+
+# When set to false, resolver won't translate hostnames to IPv6 addresses
+ipv6: true
+
+# RESTful web API listening address
+external-controller: 127.0.0.1:9090
+
+# A relative path to the configuration directory or an absolute path to a
+# directory in which you put some static web resource. Clash core will then
+# serve it at `${API}/ui`.
+# external-ui: folder
+
+# Secret for the RESTful API (optional)
+# Authenticate by spedifying HTTP header `Authorization: Bearer ${secret}`
+# ALWAYS set a secret if RESTful API is listening on 0.0.0.0
+# secret: ""
+
+# Outbound interface name
+# interface-name: en0
+
+# Static hosts for DNS server and connection establishment, only works
+# when `dns.enhanced-mode` is `redir-host`.
+#
+# Wildcard hostnames are supported (e.g. *.clash.dev, *.foo.*.example.com)
+# Non-wildcard domain names has a higher priority than wildcard domain names
+# e.g. foo.example.com > *.example.com > .example.com
+# P.S. +.foo.com equals to .foo.com and foo.com
+hosts:
+  'mtalk.google.com': 108.177.125.188
+  # '*.clash.dev': 127.0.0.1
+  # '.dev': 127.0.0.1
+  # 'alpha.clash.dev': '::1'
+
+# DNS server settings
+# This section is optional. When not present, DNS server will be disabled.
+dns:
+  enable: false
+  listen: 0.0.0.0:53
+  # ipv6: false # when false, response to AAAA questions will be empty
+
+  # These nameservers are used to resolve the DNS nameserver hostnames below.
+  # Specify IP addresses only
+  default-nameserver:
+    - 114.114.114.114
+    - 8.8.8.8
+  enhanced-mode: redir-host # or fake-ip
+  fake-ip-range: 198.18.0.1/16 # Fake IP addresses pool CIDR
+  
+  # Hostnames in this list will not be resolved with fake IPs
+  # i.e. questions to these domain names will always be answered with their
+  # real IP addresses
+  # fake-ip-filter:
+  #   - '*.lan'
+  #   - localhost.ptlogin2.qq.com
+  
+  # Supports UDP, TCP, DoT, DoH. You can specify the port to connect to.
+  # All DNS questions are sent directly to the nameserver, without proxies
+  # involved. Clash answers the DNS question with the first result gathered.
+  nameserver:
+    - 114.114.114.114 # default value
+    - 8.8.8.8 # default value
+    - tls://dns.rubyfish.cn:853 # DNS over TLS
+    - https://1.1.1.1/dns-query # DNS over HTTPS
+
+  # When `fallback` is present, the DNS server will send concurrent requests
+  # to the servers in this section along with servers in `nameservers`.
+  # The answers from fallback servers are used when the GEOIP country
+  # is not `CN`.
+  # fallback:
+  #   - tcp://1.1.1.1
+
+  # If IP addresses resolved with servers in `nameservers` are in the specified
+  # subnets below, they are considered invalid and results from `fallback`
+  # servers are used instead.
+  #
+  # IP address resolved with servers in `nameserver` is used when
+  # `fallback-filter.geoip` is true and when GEOIP of the IP address is `CN`.
+  #
+  # If `fallback-filter.geoip` is false, results from `fallback` nameservers
+  # are always used, and answers from `nameservers` are discarded.
+  #
+  # This is a countermeasure against DNS pollution attacks.
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      # - 240.0.0.0/4
+
+proxies:
+# 支持的协议及加密算法示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
+
+  # Shadowsocks(Websocket + TLS)
+  - name: "CN1"
+    type: ss
+    server: server
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: "password"
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket # no QUIC now
+      tls: true # wss
+      # skip-cert-verify: true
+      # host: bing.com
+      path: "/s"
+      # mux: true
+      # headers:
+      #   custom: value
+
+  # VMess(Websocket + TLS)
+  - name: "CN2"
+    type: vmess
+    server: v2ray.cool
+    port: 443
+    uuid: a3482e88-686a-4a58-8126-99c9df64b7bf
+    alterId: 32
+    cipher: auto
+    # udp: true
+    tls: true
+    # skip-cert-verify: true
+    network: ws
+    ws-path: /v
+    # ws-headers:
+    #   Host: v2ray.com
+
+  # Trojan
+  - name: "CN3"
+    type: trojan
+    server: server
+    port: 443
+    password: yourpsk
+    # udp: true
+    # sni: example.com # aka server name
+    # alpn:
+    #   - h2
+    #   - http/1.1
+    # skip-cert-verify: true
+
+# 节点订阅
+proxy-providers:
+  # name: # Provider 名称
+  #   type: http # http 或 file
+  #   path: # 文件路径
+  #   url: # 只有当类型为 HTTP 时才可用，您不需要在本地空间中创建新文件。
+  #   interval: # 自动更新间隔，仅在类型为 HTTP 时可用
+  #   health-check: # 健康检查选项从此处开始
+  #     enable:
+  #     url: 
+  #     interval: 
+
+  # DuckDuckGo: # 冲鸭机场订阅链接
+  #   type: http
+  #   url: "https://duckduckgo.security/user/sub.php?token=DivineEngine"
+  #   interval: 3600
+  #   path: ./Proxy/ProxyList.yaml
+  #   health-check:
+  #     enable: true
+  #     interval: 600
+  #     url: http://www.gstatic.com/generate_204
+
+proxy-groups:
+# 策略组示例请查阅 Clash 项目 README 以使用最新格式：https://github.com/Dreamacro/clash/blob/master/README.md
+
+  # Fallback
+  - name: "Fallback"
+    type: fallback
+    # use:
+    #   - DuckDuckGo
+    proxies:
+      - CN1
+      - CN2
+      - CN3
+    url: 'http://cp.cloudflare.com/generate_204'
+    interval: 300
+
+  # 代理节点选择
+  - name: "PROXY"
+    type: select
+    proxies:
+      - Fallback
+      - CN1
+      - CN2
+      - CN3
+
+rule-providers:
+  # name: # Provider 名称
+  #   type: http # http 或 file
+  #   behavior: classical # 或 ipcidr、domain
+  #   path: # 文件路径
+  #   url: # 只有当类型为 HTTP 时才可用，您不需要在本地空间中创建新文件。
+  #   interval: # 自动更新间隔，仅在类型为 HTTP 时可用
+
+  StreamingCN:
+    type: http
+    behavior: classical
+    path: ./RuleSet/StreamingMedia/StreamingCN.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingCN.yaml
+    interval: 86400
+
+rules:
+
+  - RULE-SET,StreamingCN,PROXY
+
+  # Local Area Network
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,224.0.0.0/4,DIRECT
+
+  # GeoIP China
+  - GEOIP,CN,PROXY
+
+  - MATCH,DIRECT

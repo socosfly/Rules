@@ -7,3 +7,7 @@ payload:
   - DOMAIN-SUFFIX,disneystreaming.com
   - DOMAIN-SUFFIX,dssott.com
   - DOMAIN,cdn.registerdisney.go.com
+  - DOMAIN,disney.my.sentry.io
+  - DOMAIN,ba3f64df98de730df38846b54ecfbdf7f61f80f.cws.conviva.com
+  # > Hotstar
+  - DOMAIN-SUFFIX,hotstar.com

@@ -1,0 +1,8 @@
+payload:
+  # Streaming Media Supplement
+
+  # > VUDU
+  - DOMAIN-SUFFIX,vudu.com
+  
+  # > MoviesAnywhere 
+  - DOMAIN-SUFFIX,moviesanywhere.com
