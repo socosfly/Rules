@@ -141,7 +141,6 @@ payload:
   - DOMAIN-SUFFIX,bbc.co.uk
   - DOMAIN,d2z3p34itxwaj7.cloudfront.net
 
-<<<<<<< Updated upstream
   ## > CBS
   - DOMAIN-SUFFIX,cbs
   - DOMAIN-SUFFIX,cbs.com
@@ -166,8 +165,6 @@ payload:
   ## >> CBS Radio
   - DOMAIN-SUFFIX,cbsradio.com
 
-=======
->>>>>>> Stashed changes
   # > Crunchyroll
   # USER-AGENT,Crunchyroll*
   - DOMAIN-SUFFIX,crunchyroll.com
@@ -379,13 +376,6 @@ payload:
   - DOMAIN-SUFFIX,pplusstatic.com
   - DOMAIN,cbsi.live.ott.irdeto.com
   - DOMAIN,link.theplatform.com
-<<<<<<< Updated upstream
-=======
-  # CBS live
-  - DOMAIN,cbsservice.aws.syncbak.com
-  - DOMAIN,cbsplaylistserver.aws.syncbak.com
-  - DOMAIN,pubads.g.doubleclick.net
->>>>>>> Stashed changes
 
   # > PBS
   - PROCESS-NAME,com.pbs.video
@@ -396,12 +386,9 @@ payload:
   - PROCESS-NAME,com.peacocktv.peacockandroid
   - DOMAIN-SUFFIX,peacocktv.com
 
-<<<<<<< Updated upstream
   ## >> Pluto TV
   - DOMAIN-SUFFIX,pluto.tv
 
-=======
->>>>>>> Stashed changes
   # > Pornhub
   - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,phprcdn.com
