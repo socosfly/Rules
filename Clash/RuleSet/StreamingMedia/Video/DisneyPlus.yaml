@@ -1,13 +1,18 @@
 payload:
   # > Disney+
-  - PROCESS-NAME,com.disney.disneyplus
-  - DOMAIN-SUFFIX,bamgrid.com
+  # USER-AGENT,Disney*
+  # PROCESS-NAME,com.disney.disneyplus
   - DOMAIN-SUFFIX,disneyplus.com
   - DOMAIN-SUFFIX,disney-plus.net
   - DOMAIN-SUFFIX,disneystreaming.com
   - DOMAIN-SUFFIX,dssott.com
+  # DOMAIN-SUFFIX,bamgrid.com
+  - DOMAIN,playback-certs.bamgrid.com
+  - DOMAIN,disney.api.edge.bamgrid.com
+  - DOMAIN,disney.connections.edge.bamgrid.com
+  - DOMAIN,disney.content.edge.bamgrid.com
+  - DOMAIN,disney.playback.edge.bamgrid.com
   - DOMAIN,cdn.registerdisney.go.com
-  - DOMAIN,disney.my.sentry.io
-  - DOMAIN,ba3f64df98de730df38846b54ecfbdf7f61f80f.cws.conviva.com
+  - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
   # > Hotstar
   - DOMAIN-SUFFIX,hotstar.com

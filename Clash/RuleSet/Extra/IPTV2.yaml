@@ -1,0 +1,16 @@
+payload:
+  # > iptv portal can direct go
+  - DOMAIN,hello.exodus-2.xyzhello.exodus-2.xyz
+  - IP-CIDR,103.252.223.221/24,no-resolve
+  - IP-CIDR,103.71.172.110/24,no-resolve
+  - IP-CIDR,103.71.173.62/24,no-resolve
+  - IP-CIDR,185.229.241.217/24,no-resolve
+  - IP-CIDR,185.191.127.154/24,no-resolve
+  - DOMAIN,exodes9.maria-db.co
+  - DOMAIN,exodes8.maria-db.co
+  - DOMAIN,exodes4.maria-db.co
+
+  - DOMAIN,viprestream.loginto.me
+  - DOMAIN-SUFFIX,nhscovid.xyz
+  - DOMAIN,taxidoor1.xyz
+  

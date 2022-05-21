@@ -6,3 +6,6 @@ payload:
   
   # > MoviesAnywhere 
   - DOMAIN-SUFFIX,moviesanywhere.com
+
+  ## >> Pluto TV
+  - DOMAIN-SUFFIX,pluto.tv

@@ -1,0 +1,23 @@
+payload:
+  # > iptv portal
+  - DOMAIN-SUFFIX,proxytx.cloud
+  - DOMAIN,ppvplug.net
+  - DOMAIN-SUFFIX,bestsmokes.co.uk
+  - DOMAIN,7food.xyz
+  - DOMAIN,supiptv.vip
+  - DOMAIN,mag1meg2mig4z.funtogether.xyz
+  # > 7food.xyz
+  - IP-CIDR,103.194.169.207/32
+  # > ppvplug.net
+  - IP-CIDR,185.83.69.156/32
+  - IP-CIDR,34.159.105.77/32
+  - IP-CIDR,77.72.20.34/32
+  - IP-CIDR,77.72.22.162/32
+  # > proxytx.cloud
+  - IP-CIDR,154.204.1.114/32
+  - IP-CIDR,154.204.1.10/32
+  - IP-CIDR,154.204.1.229/24
+  # > supiptv.vip
+  - IP-CIDR,45.86.0.0/18
+  - IP-CIDR,62.210.97.13/32
+  - IP-CIDR,45.132.192.180

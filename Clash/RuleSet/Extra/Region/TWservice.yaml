@@ -1,0 +1,7 @@
+payload:
+  # > 
+  - DOMAIN-SUFFIX,taiwanmobile.com
+  - DOMAIN-SUFFIX,elta.com.tw
+  # > GQ Taiwan
+  - DOMAIN-SUFFIX,gq.com.tw
+  - DOMAIN-KEYWORD,gqtaiwan 

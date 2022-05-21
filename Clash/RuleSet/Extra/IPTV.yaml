@@ -1,0 +1,104 @@
+payload:
+  # > iptv portal
+  - DOMAIN,ppvplug.net
+  - DOMAIN-SUFFIX,bestsmokes.co.uk
+  - DOMAIN,7food.xyz
+  - DOMAIN,supiptv.vip
+  - DOMAIN-SUFFIX,funtogether.xyz
+  - DOMAIN,tv.maltaip.com
+  - DOMAIN-SUFFIX,uniplayer.net
+  - DOMAIN,catirtv.ddns.me
+  - DOMAIN,line.4k-eu.com
+  - DOMAIN,mag.abcdxyz.one
+
+  # > 7food.xyz
+  - IP-CIDR,103.194.169.207/32
+  # > ppvplug.net
+  - IP-CIDR,185.83.69.156/32
+  - IP-CIDR,34.159.105.77/32
+  - IP-CIDR,77.72.20.34/32
+  - IP-CIDR,77.72.22.162/32
+  # > supiptv.vip
+  - IP-CIDR,45.86.0.0/18,no-resolve
+  - IP-CIDR,62.210.97.13/24,no-resolve
+  - IP-CIDR,45.132.192.180/24,no-resolve
+  # > tv.maltaip.com
+  - IP-CIDR,62.10.37.229/24,no-resolve
+  - IP-CIDR,79.56.35.24/24,no-resolve
+  - IP-CIDR,81.51.161.20/24,no-resolve
+  - IP-CIDR,94.237.64.2/24,no-resolve
+  - IP-CIDR,185.236.230.31/24,no-resolve
+  - IP-CIDR,188.93.237.31/24,no-resolve
+  - IP-CIDR,188.93.236.12/24,no-resolve
+  - DOMAIN,mag1meg2mig4z.funtogether.xyz
+  - DOMAIN,xinruimz-isv.isvjcloud.com
+  # > superga90.noip.best
+  - DOMAIN,superga90.noip.best
+  - IP-CIDR,84.17.61.160/24
+  - IP-CIDR,149.5.172.85/24
+  # > mag.abcdxyz.one
+  - DOMAIN,mag.abcdxyz.one
+  # > line.mytv-bronze.com
+  - DOMAIN,line.mytv-bronze.com
+  - DOMAIN,m1.redirect-pro.com
+  # > mag.ultraqhd.net
+  - DOMAIN,mag.ultraqhd.net
+  - DOMAIN,m1.redirect-4k.com
+  - DOMAIN,inspurcloud.api.xjshihuifang.com
+  # > iptvking.123tv.to
+  - DOMAIN,iptvking.123tv.to
+  - DOMAIN,magmegiill2mig4zil.funtogether.xyz
+  # > comag.rip
+  - IP-CIDR,146.19.16.108/24,no-resolve
+  - IP-CIDR,185.205.201.169/24,no-resolve
+  - DOMAIN,epg.best
+  - DOMAIN,comag.rip
+  - DOMAIN,venomtt.com
+  - IP-CIDR,91.108.56.167/24,no-resolve
+ # > team.tv
+  - DOMAIN-SUFFIX,troya.tv
+  - DOMAIN-SUFFIX,tv.team
+  - IP-CIDR,50.7.168.186/24,no-resolve
+ # > lightiptv.cc
+  - DOMAIN-SUFFIX,pp.ru
+  - DOMAIN,lightiptv.cc
+  - DOMAIN-SUFFIX,lightiptv.cc
+  - DOMAIN-SUFFIX,ottbill.cc
+  - IP-CIDR,104.21.234.0/24,no-resolve
+  - IP-CIDR,104.21.235.0/24,no-resolve
+ # > connect.proxytx.cloud   
+  - DOMAIN-SUFFIX,proxytx.cloud 
+  - IP-CIDR,102.222.214.43/24,no-resolve
+  - IP-CIDR,154.204.1.114/24,no-resolve
+  - IP-CIDR,102.222.214.43/24,no-resolve
+#ilook.tv
+  - IP-CIDR,194.59.155.0/24,no-resolve
+  - IP-CIDR,213.183.40.0/24,no-resolve
+  - IP-CIDR,213.183.42.0/24,no-resolve
+  - IP-CIDR,213.183.47.0/24,no-resolve
+  - IP-CIDR,5.182.228.0/24,no-resolve
+  - IP-CIDR,5.182.229.0/24,no-resolve
+  - IP-CIDR,5.182.231.0/24,no-resolve
+  - IP-CIDR,5.188.172.0/24,no-resolve
+  - IP-CIDR,77.72.19.0/24,no-resolve
+  - IP-CIDR,77.72.23.0/24,no-resolve
+  - IP-CIDR,92.119.88.0/24,no-resolve
+  - IP-CIDR,92.119.89.0/24,no-resolve
+  - IP-CIDR,93.189.56.0/24,no-resolve
+  - DOMAIN-SUFFIX,akciatv.ru
+  - DOMAIN-SUFFIX,russtv.net
+  - DOMAIN-SUFFIX,zatikov.net
+  - DOMAIN-KEYWORD,russtv
+#bil.best
+  - DOMAIN-SUFFIX,ultra-tv.online
+  - IP-CIDR,62.149.6.21/32,no-resolve
+#stalker（siggiztv、supiptv、overboxtv、maltaip、venomf）
+  - IP-CIDR,188.93.236.0/24,no-resolve
+  - IP-CIDR,188.93.237.0/24,no-resolve
+  - IP-CIDR,185.236.230.0/24,no-resolve
+  - IP-CIDR,185.191.0.0/16,no-resolve
+  - IP-CIDR,45.86.190.0/24,no-resolve
+  - IP-CIDR,45.86.191.0/24,no-resolve
+  - IP-CIDR,89.187.189.0/24,no-resolve
+  - IP-CIDR,62.210.0.0/16,no-resolve
+  - IP-CIDR,185.180.14.0/24,no-resolve

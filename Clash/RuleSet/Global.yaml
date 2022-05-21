@@ -57,6 +57,7 @@ payload:
   - DOMAIN-SUFFIX,blogger.com
   - DOMAIN-SUFFIX,getoutline.org
   - DOMAIN-SUFFIX,gvt0.com
+  - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,gvt3.com
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,ytimg.com
@@ -413,6 +414,7 @@ payload:
   - DOMAIN-SUFFIX,tiny.cc
   - DOMAIN-SUFFIX,tinyurl.com
   - DOMAIN-SUFFIX,torproject.org
+  - DOMAIN-SUFFIX,tradingview.com
   - DOMAIN-SUFFIX,tumblr.com
   - DOMAIN-SUFFIX,turbobit.net
   - DOMAIN-SUFFIX,tutanota.com
@@ -464,6 +466,7 @@ payload:
   - DOMAIN-SUFFIX,zoom.us
 
   - DOMAIN,cc.tvbs.com.tw
+  - DOMAIN,clubhouse.pubnubapi.com
   - DOMAIN,ocsp.int-x3.letsencrypt.org
   - DOMAIN,us.weibo.com
 
@@ -552,7 +555,12 @@ payload:
   # > Apple Music Web
   - DOMAIN,beta.music.apple.com
   # ------
+  # Google
+  - DOMAIN-SUFFIX,go.dev
+  - DOMAIN-SUFFIX,golang.org
   # > Others
+  - DOMAIN-SUFFIX,aicoin.com
+  - DOMAIN-SUFFIX,aimoon.com
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,cccat.io
   - DOMAIN-SUFFIX,dubox.com

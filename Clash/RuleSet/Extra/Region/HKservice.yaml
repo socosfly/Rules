@@ -36,3 +36,16 @@ payload:
   - DOMAIN,hk.news.yahoo.com
   - DOMAIN-SUFFIX,mingpao.com
   - DOMAIN,stardream.pro
+
+  # > VPS
+  - DOMAIN-SUFFIX,sysysy.cloud
+  #- DOMAIN-SUFFIX,syfree.win
+  #- DOMAIN-SUFFIX,ffrree.top
+  - DOMAIN-SUFFIX,bilibili.best
+
+  # > AWS
+  - DOMAIN-SUFFIX,aws.amazon.com
+  - DOMAIN-SUFFIX,amazonlightsail.com
+
+  # > Evernote
+  - DOMAIN-SUFFIX,evernote.com
