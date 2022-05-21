@@ -49,3 +49,9 @@ payload:
 
   # > Evernote
   - DOMAIN-SUFFIX,evernote.com
+  
+  # > Steam
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN,steamstore-a.akamaihd.net
+  - DOMAIN,community.akamai.steamstatic.com
+  
