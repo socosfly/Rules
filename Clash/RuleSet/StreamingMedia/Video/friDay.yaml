@@ -5,9 +5,5 @@ payload:
   - PROCESS-NAME,net.fetnet.fetvod.tv
   - DOMAIN-SUFFIX,friday.tw
   - DOMAIN-SUFFIX,fridaylogger.com
-<<<<<<< Updated upstream
   - DOMAIN,aka01p.akamaized.net
   - DOMAIN,aka02p.akamaized.net
-=======
-  - DOMAIN,aka01p.akamaized.net
->>>>>>> Stashed changes
