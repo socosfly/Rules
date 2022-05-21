@@ -39,13 +39,21 @@ payload:
 
   # > VPS
   - DOMAIN-SUFFIX,sysysy.cloud
+<<<<<<< Updated upstream:Clash/RuleSet/Extra/Region/HKservice.yaml
   #- DOMAIN-SUFFIX,syfree.win
   #- DOMAIN-SUFFIX,ffrree.top
+=======
+  - DOMAIN-SUFFIX,syfree.win
+  - DOMAIN-SUFFIX,ffrree.top
+>>>>>>> Stashed changes:Clash/RuleSet/Extra/HKservice.yaml
   - DOMAIN-SUFFIX,bilibili.best
 
   # > AWS
   - DOMAIN-SUFFIX,aws.amazon.com
   - DOMAIN-SUFFIX,amazonlightsail.com
+<<<<<<< Updated upstream:Clash/RuleSet/Extra/Region/HKservice.yaml
 
   # > Evernote
   - DOMAIN-SUFFIX,evernote.com
+=======
+>>>>>>> Stashed changes:Clash/RuleSet/Extra/HKservice.yaml

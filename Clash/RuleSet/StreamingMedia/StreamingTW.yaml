@@ -1,5 +1,9 @@
 payload:
+<<<<<<< Updated upstream
   # > Bahamut
+=======
+  # > Bahamut｜TW
+>>>>>>> Stashed changes
   # USER-AGENT,Anime*
   - PROCESS-NAME,tw.com.gamer.android.animad
   - DOMAIN-SUFFIX,bahamut.com.tw
@@ -7,7 +11,11 @@ payload:
   - DOMAIN,gamer-cds.cdn.hinet.net
   - DOMAIN,gamer2-cds.cdn.hinet.net
   
+<<<<<<< Updated upstream
   # > CATCHPLAY+
+=======
+  # > CATCHPLAY+｜TW
+>>>>>>> Stashed changes
   # USER-AGENT,CATCHPLAY*
   - PROCESS-NAME,com.catchplay.asiaplay
   - PROCESS-NAME,com.catchplay.asiaplay.tv
@@ -26,6 +34,7 @@ payload:
   - DOMAIN-SUFFIX,friday.tw
   - DOMAIN-SUFFIX,fridaylogger.com
   - DOMAIN,aka01p.akamaized.net
+<<<<<<< Updated upstream
   - DOMAIN,aka02p.akamaized.net
 
   # > iQIYI Intl
@@ -47,6 +56,9 @@ payload:
   - IP-CIDR,23.40.242.10/32,no-resolve
   - IP-CIDR,159.138.102.146/32,no-resolve
 
+=======
+  
+>>>>>>> Stashed changes
   # > KKBOX
   # USER-AGENT,*KKBOX
   - DOMAIN-SUFFIX,kkbox.com
@@ -74,4 +86,10 @@ payload:
   - DOMAIN-SUFFIX,myvideo.net.tw
   - DOMAIN-SUFFIX,catch.net.tw
   - DOMAIN,applemediaservice.keydelivery.southeastasia.media.azure.net
+<<<<<<< Updated upstream
   - DOMAIN,akamaiendpoint-applemediaservice-aase.streaming.media.azure.net
+=======
+  - DOMAIN,akamaiendpoint-applemediaservice-aase.streaming.media.azure.net
+  
+  - DOMAIN-KEYWORD,.tw
+>>>>>>> Stashed changes
