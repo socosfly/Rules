@@ -106,6 +106,12 @@ payload:
   - DOMAIN-SUFFIX,redd.it
   - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,redditmedia.com
+  # > Rockstar game 
+  - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
+  - DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net
+  - DOMAIN-SUFFIX,rockstargames.com
+  - DOMAIN-SUFFIX,rsg.sc
+  - DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net
   # > Telegram
   - DOMAIN-SUFFIX,telegra.ph
   - DOMAIN-SUFFIX,telegram.org
