@@ -7,3 +7,4 @@ payload:
   - DOMAIN-SUFFIX,fridaylogger.com
   - DOMAIN,aka01p.akamaized.net
   - DOMAIN,aka02p.akamaized.net
+  - DOMAIN-KEYWORD,fridayvideo
