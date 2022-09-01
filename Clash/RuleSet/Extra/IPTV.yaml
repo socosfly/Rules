@@ -102,3 +102,26 @@ payload:
   - IP-CIDR,89.187.189.0/24,no-resolve
   - IP-CIDR,62.210.0.0/16,no-resolve
   - IP-CIDR,185.180.14.0/24,no-resolve
+  
+  - DOMAIN,hello.exodus-2.xyzhello.exodus-2.xyz
+  - IP-CIDR,103.252.223.221/24,no-resolve
+  - IP-CIDR,103.71.172.110/24,no-resolve
+  - IP-CIDR,103.71.173.62/24,no-resolve
+  - IP-CIDR,185.229.241.217/24,no-resolve
+  - IP-CIDR,185.191.127.154/24,no-resolve
+  - DOMAIN,exodes9.maria-db.co
+  - DOMAIN,exodes8.maria-db.co
+  - DOMAIN,exodes4.maria-db.co
+
+  - DOMAIN,viprestream.loginto.me
+  - DOMAIN-SUFFIX,nhscovid.xyz
+  - DOMAIN,taxidoor1.xyz
+  
+  - IP-CIDR,103.194.169.0/24,no-resolve
+  - IP-CIDR,45.93.17.0/24,no-resolve
+  - IP-CIDR,31.220.3.0/24,no-resolve
+  - IP-CIDR,212.192.218.10/32,no-resolve
+  - IP-CIDR,212.192.218.46/32,no-resolve
+  - IP-CIDR,185.131.66.146/32,no-resolve
+  - IP-CIDR,188.93.238.25/32,no-resolve
+  - IP-CIDR,212.102.58.237/32,no-resolve
