@@ -72,7 +72,7 @@ payload:
   - IP-CIDR,154.204.1.114/24,no-resolve
   - IP-CIDR,102.222.214.43/24,no-resolve
   # > doublefriedtwix.net
- - DOMAIN,doublefriedtwix.ddns.net
+  - DOMAIN,doublefriedtwix.ddns.net
 #ilook.tv
   - IP-CIDR,194.59.155.0/24,no-resolve
   - IP-CIDR,213.183.40.0/24,no-resolve
