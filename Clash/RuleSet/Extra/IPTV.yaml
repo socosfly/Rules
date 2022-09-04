@@ -75,6 +75,7 @@ payload:
   - DOMAIN,doublefriedtwix.ddns.net
   - DOMAIN-SUFFIX,doublefriedtwix.ddns.net
   - DOMAIN,ddontuse.doublesmashedpudding.xyz
+  - IP-CIDR,103.71.174.217/24,no-resolve
 #ilook.tv
   - IP-CIDR,194.59.155.0/24,no-resolve
   - IP-CIDR,213.183.40.0/24,no-resolve
