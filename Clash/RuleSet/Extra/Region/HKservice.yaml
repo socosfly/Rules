@@ -50,4 +50,4 @@ payload:
   # > Evernote
   - DOMAIN-SUFFIX,evernote.com
 
-  - DOMAIN,cdn.jsdelivr.net
+  - DOMAIN,dler.best
