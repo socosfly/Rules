@@ -4,6 +4,7 @@ payload:
   - DOMAIN-SUFFIX,appspot.com
   - DOMAIN-SUFFIX,blogger.com
   - DOMAIN-SUFFIX,getoutline.org
+  - DOMAIN-SUFFIX,translate.googleapis.com
   - DOMAIN-SUFFIX,gvt0.com
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,gvt2.com
