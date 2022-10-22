@@ -37,7 +37,7 @@ payload:
   - DOMAIN,dl.l.google.com
   - DOMAIN,update.googleapis.com
   - DOMAIN,safebrowsing.googleapis.com
-  - DOMAIN,translate.googleapis.com
+  #- DOMAIN,translate.googleapis.com
   # >> Google Fonts API
   - DOMAIN,fonts.googleapis.com
   - DOMAIN,fonts.gstatic.com
