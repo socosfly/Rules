@@ -14,6 +14,3 @@ payload:
   - DOMAIN,disney.playback.edge.bamgrid.com
   - DOMAIN,cdn.registerdisney.go.com
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
-  # > Hotstar
-  - DOMAIN-SUFFIX,hotstar.com
-  
