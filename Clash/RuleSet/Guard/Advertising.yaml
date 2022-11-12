@@ -31,3 +31,93 @@ payload:
   - DOMAIN,iyes.youku.com
 
   - DOMAIN-SUFFIX,conviva.com
+
+  # > Baidu
+  - DOMAIN-SUFFIX,baidustatic.com
+  - DOMAIN,duclick.baidu.com
+  - DOMAIN,hm.baidu.com
+  - DOMAIN,hmma.baidu.com
+  - DOMAIN,mobads.baidu.com
+  - DOMAIN,mobads-logs.baidu.com
+  - DOMAIN,nsclick.baidu.com
+  - DOMAIN,wn.pos.baidu.com
+  - DOMAIN,ps.map.baidu.com
+  - DOMAIN,offnavi.map.baidu.com
+  - DOMAIN,newvector.map.baidu.com
+  - DOMAIN,ulog.imap.baidu.com
+  - DOMAIN,newloc.map.n.shifen.com
+  # - URL-REGEX,http:\/\/[\s\S]*baidu\.com\/\.*ad[xs]\.php
+  # - URL-REGEX,http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule
+
+  # > Bilibili
+  - DOMAIN,miniapp.bilibili.com
+  - DOMAIN,thirdparty.biliapi.com
+  # - URL-REGEX,https:\/\/app\.bilibili\.com\/x\/v2\/param
+  # - URL-REGEX,https:\/\/app\.bilibili\.com\/x\/resource\/abtest
+  # - URL-REGEX,http:\/\/app\.bilibili\.com\/x\/v2\/dataflow\/report-TINYGIF
+  # - URL-REGEX,https:\/\/app\.bilibili\.com\/x\/v2\/search\/(defaultword|hot|recommend|resource)
+  # - URL-REGEX,https:\/\/app\.bilibili\.com\/x\/v2\/rank\.*rid=(168|5)
+  # - URL-REGEX,https:\/\/api\.bilibili\.com\/pgc\/season\/rank\/cn
+
+  # > Didi
+  # - URL-REGEX,https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/
+
+  # > ele
+  - DOMAIN,log.star.ele.me
+
+  # > Netease
+  - DOMAIN,ad.bn.netease.com
+  - DOMAIN,ad.yixin.im
+  - DOMAIN,iadmat.nosdn.127.net
+  - DOMAIN,iadmusicmat.music.126.net
+  - DOMAIN,iadmusicmatvideo.music.126.net
+  - DOMAIN,impservice.dictapp.youdao.com
+  - DOMAIN,impservice.youdao.com
+  - DOMAIN,log.yex.youdao.com
+  - DOMAIN,log-yex.youdao.com
+  - DOMAIN,mr.da.netease.com
+  - DOMAIN,n.3g.163.com
+  - DOMAIN,nex.163.com
+  - DOMAIN,pr.da.netease.com
+  - DOMAIN,rd.da.netease.com
+  - DOMAIN,wr.da.netease.com
+  - DOMAIN,yt-adp.nosdn.127.net
+  # - URL-REGEX,http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg
+  # - URL-REGEX,http:\/\/iad\.*mat\.[a-z]*\.12[67]\.net\/\w+\.(jpg|mp4)
+
+  # > Zhihu
+  - DOMAIN,appcloud2.in.zhihu.com
+  - DOMAIN,mqtt.zhihu.com
+  - DOMAIN,sugar.zhihu.com
+  - DOMAIN,zhihu-analytics.zhihu.com
+  - DOMAIN,zhihu-web-analytics.zhihu.com
+  - DOMAIN,118.89.204.198
+  - DOMAIN-SUFFIX,xdrig.com
+  - DOMAIN-SUFFIX,zhihu.xmcimg.com
+
+  # - URL-REGEX,https:\/\/api\.zhihu\.com\/(fringe|zst|real_time|ad-style-service|banners|topstory/hot-lists|market/popover|mqtt|me|.*launch|.*featured-comment-ad|search/(top|tabs|preset))
+  # - URL-REGEX,https:\/\/api\.zhihu\.com\.*(launch|recommendations)
+  # - URL-REGEX,https:\/\/api\.zhihu\.com\/search\/(top|tabs|preset)
+  # - URL-REGEX,https:\/\/api\.zhihu\.com\/answers\/\.*\/comments\/featured-comment-ad
+
+  # - URL-REGEX,https?:\/\/(e|m).+\/((uu|oo).php.+|\d+.x?html\?$)
+  # - URL-REGEX,https?:\/\/[^(apple|10010)]+.(com|cn)\/(a|A)d(s|v)?(/|.js)
+  # - URL-REGEX,https?:\/\/[^bbs]\.tianya\.cn
+  # - URL-REGEX,https?:\/\/\w.?up\.qingdaonews\.com
+  # - URL-REGEX,https?:\/\/\w{6}\.com1\.z0\.glb\.clouddn\.com
+  # - URL-REGEX,https?:\/\/\w{8}\.logic\.cpm\.cm\.kankan\.com
+  # - URL-REGEX,https?:\/\/\w+\.cloudfront\.net\/banner
+  # - URL-REGEX,https?:\/\/\w+\.gdt\.qq\.com
+  # - URL-REGEX,https?:\/\/\w+\.kingsoft-office-service\.com
+  # - URL-REGEX,https?:\/\/9377\w{2}\.com
+  # - URL-REGEX,https?:\/\/a0b\w{2}\.com
+  # - URL-REGEX,https?:\/\/(a?d|sax)\d\.sina\.com
+  # - URL-REGEX,https?:\/\/d\d\.sinaimg\.cn
+  # - URL-REGEX,https?:\/\/dl\.app\.gtja\.com\/\.+\d+\.jpg
+  # - URL-REGEX,https?:\/\/impservice\.+?youdao\.com
+  # - URL-REGEX,https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg
+  # - URL-REGEX,https?:\/\/notice\.send-anywhere\.com\/banner
+  # - URL-REGEX,https?:\/\/sax\w?\.sina\.cn
+  # - URL-REGEX,https?:\/\/sax\w?\.sina\.com\.cn
+  # - URL-REGEX,https?:\/\/server-\w+\.imrworldwide\.com
+  # - URL-REGEX,https?:\/\/www\.bldimg\.com\/(background|splash)\/\.+\.png
