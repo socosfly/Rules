@@ -3,3 +3,4 @@ payload:
   - DOMAIN-SUFFIX,media.dssott.com
   - DOMAIN,prod-ripcut-delivery.disney-plus.net
   - DOMAIN-SUFFIX,ipv6.cws.conviva.com
+  - DOMAIN-SUFFIX,ipv4.cws.conviva.com
