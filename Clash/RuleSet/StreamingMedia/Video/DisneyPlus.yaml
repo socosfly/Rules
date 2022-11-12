@@ -14,5 +14,4 @@ payload:
   - DOMAIN,disney.playback.edge.bamgrid.com
   - DOMAIN,cdn.registerdisney.go.com
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
-  - DOMAIN-SUFFIX,ipv6.cws.conviva.com
-  - DOMAIN-SUFFIX,ipv4.cws.conviva.com
+  - DOMAIN-SUFFIX,+.cws.conviva.com
