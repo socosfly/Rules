@@ -29,3 +29,5 @@ payload:
   
   # > Youku 视频暂停广告
   - DOMAIN,iyes.youku.com
+
+  - DOMAIN-SUFFIX,conviva.com
