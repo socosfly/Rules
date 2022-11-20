@@ -51,3 +51,10 @@ payload:
   - DOMAIN-SUFFIX,evernote.com
 
   - DOMAIN,dler.best
+
+  # > heretv.club
+  - DOMAIN,heretv.club
+  - DOMAIN,kb007.xyz
+  - IP-CIDR,194.120.144.124/32
+  - IP-CIDR,192.120.171.69/32
+  - IP-CIDR,103.161.34.81/32
