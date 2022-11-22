@@ -132,3 +132,10 @@ payload:
   - IP-CIDR,212.102.58.237/32,no-resolve
   - IP-CIDR,92.119.34.116/32
   - IP-CIDR,164.215.100.54/32
+
+  # > heretv.club
+  - DOMAIN,heretv.club
+  - DOMAIN,kb007.xyz
+  - IP-CIDR,194.120.144.124/32
+  - IP-CIDR,192.120.171.69/32
+  - IP-CIDR,103.161.34.81/32
