@@ -138,7 +138,6 @@ payload:
   - DOMAIN,kb007.xyz
   - DOMAIN,anonymoustv.club
   - IP-CIDR,194.120.144.124/32
-  - IP-CIDR,192.120.171.69/32
   - IP-CIDR,194.120.171.69/32
   - IP-CIDR,103.161.34.81/32
   - IP-CIDR,92.246.84.154/32
