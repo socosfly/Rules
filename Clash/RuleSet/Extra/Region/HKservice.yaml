@@ -51,3 +51,4 @@ payload:
   - DOMAIN-SUFFIX,evernote.com
 
   - DOMAIN,dler.best
+  - DOMAIN-SUFFIX,fragment.com
