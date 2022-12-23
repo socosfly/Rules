@@ -29,8 +29,8 @@ payload:
   - IP-CIDR,203.80.97.208/32,no-resolve
   - IP-CIDR,203.198.80.99/32,no-resolve
 
-  - DOMAIN,zaocdn.cn
-  - DOMAIN,zjcdn.com
-  - IP-CIDR,111.206.23.53/32,no-resolve
-  - IP-CIDR,114.215.75.64/32,no-resolve
+  #- DOMAIN,zaocdn.cn
+  #- DOMAIN,zjcdn.com
+  #- IP-CIDR,111.206.23.53/32,no-resolve
+  #- IP-CIDR,114.215.75.64/32,no-resolve
   
