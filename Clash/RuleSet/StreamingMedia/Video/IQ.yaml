@@ -7,18 +7,20 @@ payload:
   - PROCESS-NAME,com.iqiyi.i18n
   - PROCESS-NAME,com.iqiyi.i18n.tv
   - DOMAIN-SUFFIX,iq.com
+  - DOMAIN-SUFFIX,inter.ptqy.gitv.tv
+  - DOMAIN-SUFFIX,inter.iqiyi.com
   - DOMAIN-SUFFIX,intl.iqiyi.com
   - DOMAIN,intl-rcd.iqiyi.com
   - DOMAIN,intl-im-hist-api.iqiyi.com
   - DOMAIN,intl-subscription.iqiyi.com
-  - DOMAIN,akmcdnoversea.inter.iqiyi.com
-  - DOMAIN,akmcdnoversea.inter.ptqy.gitv.tv
-  - DOMAIN,chuangcachecdnoversea.inter.iqiyi.com
-  - DOMAIN,chuangcachecdnoversea.inter.ptqy.gitv.tv
-  - DOMAIN,akmcdnoversea-tw.inter.iqiyi.com
-  - DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
-  - DOMAIN,chuangcachecdnoversea-tw.inter.iqiyi.com
-  - DOMAIN,chuangcachecdnoversea-tw.inter.ptqy.gitv.tv
+  #- DOMAIN,akmcdnoversea.inter.iqiyi.com
+  #- DOMAIN,akmcdnoversea.inter.ptqy.gitv.tv
+  #- DOMAIN,chuangcachecdnoversea.inter.iqiyi.com
+  #- DOMAIN,chuangcachecdnoversea.inter.ptqy.gitv.tv
+  #- DOMAIN,akmcdnoversea-tw.inter.iqiyi.com
+  #- DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
+  #- DOMAIN,chuangcachecdnoversea-tw.inter.iqiyi.com
+  #- DOMAIN,chuangcachecdnoversea-tw.inter.ptqy.gitv.tv
   - DOMAIN-KEYWORD,akmcdnoverse
   - DOMAIN-KEYWORD,chuangcachecdnoversea
   - IP-CIDR,23.40.241.251/32,no-resolve
@@ -29,8 +31,13 @@ payload:
   - IP-CIDR,203.80.97.208/32,no-resolve
   - IP-CIDR,203.198.80.99/32,no-resolve
 
-  #- DOMAIN,zaocdn.cn
-  #- DOMAIN,zjcdn.com
-  #- IP-CIDR,111.206.23.53/32,no-resolve
-  #- IP-CIDR,114.215.75.64/32,no-resolve
+  - IP-CIDR,104.85.165.17/32,no-resolve
+  - IP-CIDR,184.51.102.0/24,no-resolve
+  - IP-CIDR,203.74.95.130/28,no-resolve
+  - IP-CIDR,210.71.227.202/32,no-resolve
+  - IP-CIDR,23.200.145.146/32,no-resolve
+  - IP-CIDR,23.210.215.186/32,no-resolve
+  - IP-CIDR,23.211.15.0/24,no-resolve
+  - IP-CIDR,23.219.172.0/24,no-resolve
+
   
