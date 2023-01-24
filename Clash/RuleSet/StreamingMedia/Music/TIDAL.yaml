@@ -2,3 +2,7 @@ payload:
   # > TIDAL
   - PROCESS-NAME,com.aspiro.tidal
   - DOMAIN-SUFFIX,tidal.com
+
+  # > Google One VPN
+  - DOMAIN,prod.brass.cloud.cupronickel.goog
+  - DOMAIN,prod.zinc.cloud.cupronickel.goog
