@@ -33,6 +33,7 @@ payload:
   - DOMAIN-SUFFIX,blog.google
   - DOMAIN-SUFFIX,googletraveladservices.com
   - DOMAIN,clientservices.googleapis.com
+  - DOMAIN,translate.googleapis.com
   - DOMAIN,update.googleapis.com 
   - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN-SUFFIX,googleadservices.com
