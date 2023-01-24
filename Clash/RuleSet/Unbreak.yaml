@@ -35,6 +35,7 @@ payload:
   - DOMAIN,clientservices.googleapis.com
   - DOMAIN,update.googleapis.com 
   - DOMAIN,safebrowsing.googleapis.com
+  - DOMAIN-SUFFIX,googleadservices.com
   # >> Google Fonts API
   - DOMAIN,fonts.googleapis.com
   - DOMAIN,fonts.gstatic.com
