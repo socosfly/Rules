@@ -15,6 +15,3 @@ payload:
   - DOMAIN,edge.iptvland.nl
   - IP-CIDR,45.135.194.12/32
   
-  # > Google One VPN
-  - DOMAIN,prod.brass.cloud.cupronickel.goog
-  - DOMAIN,prod.zinc.cloud.cupronickel.goog
