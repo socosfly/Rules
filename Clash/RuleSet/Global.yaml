@@ -479,4 +479,8 @@ payload:
   - DOMAIN-SUFFIX,rockstargames.com
   - DOMAIN-SUFFIX,rsg.sc
   - DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net
+  # Cloudflare
+  - DOMAIN-SUFFIX,workers.dev
+  # Others
+  - DOMAIN-SUFFIX,savetwitter.net
 
