@@ -7,7 +7,7 @@ hostname = %INSERT% socketio.ctrip.com,wallet.95516.com,static.zhihu.com,client.
 
 [Rule]
 # > Apple CDN
-// DOMAIN-SET,https://ruleset.skk.moe/List/domainset/apple_cdn.conf,DIRECT
+// DOMAIN-SET,https://ruleset.skk.moe/List/domainset/apple_cdn.conf,🌐Direct
 
 # > Advertising 广告
 RULE-SET,https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/AD.list,REJECT-TINYGIF
@@ -79,9 +79,6 @@ baidumap_proto.js = type=http-response,pattern=^https:\/\/newclient\.map\.baidu\
 
 # > 酷安去好物推荐 by Eric
 coolapk.js = type=http-response,requires-body=1,max-size=-1,pattern=^https?:\/\/api\.coolapk\.com\/v6\/feed\/detail.*,script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/KA.js
-
-# > 喜马拉雅去除首页轮盘滚动广告 by ClydeTime
-xmly_ad.js = type=http-response,requires-body=1,max-size=-1,pattern=^https?:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/focus-mobile\/focusPic\/info,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/XMLY/noFocusAd.js
 
 # > 避免 Google 搜索可能出现的人机验证 by NobyDa
 Google_CAPTCHA.js = type=http-response,pattern=^https:\/\/www\.google\.com(\.[a-z]+|)\/search\?q=,requires-body=1,debug=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Google_CAPTCHA.js,max-size=0,timeout=10,ability=http-client-policy,argument=^(🇸🇬|🇭🇰)\s.*\d+$
