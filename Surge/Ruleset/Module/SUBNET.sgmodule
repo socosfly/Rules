@@ -1,0 +1,18 @@
+#!name=DIRECT MODE
+#!desc=私人使用，一些需要直连的场景
+
+[Rule]
+# CARRIER 匹配
+# CSL
+CELLULAR-CARRIER,454-00,🌐Direct
+# 3HK
+CELLULAR-CARRIER,454-03,🌐Direct
+# CU HK
+CELLULAR-CARRIER,454-07,🌐Direct
+# CMCC HK
+CELLULAR-CARRIER,454-12,🌐Direct
+
+# SSID 匹配
+SUBNET,SSID:FXM Beacon,🌐Direct
+SUBNET,SSID:Smart Office,🌐Direct
+SUBNET,SSID:CTGroup-5G,🌐Direct
