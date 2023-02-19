@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %INSERT% api.m.jd.com,passport.iqiyi.com,iacc.rec.qq.com,*.bilibili.com,*.ximalaya.com,wx-mini.pagoda.com.cn,ccsp-egmas.sf-express.com,auth.aliyundrive.com
+hostname = %INSERT% ms.jr.jd.com,me-api.jd.com,api.m.jd.com,passport.iqiyi.com,iacc.rec.qq.com,*.bilibili.com,wx-mini.pagoda.com.cn,ccsp-egmas.sf-express.com,auth.aliyundrive.com
 
 [Script]
 # > 京东 GetCookie by NobyDa
