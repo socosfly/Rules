@@ -15,3 +15,5 @@ payload:
   - DOMAIN,edge.iptvland.nl
   - IP-CIDR,45.135.194.12/32
   
+  # > chatGPT
+  - DOMAIN-SUFFIX,ai.com
