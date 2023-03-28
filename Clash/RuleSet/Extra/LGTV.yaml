@@ -3,4 +3,6 @@ payload:
   - DOMAIN-SUFFIX,lgtviot.com
   - DOMAIN-SUFFIX,lgtvsdp.com
   - DOMAIN-SUFFIX,lgtvlink.com
+  - DOMAIN-SUFFIX,lgappstv.com
+  - DOMAIN-SUFFIX,lgeapi.com
   - DOMAIN-SUFFIX,lge.com
