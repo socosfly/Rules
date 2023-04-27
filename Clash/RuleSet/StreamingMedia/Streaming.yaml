@@ -422,6 +422,10 @@ payload:
   - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-KEYWORD,-tiktokcdn-com
   
+  # > TVBAnywhere
+  - DOMAIN-SUFFIX,tvb.com
+  - DOMAIN-KEYWORD,tvbanywhere
+  
   # > TVer
   - PROCESS-NAME,jp.hamitv.hamiand1
   - DOMAIN-SUFFIX,tver.jp
