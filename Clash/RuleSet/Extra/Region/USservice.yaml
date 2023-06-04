@@ -9,15 +9,6 @@ payload:
 
   # > Bravia Core
   - DOMAIN-SUFFIX,privilegemovies.com
-
-  # > IPTV Portal  
-  - DOMAIN,lara.plumetech.xyz
-  - DOMAIN,edge.iptvland.nl
-  - IP-CIDR,45.135.194.12/32
-  
-  # > chatGPT
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,openai.com
   
   # > Ultramobile
   - DOMAIN-SUFFIX,ultramobile.com
