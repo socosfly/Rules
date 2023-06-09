@@ -38,7 +38,6 @@ payload:
   - DOMAIN,stardream.pro
 
   # > VPS
-  #- DOMAIN-SUFFIX,sysysy.cloud
   #- DOMAIN-SUFFIX,syfree.win
   #- DOMAIN-SUFFIX,ffrree.top
 
@@ -53,3 +52,4 @@ payload:
   - DOMAIN,dler.best
   - DOMAIN-SUFFIX,fragment.com
   - DOMAIN-SUFFIX,anyhk.net
+  - DOMAIN-SUFFIX,nnr.moe
