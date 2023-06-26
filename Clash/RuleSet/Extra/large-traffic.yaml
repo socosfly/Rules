@@ -2,9 +2,5 @@ payload:
   # > 卡戎影视
   - DOMAIN-SUFFIX,charontv.com
   
-  # > TAG
-  - IP-CIDR,198.204.247.154/32
-  - DOMAIN,emby.riches.cloud
-
   # > Emby
   - DOMAIN-SUFFIX,mb3admin.com
