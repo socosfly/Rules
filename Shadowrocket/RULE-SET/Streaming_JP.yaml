@@ -1,6 +1,6 @@
 # > AbemaTV
-# USER-AGENT,AbemaTV*
-PROCESS-NAME,tv.abema
+USER-AGENT,AbemaTV*
+# PROCESS-NAME,tv.abema
 DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,abema.tv
 DOMAIN-SUFFIX,ameba.jp
@@ -11,7 +11,7 @@ DOMAIN,linear-abematv.akamaized.net
 DOMAIN,ds-linear-abematv.akamaized.net
 
 # > FOD
-# USER-AGENT,FOD*
+USER-AGENT,FOD*
 DOMAIN-SUFFIX,fujitv.co.jp
 DOMAIN-SUFFIX,stream.ne.jp
 DOMAIN,measure.ic.tver.jp
@@ -22,7 +22,7 @@ DOMAIN-SUFFIX,happyon.jp
 DOMAIN-SUFFIX,prod.hjholdings.tv
   
 # > Paravi
-# USER-AGENT,Paravi*
+USER-AGENT,Paravi*
 DOMAIN-SUFFIX,paravi.jp
   
 # > TVer
@@ -32,8 +32,8 @@ DOMAIN-SUFFIX,brightcove.com
 DOMAIN-SUFFIX,prod.boltdns.net
 
 # > U-NEXT
-PROCESS-NAME,jp.unext.mediaplayer
-PROCESS-NAME,jp.unext.tv.player
+# PROCESS-NAME,jp.unext.mediaplayer
+# PROCESS-NAME,jp.unext.tv.player
 DOMAIN-SUFFIX,unext.jp
 DOMAIN-SUFFIX,nxtv.jp
 DOMAIN,streamd01ca-nxtv-jp.akamaized.net
