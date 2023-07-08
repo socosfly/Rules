@@ -1,0 +1,4 @@
+# > team.tv
+DOMAIN-SUFFIX,troya.tv
+DOMAIN-SUFFIX,tv.team
+IP-CIDR,50.7.168.186/24,no-resolve
