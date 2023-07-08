@@ -3,6 +3,7 @@ payload:
   # > iptv best iptv team
   - DOMAIN,u7xx8hvi4484524a.naf.anonymtv.cc
   - IP-CIDR,31.220.3.170/24,no-resolve
+  - IP-CIDR,45.139.122.199/24,no-resolve
   - IP-CIDR,185.76.9.6524,no-resolve
   - IP-CIDR,185.191.124.227/24,no-resolve
   - IP-CIDR,185.191.124.230/24,no-resolve
