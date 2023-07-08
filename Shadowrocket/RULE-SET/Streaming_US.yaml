@@ -42,6 +42,9 @@ USER-AGENT,Max*
 DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,discomax.com
   
+# > MoviesAnywhere 
+DOMAIN-SUFFIX,moviesanywhere.com
+
 # > Paramount+
 USER-AGENT,PPlus*
 USER-AGENT,Paramountlus*
@@ -68,7 +71,14 @@ DOMAIN,cbsplaylistserver.aws.syncbak.com
 USER-AGENT,Peacock*
 # PROCESS-NAME,com.peacocktv.peacockandroid
 DOMAIN-SUFFIX,peacocktv.com
-  
+
+# > Pluto TV
+DOMAIN-SUFFIX,pluto.tv
+
 # > Roku
 DOMAIN-SUFFIX,roku.com
 DOMAIN-SUFFIX,rokutime.com
+
+# > VUDU
+DOMAIN-SUFFIX,vudu.com
+
