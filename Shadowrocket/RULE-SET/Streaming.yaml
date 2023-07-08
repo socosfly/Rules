@@ -308,7 +308,13 @@ DOMAIN,star.api.edge.bamgrid.com
 DOMAIN,star.connections.edge.bamgrid.com
 DOMAIN,star.content.edge.bamgrid.com
 DOMAIN,star.playback.edge.bamgrid.com
-  
+
+# > Twitch
+#PROCESS-NAME,tv.twitch.android.app
+DOMAIN-SUFFIX,jtvnw.net
+DOMAIN-SUFFIX,ttvnw.net
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,twitchcdn.net
 
 # > TVBAnywhere
 DOMAIN-SUFFIX,tvb.com
