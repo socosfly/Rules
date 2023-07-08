@@ -79,6 +79,16 @@ DOMAIN-SUFFIX,pluto.tv
 DOMAIN-SUFFIX,roku.com
 DOMAIN-SUFFIX,rokutime.com
 
+# > Showtime
+#PROCESS-NAME,com.showtime.standalone
+DOMAIN-SUFFIX,showtime.com
+DOMAIN-SUFFIX,sho.com
+DOMAIN-SUFFIX,showtimeanytime.com
+DOMAIN-SUFFIX,showtime.penthera.com
+DOMAIN-KEYWORD,hls-shoany
+DOMAIN-SUFFIX,cdx.cedexis.net
+DOMAIN,showtime.cbsi.map.fastly.net
+
 # > VUDU
 DOMAIN-SUFFIX,vudu.com
 
