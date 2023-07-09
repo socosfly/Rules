@@ -1,5 +1,6 @@
 payload:
-  # > HBO GO HKG
+  # > HBO GO
+  # USER-AGENT,HBO%20GO%20PROD*
   - PROCESS-NAME,hk.hbo.hbogo
   - PROCESS-NAME,com.hbo.asia.androidtv
   - PROCESS-NAME,sg.hbo.hbogo
@@ -14,17 +15,7 @@ payload:
   - DOMAIN,hbolb.onwardsmg.com
   - DOMAIN,hbounify-prod.evergent.com
   #- DOMAIN,bcbolthboa-a.akamaihd.net
-  #- DOMAIN,hbogoprod-vod.akamaized.net
+  - DOMAIN,hbogoprod-vod.akamaized.net
   #- DOMAIN,hboasialive.akamaized.net
   - DOMAIN,dai3fd1oh325y.cloudfront.net
-  
-  #- DOMAIN,players.brightcove.net
-  #- DOMAIN,s3-ap-southeast-1.amazonaws.com
-  #- DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
-  #- DOMAIN,hboasia1-i.akamaihd.net
-  #- DOMAIN,hboasia2-i.akamaihd.net
-  #- DOMAIN,hboasia3-i.akamaihd.net
-  #- DOMAIN,hboasia4-i.akamaihd.net
-  #- DOMAIN,hboasia5-i.akamaihd.net
-  #- DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
-  #- DOMAIN,2ac6fbdbd2d44a9019f6cbc6eb1ebdda47ae3bd8.cws.conviva.com
+  - DOMAIN,d5hpy42637ggu.cloudfront.net
