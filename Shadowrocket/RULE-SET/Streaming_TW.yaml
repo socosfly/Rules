@@ -39,10 +39,11 @@ DOMAIN-SUFFIX,hboasia.com
 DOMAIN-SUFFIX,hbogoasia.com
 DOMAIN,hbolb.onwardsmg.com
 DOMAIN,hbounify-prod.evergent.com
-# DOMAIN,hbogoprod-vod.akamaized.net
+DOMAIN,hbogoprod-vod.akamaized.net
 # DOMAIN,hboasialive.akamaized.net
 # DOMAIN,bcbolthboa-a.akamaihd.net
 DOMAIN,dai3fd1oh325y.cloudfront.net
+DOMAIN,d5hpy42637ggu.cloudfront.net
   
 # > iQIYI Intl
 USER-AGENT,iQIYI*
