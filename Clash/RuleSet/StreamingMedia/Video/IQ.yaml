@@ -7,6 +7,7 @@ payload:
   - PROCESS-NAME,com.iqiyi.i18n
   - PROCESS-NAME,com.iqiyi.i18n.tv
   - DOMAIN-SUFFIX,iq.com
+  - DOMAIN,msg-intl.qy.net
   #- DOMAIN-SUFFIX,inter.ptqy.gitv.tv
   #- DOMAIN-SUFFIX,inter.iqiyi.com
   - DOMAIN-SUFFIX,intl.iqiyi.com
