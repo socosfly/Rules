@@ -6,6 +6,7 @@ USER-AGENT,QTP*
 #PROCESS-NAME,com.iqiyi.i18n
 #PROCESS-NAME,com.iqiyi.i18n.tv
 DOMAIN-SUFFIX,iq.com
+DOMAIN,msg-intl.qy.net
 DOMAIN-SUFFIX,intl.iqiyi.com
 DOMAIN,intl-rcd.iqiyi.com
 DOMAIN,intl-im-hist-api.iqiyi.com
