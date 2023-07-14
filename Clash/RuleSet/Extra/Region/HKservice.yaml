@@ -41,7 +41,6 @@ payload:
   #- DOMAIN-SUFFIX,syfree.win
   #- DOMAIN-SUFFIX,ffrree.top
 
-
   # > AWS
   - DOMAIN-SUFFIX,aws.amazon.com
   - DOMAIN-SUFFIX,amazonlightsail.com
