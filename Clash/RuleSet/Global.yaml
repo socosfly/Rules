@@ -158,6 +158,8 @@ payload:
   - DOMAIN-SUFFIX,tutanota.com
   - DOMAIN-SUFFIX,urbandictionary.com
   - DOMAIN-SUFFIX,ustream.tv
+  - DOMAIN-SUFFIX,voanews.com
+  - DOMAIN-SUFFIX,voachinese.com
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-SUFFIX,venturebeat.com
   - DOMAIN-SUFFIX,viber.com
