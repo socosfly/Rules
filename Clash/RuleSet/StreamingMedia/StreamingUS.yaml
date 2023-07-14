@@ -73,7 +73,19 @@ payload:
   # > Roku
   - DOMAIN-SUFFIX,roku.com
   - DOMAIN-SUFFIX,rokutime.com
-  
+
+  # > Sling TV
+  # USER-AGENT,Sling*
+  - PROCESS-NAME,com.sling
+  - DOMAIN-SUFFIX,sling.com
+  - DOMAIN-SUFFIX,movetv.com
+  - DOMAIN-SUFFIX,slingtv.map.fastly.net
+  - DOMAIN-SUFFIX,sling.com.cdn.cloudflare.net
+  - DOMAIN-KEYWORD,movetv
+  - DOMAIN-SUFFIX,launchdarkly.com
+  - DOMAIN-SUFFIX,scorecardresearch.com
+  - DOMAIN-SUFFIX,swrve.com
+
    # > VUDU
   - DOMAIN-SUFFIX,vudu.com
   
