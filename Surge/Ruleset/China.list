@@ -7,11 +7,11 @@ DOMAIN-SUFFIX,abchina.com.cn
 DOMAIN-SUFFIX,boc.cn
 
 # Bank of Communications
-USER-AGEBT,%E4%BA%A4%E9%80%9%E9%93%B6%E8%A1%8C*
+USER-AGENT,%E4%BA%A4%E9%80%9%E9%93%B6%E8%A1%8C*
 DOMAIN-SUFFIX,95559.com.cn
 
 # CGB Bank
-USER-AGEBT,CGBMBank*
+USER-AGENT,CGBMBank*
 DOMAIN-SUFFIX,95508.com
 
 # > China Citic Bank
