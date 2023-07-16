@@ -1,13 +1,12 @@
 payload:
-  # > Apple News
-  - DOMAIN,gateway.icloud.com
+  # > Apple News and Apple Map TOMTOM Version
+  # - USER-AGENT,AppleNews*
+  # - USER-AGENT,com.apple.news*
   - DOMAIN,gspe1-ssl.ls.apple.com
-  - DOMAIN-SUFFIX,apple.news
-  - DOMAIN,news-client.apple.com
-  - DOMAIN,news-edge.apple.com
-  - DOMAIN,news-events.apple.com
-  - DOMAIN,apple.comscoreresearch.com
-
-  # > Apple Maps
-  - PROCESS-NAME,com.apple.geod
-  - DOMAIN-SUFFIX,apple-mapkit.com
+  # - USER-AGENT,News*
+  # - DOMAIN,apple.comscoreresearch.com
+  # - DOMAIN,gateway.icloud.com
+  # - DOMAIN,news-client.apple.com
+  # - DOMAIN,news-edge.apple.com
+  # - DOMAIN,news-events.apple.com
+  # - DOMAIN-SUFFIX,apple.news
