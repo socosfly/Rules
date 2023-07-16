@@ -2,5 +2,5 @@ payload:
   # > PayPal
   - PROCESS-NAME,com.paypal.android.p2pmobile
   - DOMAIN-SUFFIX,paypal.com
-  - DOMAIN-SUFFIX,paypal.me
+  - DOMAIN-KEYWORD,paypal
   - DOMAIN-SUFFIX,paypalobjects.com
