@@ -54,7 +54,7 @@ payload:
   - DOMAIN-SUFFIX,evernote.com
 
   # > T-Mobile
-  IP-CIDR,208.54.0.0/16
+  - IP-CIDR,4208.54.0.0/16
 
   - DOMAIN,dler.best
   - DOMAIN-SUFFIX,fragment.com
