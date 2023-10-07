@@ -18,12 +18,13 @@ payload:
   - DOMAIN-SUFFIX,hkcsl.com
   - DOMAIN-SUFFIX,theclub.com.hk
   - DOMAIN-SUFFIX,1010.com.hk
-  - DOMAIN,csl.hk.prod.ondemandconnectivity.com
+  - DOMAIN,csl.csl.prod.ondemandconnectivity.com
+  - DOMAIN,hhk.prod.ondemandconnectivity.com
   - DOMAIN,epdg.epc.mnc000.mcc454.pub.3gppnetwork.org
   - DOMAIN,ss.epdg.epc.mnc000.mcc454.pub.3gppnetwork.org
-  - DOMAIN,prod.ondemandconnectivity.com
   - DOMAIN,ss.epdg.epc.geo.mnc000.mcc454.pub.3gppnetwork.org
-
+  #- DOMAIN,gspe1-ssl.ls.apple.com
+  
   # > CMHK
   - DOMAIN-SUFFIX,hk.chinamobile.com
   - DOMAIN-SUFFIX,mylink.komect.com
