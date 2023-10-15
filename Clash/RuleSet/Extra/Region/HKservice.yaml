@@ -46,6 +46,11 @@ payload:
   # > VPS
   #- DOMAIN-SUFFIX,syfree.win
   #- DOMAIN-SUFFIX,ffrree.top
+  - DOMAIN,dler.best
+  - DOMAIN-SUFFIX,fragment.com
+  - DOMAIN-SUFFIX,anyhk.net
+  - DOMAIN-SUFFIX,nnr.moe
+  - DOMAIN,oneprovider.net
 
   # > AWS
   - DOMAIN-SUFFIX,aws.amazon.com
@@ -57,7 +62,4 @@ payload:
   # > T-Mobile
   - IP-CIDR,208.54.0.0/16
 
-  - DOMAIN,dler.best
-  - DOMAIN-SUFFIX,fragment.com
-  - DOMAIN-SUFFIX,anyhk.net
-  - DOMAIN-SUFFIX,nnr.moe
+
