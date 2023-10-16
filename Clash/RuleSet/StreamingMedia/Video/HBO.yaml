@@ -6,6 +6,9 @@ payload:
   - DOMAIN-SUFFIX,hbonow.com
   - DOMAIN-SUFFIX,hbomax.com
   - DOMAIN-SUFFIX,hbomaxcdn.com
+  # MAX
   - PROCESS-NAME,com.wbd.stream
   - DOMAIN-SUFFIX,max.com
   - DOMAIN-SUFFIX,discomax.com
+  - DOMAIN-SUFFIX,litix.io
+  - DOMAIN-SUFFIX,brightline.tv
