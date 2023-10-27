@@ -37,12 +37,12 @@ payload:
   - DOMAIN,alt6-mtalk.google.com
   - DOMAIN,alt7-mtalk.google.com
   - DOMAIN,alt8-mtalk.google.com
-  - IP-CIDR,108.177.125.188/32,no-resolve
-  - IP-CIDR,108.177.97.188/32,no-resolve
-  - IP-CIDR,74.125.200.188/32,no-resolve
-  - IP-CIDR,142.250.4.188/32,no-resolve
-  - IP-CIDR,172.217.194.188/32,no-resolve
-  - IP-CIDR,180.163.151.161/32,no-resolve
+  - IP-CIDR,108.177.125.188,no-resolve
+  - IP-CIDR,108.177.97.188,no-resolve
+  - IP-CIDR,74.125.200.188,no-resolve
+  - IP-CIDR,142.250.4.188,no-resolve
+  - IP-CIDR,172.217.194.188,no-resolve
+  - IP-CIDR,180.163.151.161,no-resolve
   
   # > CNTV
   - DOMAIN-SUFFIX,cupid.iqiyi.com
