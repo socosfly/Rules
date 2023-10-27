@@ -54,7 +54,7 @@ payload:
   - DOMAIN,epg.best
   - DOMAIN,comag.rip
   - DOMAIN,venomtt.com
-  - IP-CIDR,91.108.56.167/24,no-resolve
+  
  # > team.tv
   - DOMAIN-SUFFIX,troya.tv
   - DOMAIN-SUFFIX,tv.team
