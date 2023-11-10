@@ -21,8 +21,6 @@ payload:
   - DOMAIN-KEYWORD,epicgames
 
   # > Google
-  - DOMAIN,googleadservices.com
-  - DOMAIN,adservice.google.com
   - DOMAIN-SUFFIX,blog.google
   - DOMAIN-SUFFIX,googletraveladservices.com
   - DOMAIN,clientservices.googleapis.com
