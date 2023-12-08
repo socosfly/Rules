@@ -62,4 +62,8 @@ payload:
   # > T-Mobile
   - IP-CIDR,208.54.0.0/16
 
+  # > Stocks
+  - DOMAIN-SUFFIX,futunn.com
+  - DOMAIN-SUFFIX,longbridge.hk
+
 
