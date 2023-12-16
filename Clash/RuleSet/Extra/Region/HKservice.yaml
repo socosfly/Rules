@@ -42,6 +42,7 @@ payload:
   - DOMAIN,hk.news.yahoo.com
   - DOMAIN-SUFFIX,mingpao.com
   - DOMAIN,stardream.pro
+  - DOMAIN-SUFFIX,nodeseek.com
 
   # > VPS
   #- DOMAIN-SUFFIX,syfree.win
