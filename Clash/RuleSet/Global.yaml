@@ -431,6 +431,7 @@ payload:
   # > Yahoo
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,yahoo.net
+  - DOMAIN-SUFFIX,yimg.com
   - DOMAIN,search.yahoo.co.jp
   # > Yandex
   - DOMAIN-SUFFIX,yadi.sk
