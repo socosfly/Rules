@@ -15,6 +15,9 @@ payload:
   # > New Bing
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,microsoftapp.net
+  - DOMAIN-SUFFIX,microsoft-falcon.io
+
 
   # > Claude
   - DOMAIN-SUFFIX,anthropic.com
