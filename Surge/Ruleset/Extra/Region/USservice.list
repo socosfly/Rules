@@ -1,0 +1,31 @@
+# > Star+
+# 此条分流只是让 Star+ 串流时走 US 节点，需搭配 Star+ 相关分流使用
+# DOMAIN-SUFFIX,media.starott.com
+
+DOMAIN-SUFFIX,att.com
+DOMAIN-SUFFIX,dedipath.com
+DOMAIN-SUFFIX,racknerd.com
+
+# > Bravia Core
+DOMAIN-SUFFIX,privilegemovies.com
+  
+# > Ultramobile
+DOMAIN-SUFFIX,ultramobile.com
+
+# > WiFi Calling
+# > T-Mobile/Ultra Mobile
+IP-CIDR,208.54.0.0/16,no-resolve
+DOMAIN,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
+DOMAIN,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
+
+# > AT&T
+DOMAIN,epdg.epc.att.net
+DOMAIN,sentitlement2.mobile.att.net
+DOMAIN,vvm.mobile.att.net
+DOMAIN,mmsc.mobile.att.net
+
+# > Verizon
+DOMAIN,wo.vzwwo.com
+DOMAIN,sg.vzwfemto.com
