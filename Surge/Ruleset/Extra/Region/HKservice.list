@@ -53,6 +53,7 @@ DOMAIN-SUFFIX,fragment.com
 DOMAIN-SUFFIX,anyhk.net
 DOMAIN-SUFFIX,nnr.moe
 DOMAIN,oneprovider.net
+DOMAIN-SUFFIX,polocloud.xyz
 
 # > AWS
 DOMAIN-SUFFIX,aws.amazon.com
