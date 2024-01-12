@@ -53,6 +53,7 @@ payload:
   - DOMAIN-SUFFIX,fragment.com
   - DOMAIN-SUFFIX,anyhk.net
   - DOMAIN-SUFFIX,nnr.moe
+  - DOMAIN-SUFFIX,polocloud.xyz
   - DOMAIN,oneprovider.net
 
   # > AWS
