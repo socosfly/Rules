@@ -53,6 +53,11 @@ payload:
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
 
+  # > Samsung Galaxy App Store
+  - DOMAIN-SUFFIX,galaxyappstore.com
+  - DOMAIN-SUFFIX,samsungapps.com
+  # DOMAIN-SUFFIX,samsungcloud.com
+  
   # > Steam
   # - USER-AGENT,Steam*
   - DOMAIN,cm.steampowered.com
