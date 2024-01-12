@@ -13,9 +13,21 @@ payload:
   # > Ultramobile
   - DOMAIN-SUFFIX,ultramobile.com
 
-  # > WiFi Calling: T-Mobile/Ultra Mobile
+  # > WiFi Calling
+  # > T-Mobile/Ultra Mobile
   - IP-CIDR,208.54.0.0/16
   - DOMAIN,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
   - DOMAIN,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
   - DOMAIN,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
   - DOMAIN,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
+
+  # > AT&T
+  - DOMAIN,epdg.epc.att.net
+  - DOMAIN,sentitlement2.mobile.att.net
+  - DOMAIN,vvm.mobile.att.net
+  - DOMAIN,mmsc.mobile.att.net
+
+  # > Verizon
+  - DOMAIN,wo.vzwwo.com
+  - DOMAIN,sg.vzwfemto.com
+  
