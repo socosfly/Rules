@@ -26,7 +26,7 @@ DOMAIN,ss.epdg.epc.geo.mnc000.mcc454.pub.3gppnetwork.org
 # > WiFi Calling Geo
 DOMAIN,gspe1-ssl.ls.apple.com
   
-> CMHK
+# > CMHK
 DOMAIN-SUFFIX,hk.chinamobile.com
 DOMAIN-SUFFIX,mylink.komect.com
 
