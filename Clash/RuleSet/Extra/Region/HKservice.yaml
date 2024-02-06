@@ -45,6 +45,7 @@ payload:
   - DOMAIN-SUFFIX,mingpao.com
   - DOMAIN,stardream.pro
   - DOMAIN-SUFFIX,nodeseek.com
+  - DOMAIN-SUFFIX,klook.com
 
   # > VPS
   #- DOMAIN-SUFFIX,syfree.win
