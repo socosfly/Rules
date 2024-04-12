@@ -56,6 +56,7 @@ payload:
   - DOMAIN-SUFFIX,nnr.moe
   - DOMAIN-SUFFIX,polocloud.xyz
   - DOMAIN,oneprovider.net
+  - DOMAIN,dmit.io
 
   # > AWS
   - DOMAIN-SUFFIX,aws.amazon.com
