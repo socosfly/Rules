@@ -345,3 +345,5 @@ payload:
 
   - DOMAIN,download.jetbrains.com
   - DOMAIN,images-cn.ssl-images-amazon.com
+
+  - DOMAIN,dler.cloud
