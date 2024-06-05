@@ -14,3 +14,4 @@ payload:
   - DOMAIN-SUFFIX,moengage.com
   - DOMAIN,mobile-collector.newrelic.com
   - DOMAIN-SUFFIX,bugsnag.com
+  - DOMAIN,codepush.appcenter.ms
