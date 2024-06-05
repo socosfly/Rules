@@ -10,8 +10,6 @@ payload:
   - DOMAIN-SUFFIX,launchdarkly.com
   - DOMAIN-SUFFIX,scorecardresearch.com
   - DOMAIN-SUFFIX,swrve.com
-  - DOMAIN-SUFFIX,branch.io
   - DOMAIN-SUFFIX,moengage.com
-  - DOMAIN,mobile-collector.newrelic.com
   - DOMAIN-SUFFIX,bugsnag.com
   - DOMAIN,codepush.appcenter.ms
