@@ -10,3 +10,4 @@ payload:
   - DOMAIN-SUFFIX,launchdarkly.com
   - DOMAIN-SUFFIX,scorecardresearch.com
   - DOMAIN-SUFFIX,swrve.com
+  - DOMAIN-SUFFIX,branch.io
