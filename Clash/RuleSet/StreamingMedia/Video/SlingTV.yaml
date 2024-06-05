@@ -13,3 +13,4 @@ payload:
   - DOMAIN-SUFFIX,branch.io
   - DOMAIN-SUFFIX,moengage.com
   - DOMAIN,mobile-collector.newrelic.com
+  - DOMAIN-SUFFIX,bugsnag.com
