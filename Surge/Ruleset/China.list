@@ -337,3 +337,5 @@ IP-CIDR,42.123.77.138/32,no-resolve
 # > CN
 DOMAIN-SUFFIX,gov.cn
 DOMAIN-SUFFIX,cn
+
+DOMAIN,dler.cloud
