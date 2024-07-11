@@ -1,142 +1,218 @@
 payload:
   # > Advertising
+  # > 广告联盟
+  - DOMAIN,i.snssdk.com
+  - DOMAIN,is.snssdk.com
+  - DOMAIN,mi.gdt.qq.com
+  - DOMAIN,open.e.kuaishou.com
+  - DOMAIN-SUFFIX,miaozhen.com
   - DOMAIN-KEYWORD,adservice
+  - DOMAIN-KEYWORD,pglstatp-toutiao
+  - DOMAIN-KEYWORD,pangolin-sdk-toutiao
+  - DOMAIN-KEYWORD,pangolin.snssdk.com
+  - DOMAIN-KEYWORD,pangolin.snssdk.com
+  - DOMAIN-KEYWORD,video-cn.snssdk.com
+
+  # > 安全浏览限制解除
+  - DOMAIN,lookup.api.bsb.baidu.com
+  - DOMAIN-SUFFIX,u3.ucweb.com
+  - DOMAIN-KEYWORD,safebrowsing.
+
+  # > Amap
+  - DOMAIN,amap-aos-info-nogw.amap.com
+  - DOMAIN,free-aos-cdn-image.amap.com
+
+  # > Baidu
+  - DOMAIN,afd.baidu.com
+  - DOMAIN,afdconf.baidu.com
+  - DOMAIN,als.baidu.com
+  - DOMAIN,bgg.baidu.com
+  - DOMAIN,feed-image.baidu.com
+  - DOMAIN,httpdns.baidubce.com
+  - DOMAIN,lc.map.baidu.com
+  - DOMAIN,mobads-logs.baidu.com
+  - DOMAIN,mobads.baidu.com
+  - DOMAIN,wn.pos.baidu.com
+  - DOMAIN-SUFFIX,pos.baidu.com
+  - DOMAIN-SUFFIX,union.baidu.cn
+  - DOMAIN-SUFFIX,union.baidu.com
+  - IP-CIDR,180.76.76.200/32
+
+  # > Bilibili
+  - DOMAIN,mall.bilibili.com
+
+  # > ByteDance
+  - DOMAIN,ad.zijieapi.com
+  - DOMAIN,lf-cdn-tos.bytescm.com
+  - DOMAIN-KEYWORD,-ad-sign.byteimg.com
+  - DOMAIN-KEYWORD,-be-pack-sign.pglstatp-toutiao.com
+  - DOMAIN-KEYWORD,-be-pack.pglstatp-toutiao.com
+  - DOMAIN-KEYWORD,-fe-tos.pglstatp-toutiao.com
+  - DOMAIN-KEYWORD,-sign.douyinpic.com
+  - DOMAIN-KEYWORD,api-access.pangolin-sdk-toutiao
+  - DOMAIN-KEYWORD,asiad.byteactivity
+  - DOMAIN-KEYWORD,log-api.pangolin-sdk-toutiao
+
+  # > Caiyun Weather
+  - DOMAIN,ad.cyapi.cn
+
+  # > iQIYI
+  - DOMAIN,api.iqiyi.com
+  - DOMAIN-SUFFIX,cupid.iqiyi.com
+  - DOMAIN-SUFFIX,cupid.ptqy.gitv.tv
   
+  # > JD
+  - DOMAIN,dns.jd.com
+  - DOMAIN,dsp-x.jd.com
+  - DOMAIN,janapi.jd.com
+  - DOMAIN,xlog.jd.com
+
+  # > Meituan
+  - DOMAIN,al-log.d.meituan.net
+  - DOMAIN,babel-statistics-android.d.meituan.net
+  - DOMAIN,maplocatesdksnapshot.d.meituan.net
+  - DOMAIN,metrics-picture.d.meituan.net
+  - DOMAIN,route-stats.d.meituan.net
+
+  # > MGTV
+  - DOMAIN,credits.bz.mgtv.com
+  - DOMAIN,credits2.bz.mgtv.com
+  - DOMAIN,credits3.bz.mgtv.com
+  - DOMAIN,dflow.bz.mgtv.com
+  - DOMAIN,encounter.bz.mgtv.com
+  - DOMAIN,floor.bz.mgtv.com
+  - DOMAIN,layer.bz.mgtv.com
+  - DOMAIN,mob.bz.mgtv.com
+  - DOMAIN,rc-topic-api.bz.mgtv.com
+  - DOMAIN,rprain.bz.mgtv.com
+  - DOMAIN,rprain.log.mgtv.com
+  - DOMAIN,vip.bz.mgtv.com
+  - DOMAIN-SUFFIX,da.mgtv.com
+
+  # > NetEase
+  - DOMAIN,adx-bj.anythinktech.com
+  - DOMAIN,api.anythinktech.com
+  - DOMAIN,da.anythinktech.com
+  - DOMAIN,httpdns.music.163.com
+  - DOMAIN,httpdns.n.netease.com
+  - DOMAIN,iad.g.163.com
+  - DOMAIN,iadmat.nosdn.127.net
+  - DOMAIN,iadmatapk.nosdn.127.net
+  - DOMAIN,iadmusicmat.music.126.net
+  - DOMAIN,iadmusicmatvideo.music.126.net
+  - DOMAIN,nex.163.com
+  - DOMAIN,tk.anythinktech.com
+  - DOMAIN-SUFFIX,163jiasu.com
+
+  # > Outlook
+  - DOMAIN,acdn.adnxs.com
+  - DOMAIN,mediation.adnxs.com
+  - DOMAIN,sin3-ib.adnxs.com
+
   # > PeacockTV
   - DOMAIN,video-ads-module.ad-tech.nbcuni.com
 
+  # > SMZDM
+  - DOMAIN,api.zuihuimai.com
+
   # > Tencent
-  # DOMAIN,btrace.qq.com
-  # DOMAIN,mtrace.qq.com
   - DOMAIN-KEYWORD,adstats
-  - DOMAIN,adstats.tencentmusic.com
+  - DOMAIN,adcdn.tencentmusic.com
+  - DOMAIN,adclick.tencentmusic.com
+  - DOMAIN,adexpo.tencentmusic.com
+  - DOMAIN,adsmind.gdtimg.com
   - DOMAIN,adstats.tencentmusic.com
   - DOMAIN,ad.tencentmusic.com
-  - DOMAIN,adcdn.tencentmusic.com
-  - DOMAIN,adexpo.tencentmusic.com,
-  - DOMAIN,adclick.tencentmusic.com
-  - DOMAIN,otheve.beacon.qq.com
+  - DOMAIN,btrace.qq.com
+  - DOMAIN,btrace.video.qq.com
+  - DOMAIN,info4.video.qq.com
+  - DOMAIN,info6.video.qq.com
+  - DOMAIN,ios.video.mpush.qq.com
+  - DOMAIN,gdt.qq.com
+  - DOMAIN,mtrace.qq.com
   - DOMAIN,monitor.music.qq.com
-  - DOMAIN,stat.y.qq.com
-  - DOMAIN,tmead.y.qq.com
-  - DOMAIN,oth.str.mdt.qq.com
-  - DOMAIN,h.trace.qq.com
-  - DOMAIN,tmead.y.qq.com
-  - DOMAIN,sdk.e.qq.com
+  - DOMAIN,otheve.beacon.qq.com
   - DOMAIN,p.l.qq.com
-  - DOMAIN,us.l.qq.com
-  - DOMAIN,tangram.e.qq.com
+  - DOMAIN,pgdt.gtimg.cn
+  - DOMAIN,rpt.gdt.qq.com
+  - DOMAIN,tytx.m.cn.miaozhen.com
+  - DOMAIN,wxsmsdy.video.qq.com
+  - DOMAIN,wxsnsdy.wxs.qq.com
+  - DOMAIN,wxsnsdythumb.wxs.qq.com
+  - DOMAIN-SUFFIX,beacon.qq.com
+  - DOMAIN-SUFFIX,gdt.qq.com
   - DOMAIN-SUFFIX,imtmp.net
-  
+  - DOMAIN-SUFFIX,tpns.qq.com
+  - DOMAIN-SUFFIX,trace.qq.com
+
   # > TVer
   - DOMAIN,fod-cm-ad-v.webcdn.stream.ne.jp
+
+  # > UnionPay
+  - DOMAIN,ads.95516.com
+  - DOMAIN,tysdk.95516.com
+  - DOMAIN,cm-10-138.getui.com
+  - DOMAIN,sdk-conf.getui.com
+  - DOMAIN,sdk.open.talk.getui.net
+  - DOMAIN,switch.cup.com.cn
 
   # > Viu
   - DOMAIN-SUFFIX,adcolony.com
   - DOMAIN,r2---sn-j5o76n7e.gvt1.com
 
+  # > WeChat
+  - DOMAIN,wxsnsdy.wxs.qq.com
+  - DOMAIN,wxsnsdythumb.wxs.qq.com
+  - DOMAIN,badjs.weixinbridge.com
+
+  # > Weibo
+  - DOMAIN,huodong.weibo.cn
+  - DOMAIN,adstrategy.biz.weibo.com
+  - DOMAIN,kadmimage.biz.weibo.com
+  - DOMAIN,sdkaction.biz.weibo.com
+  - DOMAIN,sdkclick.biz.weibo.com
+  - DOMAIN,sdkmonitor.biz.weibo.com
+  - DOMAIN-SUFFIX,biz.weibo.com
+
   # > WeTV
-  # DOMAIN,btrace.wetvinfo.com
-  # DOMAIN,mtrace.wetvinfo.com
+  - DOMAIN,btrace.wetvinfo.com
+  - DOMAIN,mtrace.wetvinfo.com
 
-  # > iQIYI 
-  # 视频暂停广告
-  - DOMAIN-SUFFIX,cupid.iqiyi.com
-  - DOMAIN-SUFFIX,cupid.ptqy.gitv.tv
-  
-  # > Youku 视频暂停广告
+  # > Xiaomi
+  - DOMAIN,sdkconfig.ad.xiaomi.com
+
+  # > Youku
+  - DOMAIN,adsmind.ugdtimg.com
+  - DOMAIN,huichuan-mc.sm.cn
+  - DOMAIN,amdc.m.youku.com
+  - DOMAIN,apiv4-iyes.youku.com
+  - DOMAIN,huichuan.sm.cn
   - DOMAIN,iyes.youku.com
-  
-  # > 12306
-  - DOMAIN,ad.12306.com
-  - DOMAIN-SUFFIX,conviva.com
-
-  # > Baidu
-  - DOMAIN-SUFFIX,baidustatic.com
-  - DOMAIN,duclick.baidu.com
-  - DOMAIN,hm.baidu.com
-  - DOMAIN,hmma.baidu.com
-  - DOMAIN,mobads.baidu.com
-  - DOMAIN,mobads-logs.baidu.com
-  - DOMAIN,nsclick.baidu.com
-  - DOMAIN,wn.pos.baidu.com
-  - DOMAIN,ps.map.baidu.com
-  - DOMAIN,offnavi.map.baidu.com
-  - DOMAIN,newvector.map.baidu.com
-  - DOMAIN,ulog.imap.baidu.com
-  - DOMAIN,newloc.map.n.shifen.com
-  # - URL-REGEX,http:\/\/[\s\S]*baidu\.com\/\.*ad[xs]\.php
-  # - URL-REGEX,http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule
-
-  # > Bilibili
-  - DOMAIN,miniapp.bilibili.com
-  - DOMAIN,thirdparty.biliapi.com
-  # - URL-REGEX,https:\/\/app\.bilibili\.com\/x\/v2\/param
-  # - URL-REGEX,https:\/\/app\.bilibili\.com\/x\/resource\/abtest
-  # - URL-REGEX,http:\/\/app\.bilibili\.com\/x\/v2\/dataflow\/report-TINYGIF
-  # - URL-REGEX,https:\/\/app\.bilibili\.com\/x\/v2\/search\/(defaultword|hot|recommend|resource)
-  # - URL-REGEX,https:\/\/app\.bilibili\.com\/x\/v2\/rank\.*rid=(168|5)
-  # - URL-REGEX,https:\/\/api\.bilibili\.com\/pgc\/season\/rank\/cn
-
-  # > Didi
-  # - URL-REGEX,https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/
-
-  # > ele
-  - DOMAIN,log.star.ele.me
-
-  # > Netease
-  - DOMAIN,ad.bn.netease.com
-  - DOMAIN,ad.yixin.im
-  - DOMAIN,iadmat.nosdn.127.net
-  - DOMAIN,iadmusicmat.music.126.net
-  - DOMAIN,iadmusicmatvideo.music.126.net
-  - DOMAIN,impservice.dictapp.youdao.com
-  - DOMAIN,impservice.youdao.com
-  - DOMAIN,log.yex.youdao.com
-  - DOMAIN,log-yex.youdao.com
-  - DOMAIN,mr.da.netease.com
-  - DOMAIN,n.3g.163.com
-  - DOMAIN,nex.163.com
-  - DOMAIN,pr.da.netease.com
-  - DOMAIN,rd.da.netease.com
-  - DOMAIN,wr.da.netease.com
-  - DOMAIN,yt-adp.nosdn.127.net
-  # - URL-REGEX,http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg
-  # - URL-REGEX,http:\/\/iad\.*mat\.[a-z]*\.12[67]\.net\/\w+\.(jpg|mp4)
+  - DOMAIN,mc.atm.youku.com
+  - DOMAIN,yk-ssp.ad.youku.com
+  - DOMAIN,ykad-data.youku.com
+  - DOMAIN,m-vali.cp31.ott.cibntv.net
+  - DOMAIN,vali-g1.cp31.ott.cibntv.net
+  - DOMAIN,vali-ugc.cp31.ott.cibntv.net
 
   # > Zhihu
   - DOMAIN,appcloud2.in.zhihu.com
+  - DOMAIN,appcloud.zhihu.com
+  - DOMAIN,crash2.zhihu.com
   - DOMAIN,mqtt.zhihu.com
   - DOMAIN,sugar.zhihu.com
-  - DOMAIN,zhihu-analytics.zhihu.com
-  - DOMAIN,zhihu-web-analytics.zhihu.com
-  - DOMAIN,118.89.204.198
-  - DOMAIN-SUFFIX,xdrig.com
-  - DOMAIN-SUFFIX,zhihu.xmcimg.com
+  - DOMAIN,zxid-m.mobileservice.cn
+  - IP-CIDR,103.41.167.237/32
+  - IP-CIDR,118.89.204.198/32
+  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
 
-  # - URL-REGEX,https:\/\/api\.zhihu\.com\/(fringe|zst|real_time|ad-style-service|banners|topstory/hot-lists|market/popover|mqtt|me|.*launch|.*featured-comment-ad|search/(top|tabs|preset))
-  # - URL-REGEX,https:\/\/api\.zhihu\.com\.*(launch|recommendations)
-  # - URL-REGEX,https:\/\/api\.zhihu\.com\/search\/(top|tabs|preset)
-  # - URL-REGEX,https:\/\/api\.zhihu\.com\/answers\/\.*\/comments\/featured-comment-ad
+  # > 10000
+  - DOMAIN,ad.21cn.com
+  - DOMAIN,ad.k.21cn.com
+  - DOMAIN,admarket.21cn.com
+  - DOMAIN,adshows.21cn.com
 
-  # - URL-REGEX,https?:\/\/(e|m).+\/((uu|oo).php.+|\d+.x?html\?$)
-  # - URL-REGEX,https?:\/\/[^(apple|10010)]+.(com|cn)\/(a|A)d(s|v)?(/|.js)
-  # - URL-REGEX,https?:\/\/[^bbs]\.tianya\.cn
-  # - URL-REGEX,https?:\/\/\w.?up\.qingdaonews\.com
-  # - URL-REGEX,https?:\/\/\w{6}\.com1\.z0\.glb\.clouddn\.com
-  # - URL-REGEX,https?:\/\/\w{8}\.logic\.cpm\.cm\.kankan\.com
-  # - URL-REGEX,https?:\/\/\w+\.cloudfront\.net\/banner
-  # - URL-REGEX,https?:\/\/\w+\.gdt\.qq\.com
-  # - URL-REGEX,https?:\/\/\w+\.kingsoft-office-service\.com
-  # - URL-REGEX,https?:\/\/9377\w{2}\.com
-  # - URL-REGEX,https?:\/\/a0b\w{2}\.com
-  # - URL-REGEX,https?:\/\/(a?d|sax)\d\.sina\.com
-  # - URL-REGEX,https?:\/\/d\d\.sinaimg\.cn
-  # - URL-REGEX,https?:\/\/dl\.app\.gtja\.com\/\.+\d+\.jpg
-  # - URL-REGEX,https?:\/\/impservice\.+?youdao\.com
-  # - URL-REGEX,https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg
-  # - URL-REGEX,https?:\/\/notice\.send-anywhere\.com\/banner
-  # - URL-REGEX,https?:\/\/sax\w?\.sina\.cn
-  # - URL-REGEX,https?:\/\/sax\w?\.sina\.com\.cn
-  # - URL-REGEX,https?:\/\/server-\w+\.imrworldwide\.com
-  # - URL-REGEX,https?:\/\/www\.bldimg\.com\/(background|splash)\/\.+\.png
+  # > 10010
+  - DOMAIN-SUFFIX,m1.ad.10010.com
+
+ 
