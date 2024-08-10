@@ -20,11 +20,9 @@ payload:
   - DOMAIN-SUFFIX,dnitv.com
   - DOMAIN,kvinit-prod.api.kochava.com
 
-  # > HBO Max
-  # USER-AGENT,HBOMAX*
+  # > HBO NOW & Max
   - PROCESS-NAME,com.hbo.hbonow
   - DOMAIN-SUFFIX,hbo.com
-  # DOMAIN-SUFFIX,hbogo.com
   - DOMAIN-SUFFIX,hbonow.com
   - DOMAIN-SUFFIX,hbomax.com
   - DOMAIN-SUFFIX,hbomaxcdn.com
@@ -94,6 +92,7 @@ payload:
   - DOMAIN-SUFFIX,swrve.com
 
   # > SHOWTIME
+  - DOMAIN-SUFFIX,skyshowtime.com
   - PROCESS-NAME,com.showtime.standalone
   - DOMAIN-SUFFIX,showtime.com
   - DOMAIN-SUFFIX,sho.com
