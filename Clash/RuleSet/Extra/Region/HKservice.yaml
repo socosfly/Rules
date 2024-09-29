@@ -57,6 +57,7 @@ payload:
   - DOMAIN-SUFFIX,polocloud.xyz
   - DOMAIN,oneprovider.net
   - DOMAIN,dmit.io
+  - DOMAIN-SUFFIX,lightlayer.net
 
   # > AWS
   - DOMAIN-SUFFIX,aws.amazon.com
