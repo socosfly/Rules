@@ -33,6 +33,7 @@ payload:
 
   # > Others
   - DOMAIN-SUFFIX,pccw.com
+  - DOMAIN,hk.troya.one
   - DOMAIN-SUFFIX,three.com.hk
   - DOMAIN-SUFFIX,rthk.hk
   - DOMAIN-SUFFIX,hk01.com
