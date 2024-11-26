@@ -48,11 +48,14 @@ payload:
   - DOMAIN-SUFFIX,perplexity.ai
 
   # > Siri
-  - DOMAIN-SUFFIX,apple-relay.apple.com
+  - DOMAIN,apple-relay.apple.com
+  - DOMAIN,apple-relay.cloudflare.com
   - DOMAIN,guzzoni.smoot.apple.com
 
   # Microsoft
   # > Copilot
+  - DOMAIN,api.githubcopilot.com
+  - DOMAIN,api.individual.githubcopilot.com
   - DOMAIN-SUFFIX,copilot.microsoft.com
 
 
