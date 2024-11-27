@@ -11,7 +11,7 @@ payload:
   #- DOMAIN-SUFFIX,inter.ptqy.gitv.tv
   #- DOMAIN-SUFFIX,inter.iqiyi.com
   - DOMAIN-SUFFIX,intl.iqiyi.com
-  - DOMAIN,ip.geo.iqiyi.com
+  #- DOMAIN,ip.geo.iqiyi.com
   - DOMAIN,intl-sns.iqiyi.com
   - DOMAIN,du-feige-intl.iqiyi.com
   - DOMAIN,intl-rcd.iqiyi.com
