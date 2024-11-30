@@ -9,23 +9,25 @@ payload:
   # USER-AGENT,DPlus*
   # PROCESS-NAME,com.discovery.discoveryplus.mobile
   # PROCESS-NAME,com.discovery.discoveryplus.androidtv
-  - DOMAIN-SUFFIX,discoveryplus.com
-  - DOMAIN,us1-prod.disco-api.com
-  - DOMAIN,us1-prod-images.disco-api.com
-  - DOMAIN,4unal8ngvngjm07lj2q2umlc4.litix.io
-  - DOMAIN,content-ause1-ur-discovery1.uplynk.com
-  - DOMAIN,content-ausw1-ur-discovery1.uplynk.com
-  - DOMAIN,content-ausw2-ur-discovery1.uplynk.com
+  # DOMAIN-SUFFIX,discoveryplus.com
+  # DOMAIN,us1-prod.disco-api.com
+  # DOMAIN,us1-prod-images.disco-api.com
+  # DOMAIN,4unal8ngvngjm07lj2q2umlc4.litix.io
+  # DOMAIN,content-ause1-ur-discovery1.uplynk.com
+  # DOMAIN,content-ausw1-ur-discovery1.uplynk.com
+  # DOMAIN,content-ausw2-ur-discovery1.uplynk.com
   # DOMAIN,go-prod-vz.akamaized.net
-  - DOMAIN-SUFFIX,dnitv.com
-  - DOMAIN,kvinit-prod.api.kochava.com
+  # DOMAIN-SUFFIX,dnitv.com
+  # DOMAIN,kvinit-prod.api.kochava.com
 
-  # > HBO NOW & Max
-  - PROCESS-NAME,com.hbo.hbonow
-  - DOMAIN-SUFFIX,hbo.com
-  - DOMAIN-SUFFIX,hbonow.com
-  - DOMAIN-SUFFIX,hbomax.com
-  - DOMAIN-SUFFIX,hbomaxcdn.com
+  # > HBO Max
+  # USER-AGENT,HBOMAX*
+  # PROCESS-NAME,com.hbo.hbonow
+  # DOMAIN-SUFFIX,hbo.com
+  # DOMAIN-SUFFIX,hbogo.com
+  # DOMAIN-SUFFIX,hbonow.com
+  # DOMAIN-SUFFIX,hbomax.com
+  # DOMAIN-SUFFIX,hbomaxcdn.com
   
   # > Hulu
   # PROCESS-NAME,com.hulu.plus
@@ -34,20 +36,20 @@ payload:
   - DOMAIN-SUFFIX,hulustream.com
   - DOMAIN,cws-hulu.conviva.com
   # DOMAIN,assetshuluimcom-a.akamaihd.net
-  
+   
   # > Max
   # USER-AGENT,Max*
-  - PROCESS-NAME,com.wbd.stream
-  - DOMAIN-SUFFIX,max.com
-  - DOMAIN-SUFFIX,discomax.com
-
+  # PROCESS-NAME,com.wbd.stream
+  # DOMAIN-SUFFIX,max.com
+  # DOMAIN-SUFFIX,discomax.com
+  
   # > MGM+
   - DOMAIN-SUFFIX,mgmplus.com
   - DOMAIN-SUFFIX,epix.com
   - DOMAIN-SUFFIX,epixnow.com
   - DOMAIN,epixhls.akamaized.net
   - DOMAIN,us-ore-00001.s3.dualstack.us-west-2.amazonaws.com
-  
+
   # > Paramount+
   # USER-AGENT,PPlus*
   # USER-AGENT,Paramountlus*
@@ -78,58 +80,10 @@ payload:
   # > Roku
   - DOMAIN-SUFFIX,roku.com
   - DOMAIN-SUFFIX,rokutime.com
-
-  # > Sling TV
-  # USER-AGENT,Sling*
-  - PROCESS-NAME,com.sling
-  - DOMAIN-SUFFIX,sling.com
-  - DOMAIN-SUFFIX,movetv.com
-  - DOMAIN-SUFFIX,slingtv.map.fastly.net
-  - DOMAIN-SUFFIX,sling.com.cdn.cloudflare.net
-  - DOMAIN-KEYWORD,movetv
-  - DOMAIN-SUFFIX,launchdarkly.com
-  - DOMAIN-SUFFIX,scorecardresearch.com
-  - DOMAIN-SUFFIX,swrve.com
-
-  # > SHOWTIME
-  - DOMAIN-SUFFIX,skyshowtime.com
-  - PROCESS-NAME,com.showtime.standalone
-  - DOMAIN-SUFFIX,showtime.com
-  - DOMAIN-SUFFIX,sho.com
-  - DOMAIN-SUFFIX,showtimeanytime.com
-  - DOMAIN-SUFFIX,showtime.penthera.com
-  - DOMAIN-KEYWORD,hls-shoany
-  - DOMAIN-SUFFIX,cdx.cedexis.net
-  - DOMAIN,showtime.cbsi.map.fastly.net
-
-  # > TikTok
-  - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
-  - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
-  - DOMAIN,p16-tiktokcdn-com.akamaized.net
-  - DOMAIN-SUFFIX,bytedapm.com
-  - DOMAIN-SUFFIX,bytegecko-i18n.com
-  - DOMAIN-SUFFIX,bytegecko.com
-  - DOMAIN-SUFFIX,byteoversea.com
-  - DOMAIN-SUFFIX,capcut.com
-  - DOMAIN-SUFFIX,ibytedtos.com
-  - DOMAIN-SUFFIX,ibyteimg.com
-  - DOMAIN-SUFFIX,ipstatp.com
-  - DOMAIN-SUFFIX,isnssdk.com
-  - DOMAIN-SUFFIX,muscdn.com
-  - DOMAIN-SUFFIX,musical.ly
-  - DOMAIN-SUFFIX,sgpstatp.com
-  - DOMAIN-SUFFIX,snssdk.com
-  - DOMAIN-SUFFIX,tik-tokapi.com
-  - DOMAIN-SUFFIX,tiktok.com
-  - DOMAIN-SUFFIX,tiktokcdn-us.com
-  - DOMAIN-SUFFIX,tiktokcdn.com
-  - DOMAIN-SUFFIX,tiktokd.net
-  - DOMAIN-SUFFIX,tiktokd.org
-  - DOMAIN-SUFFIX,tiktokmusic.app
-  - DOMAIN-SUFFIX,tiktokv.com
-  - DOMAIN-KEYWORD,musical.ly
-  - DOMAIN-KEYWORD,tiktok
-  - PROCESS-NAME,com.zhiliaoapp.musically
+  
+  # > Star+
+  # 此条分流只是让 Star+ 串流时走 US 节点，需搭配 Star+ 相关分流使用
+  - DOMAIN-SUFFIX,media.starott.com
   
   # > VUDU
   - DOMAIN-SUFFIX,vudu.com
