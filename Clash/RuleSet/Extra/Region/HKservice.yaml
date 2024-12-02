@@ -25,7 +25,7 @@ payload:
   - DOMAIN,ss.epdg.epc.geo.mnc000.mcc454.pub.3gppnetwork.org
 
   # > WiFi Calling Geo
-  - DOMAIN,gspe1-ssl.ls.apple.com
+  #- DOMAIN,gspe1-ssl.ls.apple.com
   
   # > CMHK
   - DOMAIN-SUFFIX,hk.chinamobile.com
@@ -71,5 +71,8 @@ payload:
   - DOMAIN-SUFFIX,futunn.com
   - DOMAIN-SUFFIX,longbridge.hk
   - DOMAIN-SUFFIX,longbridgehk.com
+
+  # > tv.team
+  - DOMAIN,hk.troya.info
 
 
