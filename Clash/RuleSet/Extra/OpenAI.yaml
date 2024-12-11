@@ -53,7 +53,7 @@ payload:
   - DOMAIN,guzzoni.smoot.apple.com
 
   # > Sora
-  - DOMAIN-SUFFIX, sora.com
+  - DOMAIN-SUFFIX,sora.com
   - DOMAIN,sora-cdn.oaistatic.com
 
   # Microsoft
