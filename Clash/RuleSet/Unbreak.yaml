@@ -123,6 +123,11 @@ payload:
   - DOMAIN,steamusercontent-a.akamaihd.net
   - DOMAIN,steamuserimages-a.akamaihd.net
 
+  # > WeChat FCM
+  - DOMAIN,dns.weixin.qq.com.cn
+  - DOMAIN-KEYWORD,long.weixin.qq.com
+  - DOMAIN-KEYWORD,short.weixin.qq.com
+  
   # > Tesla
   - DOMAIN,tesla-cdn.thron.cn
   - DOMAIN,tesla-cdn.thron.com
