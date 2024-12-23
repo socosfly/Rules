@@ -22,31 +22,67 @@ payload:
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claudeusercontent.com
 
-  # Google
-  # > Gemini
-  - DOMAIN,ai.google.dev
-  - DOMAIN,alkalimakersuite-pa.clients6.google.com
-  - DOMAIN,makersuite.google.com
+  # > Cloudflare AI Gateway
+  - DOMAIN,gateway.ai.cloudflare.com
+
+  # > Copilot
+  - DOMAIN-SUFFIX,githubcopilot.com
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+
+  # > Dify.AI
+  - DOMAIN-SUFFIX,dify.ai
+
+  # > GitHub Copilot
+  - DOMAIN,api.github.com
+  
+  # Google Gemini
   - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,gemini.google.com
+
+  # > Google DeepMind
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
-  - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,generativeai.google
-  - DOMAIN-SUFFIX,apis.google.com
-  - DOMAIN-KEYWORD,colab
-  - DOMAIN-KEYWORD,developerprofiles
+
+  # > Google Generative Language API
   - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,geller-pa.googleapis.com
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+
+  # > Google AI Studio
+  - DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN,ai.google.dev
+  - DOMAIN,alkalicore-pa.clients6.google.com
+  - DOMAIN,waa-pa.clients6.google.com
+
+  # > Google NotebookLM
+  - DOMAIN-SUFFIX,notebooklm.google
+  - DOMAIN-SUFFIX,notebooklm.google.com
+
+  # > Groq
+  - DOMAIN-SUFFIX,groq.com
+
+  # > Jasper
+  - DOMAIN-SUFFIX,clipdrop.co
+  - DOMAIN-SUFFIX,jasper.ai
   
   # JetBrains AI
   - DOMAIN-SUFFIX,grazie.ai
 
   # Meta
   - DOMAIN,imagine.meta.com
+
+  # > OpenArt
+  - DOMAIN-SUFFIX,openart.ai
   
   # > Perplexity AI
   - DOMAIN-SUFFIX,perplexity.ai
 
+  # > POE
+  - DOMAIN-SUFFIX,poe.com
+  
   # > Siri
   - DOMAIN,apple-relay.apple.com
   - DOMAIN,apple-relay.cloudflare.com
@@ -57,6 +93,4 @@ payload:
   - DOMAIN,sora-cdn.oaistatic.com
 
   # Microsoft
-  # > Copilot
-  - DOMAIN-SUFFIX,githubcopilot.com
-  - DOMAIN-SUFFIX,copilot.microsoft.com
+
