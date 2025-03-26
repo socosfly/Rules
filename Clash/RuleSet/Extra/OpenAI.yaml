@@ -29,6 +29,9 @@ payload:
   - DOMAIN-SUFFIX,githubcopilot.com
   - DOMAIN-SUFFIX,copilot.microsoft.com
 
+  # > Cursor
+  - DOMAIN-SUFFIX,cursor.sh
+
   # > Dify.AI
   - DOMAIN-SUFFIX,dify.ai
 
@@ -36,6 +39,7 @@ payload:
   - DOMAIN,api.github.com
   
   # Google Gemini
+  - DOMAIN-SUFFIX,apis.google.com
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,gemini.google.com
 
@@ -76,6 +80,9 @@ payload:
 
   # > OpenArt
   - DOMAIN-SUFFIX,openart.ai
+
+  # > OpenRouter
+  - DOMAIN-SUFFIX,openrouter.ai
   
   # > Perplexity AI
   - DOMAIN-SUFFIX,perplexity.ai
@@ -92,5 +99,4 @@ payload:
   - DOMAIN-SUFFIX,sora.com
   - DOMAIN,sora-cdn.oaistatic.com
 
-  # Microsoft
 
