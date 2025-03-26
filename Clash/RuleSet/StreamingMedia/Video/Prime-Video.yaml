@@ -2,24 +2,45 @@ payload:
   # > Amazon Prime Video
   # USER-AGENT,InstantVideo.US*
   # USER-AGENT,Prime%20Video*
-  - PROCESS-NAME,com.amazon.firebat
-  - PROCESS-NAME,com.amazon.avod.thirdpartyclient
-  - PROCESS-NAME,com.amazon.amazonvideo.livingroom
+  #- PROCESS-NAME,com.amazon.firebat
+  #- PROCESS-NAME,com.amazon.avod.thirdpartyclient
+ # - PROCESS-NAME,com.amazon.amazonvideo.livingroom
+
+  - DOMAIN-KEYWORD,avoddashs
+
   - DOMAIN-SUFFIX,aiv-cdn.net
   - DOMAIN-SUFFIX,aiv-delivery.net
+  - DOMAIN-SUFFIX,amazonprimevideo.cn
+  - DOMAIN-SUFFIX,amazonprimevideo.com.cn
+  - DOMAIN-SUFFIX,amazonprimevideos.com
+  - DOMAIN-SUFFIX,amazonvideo.cc
   - DOMAIN-SUFFIX,amazonvideo.com
-  - DOMAIN,ktpx.amazon.com
-  - DOMAIN-SUFFIX,primevideo.com
-  - DOMAIN-SUFFIX,pv-cdn.net
+  - DOMAIN-SUFFIX,amazonvideodirect.cc
+  - DOMAIN-SUFFIX,atv-ext-eu.amazon.com
+  - DOMAIN-SUFFIX,atv-ext-fe.amazon.com
+  - DOMAIN-SUFFIX,atv-ext.amazon.com
+  - DOMAIN-SUFFIX,atv-ps-eu.amazon.co.uk
+  - DOMAIN-SUFFIX,atv-ps-eu.amazon.com
+  - DOMAIN-SUFFIX,atv-ps-fe.amazon.co.jp
+  - DOMAIN-SUFFIX,atv-ps-fe.amazon.com
+  - DOMAIN-SUFFIX,atv-ps.amazon.com
+  - DOMAIN-SUFFIX,fls-na.amazon.com
   - DOMAIN-SUFFIX,media-amazon.com
-  - DOMAIN,atv-ps.amazon.com
+  - DOMAIN-SUFFIX,prime-video.com
+  - DOMAIN-SUFFIX,primevideo.cc
+  - DOMAIN-SUFFIX,primevideo.com
+  - DOMAIN-SUFFIX,primevideo.info
+  - DOMAIN-SUFFIX,primevideo.org
+  - DOMAIN-SUFFIX,primevideo.tv
+  - DOMAIN-SUFFIX,pv-cdn.net
+  - DOMAIN-SUFFIX,video.a2z.com
+
   - DOMAIN,avodmp4s3ww-a.akamaihd.net
-  #- DOMAIN,a74avodhlss3ww-a.akamaihd.net
-  #- DOMAIN,a106avodhlss3ww-a.akamaihd.net
-  #- DOMAIN,a127avodhlss3ww-a.akamaihd.net
-  #- DOMAIN,a223avodhlss3ww-a.akamaihd.net
-  #- DOMAIN,a262avodhlss3ww-a.akamaihd.net
-  #- DOMAIN,a309avodhlss3ww-a.akamaihd.net
-  #- DOMAIN,a40avodhlss3ww-a.akamaihd.net
-  # - DOMAIN,www.amazon.com
-  - DOMAIN-KEYWORD,avoddashs
+  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net
+  - DOMAIN,d1y002tclu9djj.cloudfront.net
+  - DOMAIN,d22qjgkvxw22r6.cloudfront.net
+  - DOMAIN,d25xi40x97liuc.cloudfront.net
+  - DOMAIN,dmqdd6hw24ucf.cloudfront.net
+  - DOMAIN,d27xxe7juh1us6.cloudfront.net
+
+  - DOMAIN,dualstack.pefs-alb-266603904.eu-west-1.elb.amazonaws.com
