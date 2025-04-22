@@ -33,4 +33,6 @@ payload:
   # > Verizon
   - DOMAIN,wo.vzwwo.com
   - DOMAIN,sg.vzwfemto.com
-  
+
+  # > AIBI
+  - DOMAIN-SUFFIX,aibipocket.com
