@@ -35,4 +35,4 @@ payload:
   - DOMAIN,sg.vzwfemto.com
 
   # > AIBI
-  - DOMAIN-SUFFIX,aibipocket.com
+  #- DOMAIN-SUFFIX,aibipocket.com
