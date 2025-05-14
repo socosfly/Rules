@@ -30,6 +30,8 @@ payload:
   - DOMAIN,vvm.mobile.att.net
   - DOMAIN,mmsc.mobile.att.net
 
+  - DOMAIN-SUFFIX,tello.com
+
   # > Verizon
   - DOMAIN,wo.vzwwo.com
   - DOMAIN,sg.vzwfemto.com
