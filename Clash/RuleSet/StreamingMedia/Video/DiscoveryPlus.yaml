@@ -1,28 +1,19 @@
 payload:
-  # > discovery+
-  - PROCESS-NAME,com.discovery.discoveryplus.mobile
-  - PROCESS-NAME,com.discovery.discoveryplus.mobile.apac
-  - PROCESS-NAME,com.discovery.discoveryplus.androidtv
-  - PROCESS-NAME,com.discovery.discoveryplus.androidtv.apac
-  # > Discovery+ PH
+  # > Discovery+
+  # USER-AGENT,discovery+*
+  # USER-AGENT,DPlus*
+  # PROCESS-NAME,com.discovery.discoveryplus.mobile
+  # PROCESS-NAME,com.discovery.discoveryplus.androidtv
   - DOMAIN-SUFFIX,discoveryplus.com
-  - DOMAIN-SUFFIX,discoveryplus.ph
-  - DOMAIN,ap2-prod.disco-api.com
-  - DOMAIN,ap2-prod-images.disco-api.com
-  - DOMAIN,ap2-prod-direct.discoveryplus.com
-  - DOMAIN,gdvm0o88gc3qseqotiavvvhim.litix.io
-  #- DOMAIN,dplus-ph-prod-vod.akamaized.net
-  #- DOMAIN,dplus-ph-google-v2.prod-vod.h264.io
-  # > Discovery+ US
+  - DOMAIN-SUFFIX,disco-api.com
+  - DOMAIN-SUFFIX,dnitv.com
+  - DOMAIN-SUFFIX,dplus.us.prd.media.max.com
+  - DOMAIN-SUFFIX,dplus-amer.prd.api.discomax.com
   - DOMAIN,us1-prod.disco-api.com
   - DOMAIN,us1-prod-images.disco-api.com
-  - DOMAIN,4unal8ngvngjm07lj2q2umlc4.litix.io
-  #- DOMAIN,go-prod-vz.akamaized.net
-
-  - DOMAIN-SUFFIX,disco-api.com
-  - DOMAIN-SUFFIX,discoveryplus.co.uk
-  - DOMAIN-SUFFIX,discoveryplus.com
-  - DOMAIN-SUFFIX,discoveryplus.in
-  - DOMAIN-SUFFIX,dnitv.com
   - DOMAIN,kvinit-prod.api.kochava.com
-  - DOMAIN-SUFFIX,litix.io
+  - DOMAIN,4unal8ngvngjm07lj2q2umlc4.litix.io
+  - DOMAIN,content-ause1-ur-discovery1.uplynk.com
+  - DOMAIN,content-ausw1-ur-discovery1.uplynk.com
+  - DOMAIN,content-ausw2-ur-discovery1.uplynk.com
+  # DOMAIN,go-prod-vz.akamaized.net
