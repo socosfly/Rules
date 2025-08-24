@@ -12,7 +12,11 @@ payload:
   # > Claude
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,anthropic.com
-
+  
+  # Augment
+  - DOMAIN-SUFFIX,augment.com
+  - DOMAIN-SUFFIX,augmentcode.com
+  
   # OpenAI
   # > ChatGPT
   - DOMAIN-SUFFIX,chat.com
@@ -28,7 +32,10 @@ payload:
   - DOMAIN,openaiapi-site.azureedge.net
   - DOMAIN-KEYWORD,openaiapi
   - DOMAIN-KEYWORD,openaicom
-
+  
+  # Chorus
+  - DOMAIN-SUFFIX,chorus.sh
+  
   # Cloudflare
   # > AI Gateway
   - DOMAIN,gateway.ai.cloudflare.com
@@ -38,14 +45,19 @@ payload:
   - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,cursorapi.com
-
+  
+  # DIA
+  - DOMAIN-SUFFIX,diabrowser.engineering
+  
   # Google
   # > AI Studio
   - DOMAIN-SUFFIX,generativeai.google
   - DOMAIN-SUFFIX,makersuite.google.com
   - DOMAIN,aistudio.google.com
+  - DOMAIN,ai.google.dev
   - DOMAIN,alkalicore-pa.clients6.google.com
   - DOMAIN,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN,waa-pa.clients6.google.com
   # > DeepMind
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
@@ -53,7 +65,6 @@ payload:
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
   - DOMAIN-SUFFIX,geller-pa.googleapis.com
   - DOMAIN-SUFFIX,generativelanguage.googleapis.com
-  - DOMAIN,ai.google.dev
   - DOMAIN,bard.google.com
   - DOMAIN,gemini.google.com
   # > NotebookLM
@@ -64,6 +75,10 @@ payload:
   # Groq
   - DOMAIN-SUFFIX,groq.com
 
+  # Jasper
+  - DOMAIN-SUFFIX,clipdrop.co
+  - DOMAIN-SUFFIX,jasper.ai
+  
   # JetBrains AI
   - DOMAIN-SUFFIX,grazie.ai
 
@@ -79,11 +94,25 @@ payload:
   # > GitHub Copilot
   - DOMAIN-SUFFIX,githubcopilot.com
 
+  # OpenArt
+  - DOMAIN-SUFFIX,openart.ai
+
+  # OpenRouter
+  - DOMAIN-SUFFIX,openrouter.ai
+  
   # Perplexity
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,pplx.ai
   - DOMAIN,pplx-res.cloudinary.com
 
+  # POE
+  - DOMAIN-SUFFIX,poe.com
+  
+  # Windsurf
+  - DOMAIN-SUFFIX,windsurf.com
+  - DOMAIN-SUFFIX,codeium.com
+  - DOMAIN-SUFFIX,codeiumdata.com
+  
   # xAI
   - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,x.ai
