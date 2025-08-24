@@ -5,6 +5,7 @@ payload:
   - DOMAIN-SUFFIX,gamer.com.tw
   - DOMAIN,gamer-cds.cdn.hinet.net
   - DOMAIN,gamer2-cds.cdn.hinet.net
+  - DOMAIN,bahamut.akamaized.net
  # > Hami Video
   - PROCESS-NAME,com.cht.ottPlayer
   - DOMAIN-SUFFIX,hinet.net
