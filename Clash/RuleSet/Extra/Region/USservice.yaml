@@ -36,12 +36,13 @@ payload:
   - DOMAIN-SUFFIX,tello.com
 
   # > Verizon
-  - DOMAIN,wo.vzwwo.com
-  - DOMAIN,sg.vzwfemto.com
-  - DOMAIN,gps.vzwfemto.com
+  #- DOMAIN,wo.vzwwo.com
+  #- DOMAIN,sg.vzwfemto.com
+  #- DOMAIN,gps.vzwfemto.com
 
   # > AIBI
   #- DOMAIN-SUFFIX,aibipocket.com
+
 
 
 
