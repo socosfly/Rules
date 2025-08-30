@@ -31,10 +31,10 @@ payload:
   #- DOMAIN,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
 
   # > AT&T
-  - DOMAIN,epdg.epc.att.net
-  - DOMAIN,sentitlement2.mobile.att.net
-  - DOMAIN,vvm.mobile.att.net
-  - DOMAIN,mmsc.mobile.att.net
+  #- DOMAIN,epdg.epc.att.net
+  #- DOMAIN,sentitlement2.mobile.att.net
+  #- DOMAIN,vvm.mobile.att.net
+  #- DOMAIN,mmsc.mobile.att.net
 
   - DOMAIN-SUFFIX,tello.com
 
@@ -45,6 +45,7 @@ payload:
 
   # > AIBI
   #- DOMAIN-SUFFIX,aibipocket.com
+
 
 
 
