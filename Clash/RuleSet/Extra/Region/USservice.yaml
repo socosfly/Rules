@@ -16,6 +16,9 @@ payload:
   # > US Mobile
   - DOMAIN-SUFFIX,usmobile.com
 
+  # > US Mobile
+  - DOMAIN-SUFFIX,usmobile.com
+
   # > WiFi Calling
   # > T-Mobile/Ultra Mobile
   #- IP-CIDR,208.54.0.0/16,no-resolve
@@ -42,6 +45,7 @@ payload:
 
   # > AIBI
   #- DOMAIN-SUFFIX,aibipocket.com
+
 
 
 
