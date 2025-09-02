@@ -10,13 +10,9 @@ payload:
   # > Bravia Core
   - DOMAIN-SUFFIX,privilegemovies.com
   
-  # > Ultramobile
+  # > Carrier
   - DOMAIN-SUFFIX,ultramobile.com
-
-  # > US Mobile
-  - DOMAIN-SUFFIX,usmobile.com
-
-  # > US Mobile
+  - DOMAIN-SUFFIX,tello.com
   - DOMAIN-SUFFIX,usmobile.com
 
   # > WiFi Calling
@@ -36,7 +32,7 @@ payload:
   #- DOMAIN,vvm.mobile.att.net
   #- DOMAIN,mmsc.mobile.att.net
 
-  - DOMAIN-SUFFIX,tello.com
+
 
   # > Verizon
   #- DOMAIN,wo.vzwwo.com
@@ -45,6 +41,7 @@ payload:
 
   # > AIBI
   #- DOMAIN-SUFFIX,aibipocket.com
+
 
 
 
