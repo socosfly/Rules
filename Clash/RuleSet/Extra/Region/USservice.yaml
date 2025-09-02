@@ -11,6 +11,7 @@ payload:
   - DOMAIN-SUFFIX,privilegemovies.com
   
   # > Carrier
+  - DOMAIN-SUFFIX,t-mobile.com
   - DOMAIN-SUFFIX,ultramobile.com
   - DOMAIN-SUFFIX,tello.com
   - DOMAIN-SUFFIX,usmobile.com
@@ -41,6 +42,7 @@ payload:
 
   # > AIBI
   #- DOMAIN-SUFFIX,aibipocket.com
+
 
 
 
