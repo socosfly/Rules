@@ -8,8 +8,13 @@ payload:
   - DOMAIN,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
   - DOMAIN,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
 
-   > AT&T
+  # > AT&T
   - DOMAIN,epdg.epc.att.net
   - DOMAIN,sentitlement2.mobile.att.net
   - DOMAIN,vvm.mobile.att.net
   - DOMAIN,mmsc.mobile.att.net
+
+  # > Verizon
+  - DOMAIN,wo.vzwwo.com
+  - DOMAIN,sg.vzwfemto.com
+  - DOMAIN,gps.vzwfemto.com
