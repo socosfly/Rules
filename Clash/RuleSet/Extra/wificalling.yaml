@@ -13,6 +13,7 @@ payload:
   - DOMAIN,sentitlement2.mobile.att.net
   - DOMAIN,vvm.mobile.att.net
   - DOMAIN,mmsc.mobile.att.net
+  - DOMAIN-SUFFIX,jibe.google.com
 
   # > Verizon
   - DOMAIN,wo.vzwwo.com
