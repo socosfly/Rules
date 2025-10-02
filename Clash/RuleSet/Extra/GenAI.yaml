@@ -93,8 +93,8 @@ payload:
   # Microsoft
   # > Copilot
   - DOMAIN,copilot.microsoft.com
-  - DOMAIN,sydney.bing.com
-  - DOMAIN,www.bing.com
+  - DOMAIN-SUFFIX,microsoftonline.com
+
   # > GitHub Copilot
   - DOMAIN-SUFFIX,githubcopilot.com
 
