@@ -1,5 +1,6 @@
 payload:
   # > Scholar
+  # - DOMAIN,scholar.google.com
   - DOMAIN-SUFFIX,acm.org
   - DOMAIN-SUFFIX,acs.org
   - DOMAIN-SUFFIX,aip.org
@@ -37,6 +38,7 @@ payload:
   - DOMAIN-SUFFIX,jstor.org
   - DOMAIN-SUFFIX,karger.com
   - DOMAIN-SUFFIX,libguides.com
+  - DOMAIN-SUFFIX,liebertpub.com
   - DOMAIN-SUFFIX,madsrevolution.net
   - DOMAIN-SUFFIX,mdpi.com
   - DOMAIN-SUFFIX,mpg.de
@@ -55,6 +57,7 @@ payload:
   - DOMAIN-SUFFIX,proquest.com
   - DOMAIN-SUFFIX,readcube.com
   - DOMAIN-SUFFIX,researchgate.net
+  - DOMAIN-SUFFIX,royalsocietypublishing.org
   - DOMAIN-SUFFIX,rsc.org
   - DOMAIN-SUFFIX,sagepub.com
   - DOMAIN-SUFFIX,sci-hub.tw
