@@ -33,6 +33,9 @@ payload:
 
   # > Others
   - DOMAIN-SUFFIX,pccw.com
+
+  #Dedicate IP SEA
+  - IP-CIDR,149.40.62.198/24,no-resolve
   - DOMAIN,hk.troya.one
   - DOMAIN-SUFFIX,three.com.hk
   - DOMAIN-SUFFIX,rthk.hk
