@@ -5,9 +5,13 @@ payload:
   # > Dedicate IP Seattle
   - IP-CIDR,149.40.62.198/24,no-resolve
   # > LAX
+  - IP-CIDR,5.182.16.204/24,no-resolve
   - IP-CIDR,84.17.44.146/24,no-resolve
+  - IP-CIDR,91.196.220.24/24,no-resolve
   - IP-CIDR,181.214.70.18/24,no-resolve
+  - IP-CIDR,185.245.87.8/24,no-resolve
   - IP-CIDR,185.202.221.142/24,no-resolve
+  - IP-CIDR,193.29.61.42/24,no-resolve
   # > NYC
   - IP-CIDR,45.140.184.34/24,no-resolve
   - IP-CIDR,138.199.52.17/24,no-resolve
