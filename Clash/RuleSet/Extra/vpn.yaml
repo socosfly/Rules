@@ -14,6 +14,7 @@ payload:
   - IP-CIDR,193.29.61.42/24,no-resolve
   # > NYC
   - IP-CIDR,45.140.184.34/24,no-resolve
+  - IP-CIDR,149.40.62.198/24,no-resolve
   - IP-CIDR,138.199.52.17/24,no-resolve
   - IP-CIDR,185.202.220.114/24,no-resolve
   - IP-CIDR,191.101.160.132/24,no-resolve
