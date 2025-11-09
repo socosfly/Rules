@@ -795,4 +795,5 @@ payload:
   - DOMAIN-SUFFIX,nssurge.com
   - DOMAIN-SUFFIX,nordvpn.com
   - DOMAIN-SUFFIX,napps-1.com
+  - IP-CIDR,149.40.62.198/24,no-resolve
 
