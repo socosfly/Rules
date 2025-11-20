@@ -49,12 +49,8 @@ payload:
   - DOMAIN-KEYWORD,epicgames
 
   # > Google
-  - DOMAIN-SUFFIX,blog.google
-  - DOMAIN-SUFFIX,googletraveladservices.com
-  - DOMAIN,clientservices.googleapis.com
-  - DOMAIN,dl.google.com
-  - DOMAIN,dl.l.google.com
-  - DOMAIN,update.googleapis.com
+  - DOMAIN,safebrowsing.googleapis.com
+  - DOMAIN-SUFFIX,dl.google.com
   
   # >> Firebase Cloud Messaging
   - DOMAIN,mtalk.google.com
