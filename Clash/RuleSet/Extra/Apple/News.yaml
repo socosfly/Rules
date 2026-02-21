@@ -1,12 +1,21 @@
 payload:
-  # > Apple News and Apple Map TOMTOM Version
-  # - USER-AGENT,AppleNews*
-  # - USER-AGENT,com.apple.news*
-  - DOMAIN,gspe1-ssl.ls.apple.com
-  # - USER-AGENT,News*
-  # - DOMAIN,apple.comscoreresearch.com
-  # - DOMAIN,gateway.icloud.com
-  # - DOMAIN,news-client.apple.com
-  # - DOMAIN,news-edge.apple.com
-  # - DOMAIN,news-events.apple.com
-  # - DOMAIN-SUFFIX,apple.news
+  # > Apple News
+  # 1. 核心认证服务
+  # 如果不加这两个，账号权限验证会走直连，导致 News+ 无法加载
+  - DOMAIN,gsa.apple.com
+  - DOMAIN,gsas.apple.com
+  # 2. 核心新闻内容与服务
+  - DOMAIN-SUFFIX,apple.news
+  - DOMAIN,news-edge.apple.com
+  - DOMAIN,news-events.apple.com
+  - DOMAIN,news-client.apple.com
+  - DOMAIN,news-todayconfig-edge.apple.com
+  - DOMAIN,newsletter-edge.apple.com
+  - DOMAIN,news-sports-events.apple.com
+  - DOMAIN,news-app-events.apple.com
+  # 3. 资源与音频 (确保图片和朗读正常)
+  - DOMAIN,news-assets.apple.com
+  - DOMAIN,news-nar-aud.apple.com
+  # 4. 定位与区域检测 
+  - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+  - DOMAIN,apple.comscoreresearch.com
