@@ -43,7 +43,7 @@ payload:
   - DOMAIN,supportdownload.apple.com
   - DOMAIN,swcdn.apple.com
   - DOMAIN,updates-http.cdn-apple.com
-  - DOMAIN-SUFFIX,ls.apple.com
+  #- DOMAIN-SUFFIX,ls.apple.com
 
   # > Epic
   - DOMAIN-KEYWORD,epicgames
