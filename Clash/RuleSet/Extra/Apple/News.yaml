@@ -17,5 +17,5 @@ payload:
   - DOMAIN,news-assets.apple.com
   - DOMAIN,news-nar-aud.apple.com
   # 4. 定位与区域检测 
-  - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+  - DOMAIN,gspe1-ssl.ls.apple.com
   - DOMAIN,apple.comscoreresearch.com
