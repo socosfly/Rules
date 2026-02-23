@@ -54,7 +54,7 @@ payload:
   # > VPS
   #- DOMAIN-SUFFIX,syfree.win
   #- DOMAIN-SUFFIX,ffrree.top
-  - DOMAIN,dler.best
+  - DOMAIN-SUFFIX,,todesk.io
   - DOMAIN-SUFFIX,fragment.com
   - DOMAIN-SUFFIX,anyhk.net
   - DOMAIN-SUFFIX,nnr.moe
