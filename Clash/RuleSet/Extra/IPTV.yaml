@@ -10,6 +10,7 @@ payload:
   - DOMAIN,catirtv.ddns.me
   - DOMAIN,line.4k-eu.com
   - DOMAIN,mag.abcdxyz.one
+  - DOMAIN-SUFFIX,garyshare.sharewithyou.dpdns.org
 
   # > 7food.xyz
   - IP-CIDR,103.194.169.207/32
@@ -161,3 +162,4 @@ payload:
   - IP-CIDR,138.199.27.56/32,no-resolve
   - IP-CIDR,172.83.45.147/32,no-resolve
   - IP-CIDR,212.102.38.21/32,no-resolve
+
