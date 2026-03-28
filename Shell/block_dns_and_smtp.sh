@@ -7,6 +7,7 @@ CONF_FILE="/etc/systemd/resolved.conf"
 DNS_SELECTED=0
 LLMNR_SELECTED=0
 UFW_SELECTED=0
+RESOLVED_AVAILABLE=0
 
 DNS_RESULT="已跳过 - 用户未选择"
 LLMNR_RESULT="已跳过 - 用户未选择"
@@ -22,6 +23,14 @@ error() {
 
 is_root() {
   [[ "${EUID:-$(id -u)}" -eq 0 ]]
+}
+
+init_env_status() {
+  if [[ -f "$CONF_FILE" ]]; then
+    RESOLVED_AVAILABLE=1
+  else
+    RESOLVED_AVAILABLE=0
+  fi
 }
 
 backup_conf() {
@@ -59,10 +68,21 @@ update_config_line() {
 }
 
 restart_resolved_service() {
+  if ! command -v systemctl >/dev/null 2>&1; then
+    error "未找到 systemctl，无法重启 systemd-resolved"
+    return 1
+  fi
+
+  if ! systemctl list-unit-files 2>/dev/null | grep -q '^systemd-resolved\.service'; then
+    error "未找到 systemd-resolved 服务"
+    return 1
+  fi
+
   if ! systemctl restart systemd-resolved; then
     error "重启 systemd-resolved 失败"
     return 1
   fi
+
   log "systemd-resolved 重启成功"
   return 0
 }
@@ -75,13 +95,20 @@ show_menu() {
   echo "=============================="
   echo "       系统配置任务菜单"
   echo "=============================="
-  echo "1. 设置 DNSStubListener=no"
-  echo "2. 设置 LLMNR=no"
+
+  if [[ $RESOLVED_AVAILABLE -eq 1 ]]; then
+    echo "1. 设置 DNSStubListener=no"
+    echo "2. 设置 LLMNR=no"
+  else
+    echo "1. 设置 DNSStubListener=no（不可选）"
+    echo "2. 设置 LLMNR=no（不可选）"
+  fi
+
   echo "3. 封禁 UFW 出站 SMTP 25 端口"
   echo "=============================="
   echo "请输入要执行的编号，可多选，用空格分隔"
   echo "例如: 1 3"
-  echo "输入 all 表示全部执行"
+  echo "输入 all 表示全部执行可执行项"
   echo "直接回车表示全部跳过"
   echo "=============================="
 }
@@ -97,11 +124,17 @@ select_tasks() {
   fi
 
   if [[ "$input" == "all" || "$input" == "ALL" ]]; then
-    DNS_SELECTED=1
-    LLMNR_SELECTED=1
+    if [[ $RESOLVED_AVAILABLE -eq 1 ]]; then
+      DNS_SELECTED=1
+      LLMNR_SELECTED=1
+      DNS_RESULT="等待执行"
+      LLMNR_RESULT="等待执行"
+    else
+      DNS_RESULT="已跳过 - 配置文件不存在，不可执行"
+      LLMNR_RESULT="已跳过 - 配置文件不存在，不可执行"
+    fi
+
     UFW_SELECTED=1
-    DNS_RESULT="等待执行"
-    LLMNR_RESULT="等待执行"
     UFW_RESULT="等待执行"
     return 0
   fi
@@ -109,12 +142,22 @@ select_tasks() {
   for item in $input; do
     case "$item" in
       1)
-        DNS_SELECTED=1
-        DNS_RESULT="等待执行"
+        if [[ $RESOLVED_AVAILABLE -eq 1 ]]; then
+          DNS_SELECTED=1
+          DNS_RESULT="等待执行"
+        else
+          echo "任务1不可选，已忽略：未找到 $CONF_FILE"
+          DNS_RESULT="已跳过 - 配置文件不存在，不可执行"
+        fi
         ;;
       2)
-        LLMNR_SELECTED=1
-        LLMNR_RESULT="等待执行"
+        if [[ $RESOLVED_AVAILABLE -eq 1 ]]; then
+          LLMNR_SELECTED=1
+          LLMNR_RESULT="等待执行"
+        else
+          echo "任务2不可选，已忽略：未找到 $CONF_FILE"
+          LLMNR_RESULT="已跳过 - 配置文件不存在，不可执行"
+        fi
         ;;
       3)
         UFW_SELECTED=1
@@ -203,8 +246,8 @@ execute_resolved_tasks() {
 
   if [[ $changed -eq 1 ]]; then
     if ! restart_resolved_service; then
-      [[ "$DNS_RESULT" == "执行成功" ]] && DNS_RESULT="执行失败 - 重启 systemd-resolved 失败"
-      [[ "$LLMNR_RESULT" == "执行成功" ]] && LLMNR_RESULT="执行失败 - 重启 systemd-resolved 失败"
+      [[ "$DNS_RESULT" == "执行成功" ]] && DNS_RESULT="执行失败 - 重启 systemd-resolved 失败或服务不存在"
+      [[ "$LLMNR_RESULT" == "执行成功" ]] && LLMNR_RESULT="执行失败 - 重启 systemd-resolved 失败或服务不存在"
       return 1
     fi
   fi
@@ -257,6 +300,7 @@ print_summary() {
 }
 
 main() {
+  init_env_status
   select_tasks
 
   echo
