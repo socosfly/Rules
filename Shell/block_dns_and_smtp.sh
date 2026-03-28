@@ -74,15 +74,9 @@ task_resolved_conf() {
     return 1
   fi
 
-  if ! update_config_line "DNSStubListener" "no"; then
-    error "Failed to update DNSStubListener"
-    RESOLVED_RESULT="FAILED - update DNSStubListener unsuccessful"
-    return 1
-  fi
-
   if ! systemctl restart systemd-resolved; then
-    echo "Need root privilege"
-    RESOLVED_RESULT="FAILED - Need root privilege"
+    error "Failed to restart systemd-resolved"
+    RESOLVED_RESULT="FAILED - restart systemd-resolved unsuccessful"
     return 1
   fi
 
@@ -92,7 +86,7 @@ task_resolved_conf() {
 }
 
 ufw_rule_exists() {
-  ufw status 2>/dev/null | grep -Fq "25/tcp                    DENY OUT"
+  ufw status 2>/dev/null | grep -Eq '25/tcp[[:space:]]+DENY OUT'
 }
 
 task_ufw_deny_25() {
@@ -117,8 +111,8 @@ task_ufw_deny_25() {
   fi
 
   if ! ufw deny out proto tcp to any port 25; then
-    echo "Need root privilege"
-    UFW_RESULT="FAILED - Need root privilege"
+    error "Failed to add ufw deny rule for TCP/25"
+    UFW_RESULT="FAILED - Deny SMTP port unsuccessful"
     return 1
   fi
 
@@ -130,7 +124,7 @@ task_ufw_deny_25() {
 print_summary() {
   echo
   echo "===== Task Results ====="
-  echo "Task 1 (Disable DNS on port 53 and 5355): ${RESOLVED_RESULT:-NOT RUN}"
+  echo "Task 1 (Disable LLMNR on port 5355): ${RESOLVED_RESULT:-NOT RUN}"
   echo "Task 2 (Deny SMTP on port 25): ${UFW_RESULT:-NOT RUN}"
 }
 
