@@ -7,7 +7,9 @@ CONF_FILE="/etc/systemd/resolved.conf"
 DNS_SELECTED=0
 LLMNR_SELECTED=0
 UFW_SELECTED=0
+
 RESOLVED_AVAILABLE=0
+UFW_AVAILABLE=0
 
 DNS_RESULT="已跳过 - 用户未选择"
 LLMNR_RESULT="已跳过 - 用户未选择"
@@ -30,6 +32,12 @@ init_env_status() {
     RESOLVED_AVAILABLE=1
   else
     RESOLVED_AVAILABLE=0
+  fi
+
+  if command -v ufw >/dev/null 2>&1; then
+    UFW_AVAILABLE=1
+  else
+    UFW_AVAILABLE=0
   fi
 }
 
@@ -104,7 +112,12 @@ show_menu() {
     echo "2. 设置 LLMNR=no（不可选）"
   fi
 
-  echo "3. 封禁 UFW 出站 SMTP 25 端口"
+  if [[ $UFW_AVAILABLE -eq 1 ]]; then
+    echo "3. 封禁 UFW 出站 SMTP 25 端口"
+  else
+    echo "3. 封禁 UFW 出站 SMTP 25 端口（不可选）"
+  fi
+
   echo "=============================="
   echo "请输入要执行的编号，可多选，用空格分隔"
   echo "例如: 1 3"
@@ -134,8 +147,13 @@ select_tasks() {
       LLMNR_RESULT="已跳过 - 配置文件不存在，不可执行"
     fi
 
-    UFW_SELECTED=1
-    UFW_RESULT="等待执行"
+    if [[ $UFW_AVAILABLE -eq 1 ]]; then
+      UFW_SELECTED=1
+      UFW_RESULT="等待执行"
+    else
+      UFW_RESULT="已跳过 - 未安装 ufw，不可执行"
+    fi
+
     return 0
   fi
 
@@ -160,8 +178,13 @@ select_tasks() {
         fi
         ;;
       3)
-        UFW_SELECTED=1
-        UFW_RESULT="等待执行"
+        if [[ $UFW_AVAILABLE -eq 1 ]]; then
+          UFW_SELECTED=1
+          UFW_RESULT="等待执行"
+        else
+          echo "任务3不可选，已忽略：未安装 ufw"
+          UFW_RESULT="已跳过 - 未安装 ufw，不可执行"
+        fi
         ;;
       *)
         echo "无效选项: $item，已忽略"
