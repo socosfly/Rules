@@ -128,8 +128,8 @@ select_tasks() {
 }
 
 execute_resolved_tasks() {
-  local need_resolved=0
   local changed=0
+  local need_backup=0
 
   if [[ $DNS_SELECTED -eq 0 && $LLMNR_SELECTED -eq 0 ]]; then
     return 0
@@ -150,26 +150,26 @@ execute_resolved_tasks() {
   fi
 
   if [[ $DNS_SELECTED -eq 1 ]]; then
-    need_resolved=1
     if config_line_already_set "DNSStubListener" "no"; then
       DNS_RESULT="无需执行"
+    else
+      need_backup=1
     fi
   fi
 
   if [[ $LLMNR_SELECTED -eq 1 ]]; then
-    need_resolved=1
     if config_line_already_set "LLMNR" "no"; then
       LLMNR_RESULT="无需执行"
+    else
+      need_backup=1
     fi
   fi
 
-  if [[ $need_resolved -eq 1 ]]; then
-    if [[ "$DNS_RESULT" != "无需执行" || "$LLMNR_RESULT" != "无需执行" ]]; then
-      if ! backup_conf; then
-        [[ $DNS_SELECTED -eq 1 && "$DNS_RESULT" == "等待执行" ]] && DNS_RESULT="执行失败 - 备份失败"
-        [[ $LLMNR_SELECTED -eq 1 && "$LLMNR_RESULT" == "等待执行" ]] && LLMNR_RESULT="执行失败 - 备份失败"
-        return 1
-      fi
+  if [[ $need_backup -eq 1 ]]; then
+    if ! backup_conf; then
+      [[ $DNS_SELECTED -eq 1 && "$DNS_RESULT" == "等待执行" ]] && DNS_RESULT="执行失败 - 备份失败"
+      [[ $LLMNR_SELECTED -eq 1 && "$LLMNR_RESULT" == "等待执行" ]] && LLMNR_RESULT="执行失败 - 备份失败"
+      return 1
     fi
   fi
 
