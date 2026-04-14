@@ -74,6 +74,7 @@ payload:
   - DOMAIN-SUFFIX,futunn.com
   - DOMAIN-SUFFIX,longbridge.hk
   - DOMAIN-SUFFIX,longbridgehk.com
+  - DOMAIN-SUFFIX,longbridge.com
 
   # > tv.team
   - DOMAIN,hk.troya.info
