@@ -134,6 +134,9 @@ payload:
    # > TRAE
   - DOMAIN-SUFFIX,trae.ai
   - DOMAIN-SUFFIX,traeapi.us
+
+  # WARP DEV
+  - DOMAIN-SUFFIX,warp.dev
   
   # Windsurf
   - DOMAIN-SUFFIX,windsurf.com
