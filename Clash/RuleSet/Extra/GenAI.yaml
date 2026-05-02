@@ -60,11 +60,17 @@ payload:
   # > Google AI Studio
   - DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
   - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,antigravity.google
+  - DOMAIN-SUFFIX,antigravity.google.com
   - DOMAIN-SUFFIX,makersuite.google.com
   - DOMAIN-SUFFIX,generativeai.google
   - DOMAIN,ai.google.dev
   - DOMAIN,alkalicore-pa.clients6.google.com
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com
   - DOMAIN,waa-pa.clients6.google.com
+  - DOMAIN,antigravity-pa.googleapis.com
+  - DOMAIN,antigravity.googleapis.com
+  - DOMAIN-SUFFIX,antigravity-unleash.goog
 
   # > Google DeepMind
   - DOMAIN-SUFFIX,deepmind.com
