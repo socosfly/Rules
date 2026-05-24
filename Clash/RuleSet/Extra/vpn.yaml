@@ -2,6 +2,7 @@ payload:
   # > NordVpN
   - DOMAIN-SUFFIX,nordvpn.com
   - DOMAIN-SUFFIX,napps-1.com
+  - DOMAIN-SUFFIX,nordhold.net
   # > Dedicate IP Seattle
   - IP-CIDR,149.40.62.198/24,no-resolve
   # > LAX
@@ -29,6 +30,7 @@ payload:
   - IP-CIDR,217.217.116.51/24,no-resolve
 
   # > Surfshark
+  - DOMAIN-SUFFIX,surfshark.com
   # > Seattle
   - IP-CIDR,212.102.46.70/24,no-resolve
   # > San Jose
@@ -41,4 +43,6 @@ payload:
   - IP-CIDR,185.193.157.187/24,no-resolve
   # > Taiwan
   - IP-CIDR,45.144.227.59/24,no-resolve
-  
+
+  # > PureVPN
+  - DOMAIN-SUFFIX,dnsdialer.com
