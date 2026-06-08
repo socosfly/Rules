@@ -790,6 +790,7 @@ payload:
   - DOMAIN-SUFFIX,workers.dev
   # Others
   - DOMAIN-SUFFIX,savetwitter.net
+  - DOMAIN-SUFFIX,ibkr.com
   - DOMAIN-SUFFIX,interactivebrokers.com
   - DOMAIN-SUFFIX,interactivebrokers.com.hk
   - DOMAIN-KEYWORD,interactivebrokers
