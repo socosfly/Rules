@@ -75,6 +75,10 @@ payload:
   - DOMAIN-SUFFIX,longbridge.hk
   - DOMAIN-SUFFIX,longbridgehk.com
   - DOMAIN-SUFFIX,longbridge.com
+  - DOMAIN-SUFFIX,lbkrs.com
+  - DOMAIN-SUFFIX,longbridge.app
+  - DOMAIN-SUFFIX,longbridge.global
+  - DOMAIN-SUFFIX,longportapp.com
 
   # > tv.team
   - DOMAIN,hk.troya.info
