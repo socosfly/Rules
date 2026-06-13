@@ -33,8 +33,6 @@ payload:
   #- DOMAIN,vvm.mobile.att.net
   #- DOMAIN,mmsc.mobile.att.net
 
-
-
   # > Verizon
   #- DOMAIN,wo.vzwwo.com
   #- DOMAIN,sg.vzwfemto.com
@@ -43,6 +41,8 @@ payload:
   # > AIBI
   #- DOMAIN-SUFFIX,aibipocket.com
 
+  # > IPTV Gary
+  - DOMAIN,garyshare.sharewithyou.dpdns.org
 
 
 
