@@ -213,10 +213,10 @@ payload:
   - DOMAIN,wx78.vpn-cloud.icu
   - DOMAIN,x88tv.co
   - DOMAIN,xumo-drct-skynews-nc91a.fast.nbcuni.com
-  - IP-CIDR,23.237.104.106,no-resolve
-  - IP-CIDR,23.239.31.26,no-resolve
-  - IP-CIDR,86.87.15.10,no-resolve
-  - IP-CIDR,89.187.179.148,no-resolve
-  - IP-CIDR,163.172.64.96,no-resolve
-  - IP-CIDR,190.11.225.124,no-resolve
+  - IP-CIDR,23.237.104.106/32,no-resolve
+  - IP-CIDR,23.239.31.26/32,no-resolve
+  - IP-CIDR,86.87.15.10/32,no-resolve
+  - IP-CIDR,89.187.179.148/32,no-resolve
+  - IP-CIDR,163.172.64.96/32,no-resolve
+  - IP-CIDR,190.11.225.124/32,no-resolve
 
