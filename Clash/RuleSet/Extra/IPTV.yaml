@@ -162,4 +162,5 @@ payload:
   - IP-CIDR,138.199.27.56/32,no-resolve
   - IP-CIDR,172.83.45.147/32,no-resolve
   - IP-CIDR,212.102.38.21/32,no-resolve
+  - DOMAIN,1.sb
 
