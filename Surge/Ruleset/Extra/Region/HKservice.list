@@ -24,7 +24,7 @@ DOMAIN,ss.epdg.epc.mnc000.mcc454.pub.3gppnetwork.org
 DOMAIN,ss.epdg.epc.geo.mnc000.mcc454.pub.3gppnetwork.org
 
 # > WiFi Calling Geo
-DOMAIN,gspe1-ssl.ls.apple.com
+#- DOMAIN,gspe1-ssl.ls.apple.com
   
 # > CMHK
 DOMAIN-SUFFIX,hk.chinamobile.com
@@ -32,6 +32,10 @@ DOMAIN-SUFFIX,mylink.komect.com
 
 # > Others
 DOMAIN-SUFFIX,pccw.com
+
+#Dedicate IP SEA
+IP-CIDR,149.40.62.198/24,no-resolve
+DOMAIN,hk.troya.one
 DOMAIN-SUFFIX,three.com.hk
 DOMAIN-SUFFIX,rthk.hk
 DOMAIN-SUFFIX,hk01.com
@@ -47,14 +51,16 @@ DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,klook.com
 
 # > VPS
-#DOMAIN-SUFFIX,syfree.win
-#DOMAIN-SUFFIX,ffrree.top
-DOMAIN,dler.best
+#- DOMAIN-SUFFIX,syfree.win
+#- DOMAIN-SUFFIX,ffrree.top
+DOMAIN-SUFFIX,,todesk.io
 DOMAIN-SUFFIX,fragment.com
 DOMAIN-SUFFIX,anyhk.net
 DOMAIN-SUFFIX,nnr.moe
-DOMAIN,oneprovider.net
 DOMAIN-SUFFIX,polocloud.xyz
+DOMAIN,oneprovider.net
+DOMAIN,dmit.io
+DOMAIN-SUFFIX,lightlayer.net
 
 # > AWS
 DOMAIN-SUFFIX,aws.amazon.com
@@ -63,7 +69,35 @@ DOMAIN-SUFFIX,amazonlightsail.com
 # > Evernote
 DOMAIN-SUFFIX,evernote.com
 
-# > Stocks
-DOMAIN-SUFFIX,futunn.com
+# > Longbridge
 DOMAIN-SUFFIX,longbridge.hk
 DOMAIN-SUFFIX,longbridgehk.com
+DOMAIN-SUFFIX,longbridge.com
+DOMAIN-SUFFIX,lbkrs.com
+DOMAIN-SUFFIX,longbridge.app
+DOMAIN-SUFFIX,longbridge.global
+DOMAIN-SUFFIX,longportapp.com
+
+# > 富途
+DOMAIN-SUFFIX,futunn.com
+DOMAIN-SUFFIX,futu5.com
+DOMAIN-SUFFIX,futuapi.com
+DOMAIN-SUFFIX,futuhn.com
+DOMAIN-SUFFIX,futuhk.com
+DOMAIN-SUFFIX,futufin.com
+DOMAIN-SUFFIX,fututrade.com
+DOMAIN-SUFFIX,futuesop.com
+DOMAIN-SUFFIX,futuin.com
+DOMAIN-SUFFIX,futuhk1.com
+DOMAIN-SUFFIX,futuhongkong.com
+DOMAIN-SUFFIX,moomoo.com
+DOMAIN-SUFFIX,futustatic.com
+DOMAIN-SUFFIX,qtlcdn.com
+IP-CIDR,43.168.0.0/16,no-resolve
+IP-CIDR,43.174.0.0/16,no-resolve
+IP-CIDR,43.175.0.0/16,no-resolve
+IP-CIDR,49.51.0.0/16,no-resolve
+IP-CIDR,119.28.0.0/16,no-resolve
+
+# > tv.team
+DOMAIN,hk.troya.info
