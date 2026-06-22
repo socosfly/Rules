@@ -82,16 +82,13 @@ payload:
   - DOMAIN,antigravity-pa.googleapis.com
   - DOMAIN,antigravity.googleapis.com
   - DOMAIN-SUFFIX,antigravity-unleash.goog
-
   # > Google DeepMind
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
-
   # > Google Generative Language API
   - DOMAIN-SUFFIX,generativelanguage.googleapis.com
   - DOMAIN-SUFFIX,geller-pa.googleapis.com
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-
   # > Google Gemini
   - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
   - DOMAIN-SUFFIX,apis.google.com
@@ -99,10 +96,10 @@ payload:
   - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,gemini.google
   - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
-
   # > Google NotebookLM
-  - DOMAIN-SUFFIX,notebooklm.google
-  - DOMAIN-SUFFIX,notebooklm.google.com
+  - DOMAIN-KEYWORD,notebooklm.google
+  # > Search Labs
+  - DOMAIN-KEYWORD,labs.google
 
   # > Grok
   - DOMAIN-SUFFIX,x.ai
