@@ -20,6 +20,7 @@ payload:
   - DOMAIN,amg00136-wbd-amg00136c41-lg-us-3570.playouts.now.amagi.tv
   - DOMAIN,amg00136-wbd-amg00136c83-lg-us-9807.playouts.now.amagi.tv
   - DOMAIN,amg00136-wbd-amg00136c9-lg-us-1935.playouts.now.amagi.tv
+  - DOMAIN,amg00222-amg00222c4-amgplt0002.playout.now3.amagi.tv
   - DOMAIN,amg00276-amg00276c21-samsung-gb-5270.playouts.now.amagi.tv
   - DOMAIN,amg00353-amg00353c55-amgplt0023.playout.now3.amagi.tv
   - DOMAIN,amg00353-lionsgatestudio-hersphere-lgus-3vv9h.amagi.tv
@@ -139,6 +140,7 @@ payload:
   - DOMAIN,garyshare.sharewithyou.dpdns.org
   - DOMAIN,hardcoremedia.xyz
   - DOMAIN,icywolf.direct.quickconnect.to
+  - DOMAIN,idabest.danng.me
   - DOMAIN,iptv1.kavkom.tv
   - DOMAIN,king-pro8k.xyz
   - DOMAIN,live-hls-web-aje-gcp.thehlive.com
@@ -148,6 +150,7 @@ payload:
   - DOMAIN,my.atrupo4k.com
   - DOMAIN,na-drtv.org
   - DOMAIN,nmx1ota.akamaized.net
+  - DOMAIN,nrvmobil.com
   - DOMAIN,oacost.vivotv.vip
   - DOMAIN,obsfullhd.tv
   - DOMAIN,oirtv.oireachtas.ie
@@ -196,6 +199,7 @@ payload:
   - DOMAIN,wx78.vpn-cloud.icu
   - DOMAIN,x88tv.co
   - DOMAIN,xumo-drct-skynews-nc91a.fast.nbcuni.com
+  
   - IP-CIDR,23.237.104.106/32,no-resolve
   - IP-CIDR,23.239.31.26/32,no-resolve
   - IP-CIDR,64.112.42.83/32,no-resolve
