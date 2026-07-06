@@ -196,3 +196,6 @@ payload:
 
   # > UBI
   - DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
+
+   > FlowerCloud
+  - DOMAIN,api-huacloud.net
