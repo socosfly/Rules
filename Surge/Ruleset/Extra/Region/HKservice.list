@@ -35,7 +35,6 @@ DOMAIN-SUFFIX,pccw.com
 
 #Dedicate IP SEA
 IP-CIDR,149.40.62.198/24,no-resolve
-DOMAIN,hk.troya.one
 DOMAIN-SUFFIX,three.com.hk
 DOMAIN-SUFFIX,rthk.hk
 DOMAIN-SUFFIX,hk01.com
@@ -53,7 +52,7 @@ DOMAIN-SUFFIX,klook.com
 # > VPS
 #- DOMAIN-SUFFIX,syfree.win
 #- DOMAIN-SUFFIX,ffrree.top
-DOMAIN-SUFFIX,,todesk.io
+DOMAIN-SUFFIX,todesk.io
 DOMAIN-SUFFIX,fragment.com
 DOMAIN-SUFFIX,anyhk.net
 DOMAIN-SUFFIX,nnr.moe
@@ -100,4 +99,4 @@ IP-CIDR,49.51.0.0/16,no-resolve
 IP-CIDR,119.28.0.0/16,no-resolve
 
 # > tv.team
-DOMAIN,hk.troya.info
+DOMAIN,hk.hls.gd
