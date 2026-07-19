@@ -15,6 +15,7 @@ payload:
   - DOMAIN,aenetworks.global.transmit.live
   - DOMAIN,ahhshitherewegoagain.sytes.net
   - DOMAIN,aka-live1050.delivery.roku.com
+  - DOMAIN,amd-mediator-eolq3tk4la-uk.a.run.app
   - DOMAIN,amg00089-bellmedia-amg00089c16-lg-ca-9432.playouts.now.amagi.tv
   - DOMAIN,amg00089-bellmedia-amg00089c17-lg-ca-9431.playouts.now.amagi.tv
   - DOMAIN,amg00106-france24-france24-samsunguk-qvpp8.amagi.tv
@@ -23,6 +24,7 @@ payload:
   - DOMAIN,amg00136-wbd-amg00136c41-lg-us-3570.playouts.now.amagi.tv
   - DOMAIN,amg00136-wbd-amg00136c83-lg-us-9807.playouts.now.amagi.tv
   - DOMAIN,amg00136-wbd-amg00136c9-lg-us-1935.playouts.now.amagi.tv
+  - DOMAIN,amg01444-tennischannel-amg01444c2-lg-us-959.playouts.now.amagi.tv
   - DOMAIN,amg00222-amg00222c4-amgplt0002.playout.now3.amagi.tv
   - DOMAIN,amg00276-amg00276c21-samsung-gb-5270.playouts.now.amagi.tv
   - DOMAIN,amg00353-amg00353c55-amgplt0023.playout.now3.amagi.tv
@@ -81,6 +83,7 @@ payload:
   - DOMAIN,d25lps4m0jar17.cloudfront.net
   - DOMAIN,d284aawtm5vi48.cloudfront.net
   - DOMAIN,d2a31kzot4f8t3.cloudfront.net
+  - DOMAIN,d2bbbc1corbwv1.cloudfront.net
   - DOMAIN,d2bpmlqcx2tu90.cloudfront.net
   - DOMAIN,d2d98ykcmmhgd4.cloudfront.net
   - DOMAIN,d2dxg18pxtlgy0.cloudfront.net
@@ -117,6 +120,7 @@ payload:
   - DOMAIN,d726x48n2pd5h.cloudfront.net
   - DOMAIN,d9ssxzmclhfo4.cloudfront.net
   - DOMAIN,daajvofu4yuzd.cloudfront.net
+  - DOMAIN,dai.google.com
   - DOMAIN,db7hpmv1jrjri.cloudfront.net
   - DOMAIN,dbbg0ax8bgo7d.cloudfront.net
   - DOMAIN,dblg512iwb2z0.cloudfront.net
@@ -127,6 +131,7 @@ payload:
   - DOMAIN,dnf08l6u6uxnz.cloudfront.net
   - DOMAIN,doumbtmvnsp0z.cloudfront.net
   - DOMAIN,dpv6ceilvhyrw.cloudfront.net
+  - DOMAIN,ds2c506obo7m8.cloudfront.net
   - DOMAIN,dt1s4l2cmiyit.cloudfront.net
   - DOMAIN,dtpafgv4jlncv.cloudfront.net
   - DOMAIN,dtqutq7lmcchv.cloudfront.net
@@ -146,11 +151,16 @@ payload:
   - DOMAIN,ftv1.b-cdn.net
   - DOMAIN,garyshare.sharewithyou.dpdns.org
   - DOMAIN,hardcoremedia.xyz
+  - DOMAIN,i.mjh.nz
   - DOMAIN,icywolf.direct.quickconnect.to
   - DOMAIN,idabest.danng.me
+  - DOMAIN,innovationtv.eu
   - DOMAIN,iptv1.kavkom.tv
   - DOMAIN,iptv.watchhd.to
+  - DOMAIN,jmp2.uk
   - DOMAIN,king-pro8k.xyz
+  - DOMAIN,line.nexstreamvx.sbs
+  - DOMAIN,lisabontv.pro
   - DOMAIN,live-hls-web-aje-gcp.thehlive.com
   - DOMAIN,live20.bozztv.com
   - DOMAIN,luxus-iptv.xyz
@@ -193,6 +203,7 @@ payload:
   - DOMAIN,pddl.sharewithyou.dpdns.org
   - DOMAIN,psk-sdk.ddno.us
   - DOMAIN,rbmn-live.akamaized.net
+  - DOMAIN,rebrand.ly
   - DOMAIN,redfoxx.vip
   - DOMAIN,rocketfx.uk
   - DOMAIN,rt-glb.rttv.com
@@ -201,6 +212,7 @@ payload:
   - DOMAIN,s11host2.localnow.api.cms.amdvids.com
   - DOMAIN,s8host3.localnow.api.cms.amdvids.com
   - DOMAIN,samsunguk-lightning-now80s-samsunguk-n908q.amagi.tv
+  - DOMAIN,slh.kop.homes
   - DOMAIN,stream.cammonitorplus.net
   - DOMAIN,tsb-mega.i9.ee
   - DOMAIN,turnerlive.warnermediacdn.com
@@ -211,12 +223,14 @@ payload:
   - DOMAIN,wickediptv.xyz
   - DOMAIN,wurlgameshownetwork.global.transmit.live
   - DOMAIN,wx78.vpn-cloud.icu
+  - DOMAIN,www.940media.org
   - DOMAIN,x88tv.co
   - DOMAIN,xumo-drct-skynews-nc91a.fast.nbcuni.com
  
   - IP-CIDR,23.237.104.106/32,no-resolve
   - IP-CIDR,23.239.31.26/32,no-resolve
   - IP-CIDR,31.43.191.125/32,no-resolve
+  - IP-CIDR,45.139.122.199,no-resolve
   - IP-CIDR,64.112.42.83/32,no-resolve
   - IP-CIDR,86.87.15.10/32,no-resolve
   - IP-CIDR,89.36.94.238/32,no-resolve
