@@ -18,6 +18,13 @@ payload:
   # CloudKit 内容，包括 XProtect 更新和语音控制资源
   - DOMAIN-SUFFIX,gateway.icloud.com
 
+  # New Siri
+  -DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+  -DOMAIN-SUFFIX,amp-api.apps.apple.com
+  -DOMAIN-SUFFIX,apps.mzstatic.com
+  -DOMAIN-SUFFIX,gateway.icloud.com
+  -DOMAIN-SUFFIX,updates.cdn-apple.com
+
   # Anthropic
   # > Claude
   - DOMAIN-SUFFIX,anthropic.com
