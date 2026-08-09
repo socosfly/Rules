@@ -2,47 +2,17 @@ payload:
   # > Crunchyroll
   # USER-AGENT,Crunchyroll*
   - DOMAIN-SUFFIX,crunchyroll.com
+  # 如需使用 VRV，请将此条取消注释并走 US 代理
   - DOMAIN-SUFFIX,vrv.co
-  
-  # > Discovery+ US
-  # USER-AGENT,discovery+*
-  # USER-AGENT,DPlus*
-  # PROCESS-NAME,com.discovery.discoveryplus.mobile
-  # PROCESS-NAME,com.discovery.discoveryplus.androidtv
-  # DOMAIN-SUFFIX,discoveryplus.com
-  # DOMAIN,us1-prod.disco-api.com
-  # DOMAIN,us1-prod-images.disco-api.com
-  # DOMAIN,4unal8ngvngjm07lj2q2umlc4.litix.io
-  # DOMAIN,content-ause1-ur-discovery1.uplynk.com
-  # DOMAIN,content-ausw1-ur-discovery1.uplynk.com
-  # DOMAIN,content-ausw2-ur-discovery1.uplynk.com
-  # DOMAIN,go-prod-vz.akamaized.net
-  # DOMAIN-SUFFIX,dnitv.com
-  # DOMAIN,kvinit-prod.api.kochava.com
-
-  # > HBO Max
-  # USER-AGENT,HBOMAX*
-  # PROCESS-NAME,com.hbo.hbonow
-  # DOMAIN-SUFFIX,hbo.com
-  # DOMAIN-SUFFIX,hbogo.com
-  # DOMAIN-SUFFIX,hbonow.com
-  # DOMAIN-SUFFIX,hbomax.com
-  # DOMAIN-SUFFIX,hbomaxcdn.com
-  
+   
   # > Hulu
-  # PROCESS-NAME,com.hulu.plus
   - DOMAIN-SUFFIX,hulu.com
+  - DOMAIN-SUFFIX,hulu.tv
   - DOMAIN-SUFFIX,huluim.com
   - DOMAIN-SUFFIX,hulustream.com
   - DOMAIN,cws-hulu.conviva.com
   # DOMAIN,assetshuluimcom-a.akamaihd.net
-   
-  # > Max
-  # USER-AGENT,Max*
-  # PROCESS-NAME,com.wbd.stream
-  # DOMAIN-SUFFIX,max.com
-  # DOMAIN-SUFFIX,discomax.com
-  
+
   # > MGM+
   - DOMAIN-SUFFIX,mgmplus.com
   - DOMAIN-SUFFIX,epix.com
@@ -50,36 +20,45 @@ payload:
   - DOMAIN,epixhls.akamaized.net
   - DOMAIN,us-ore-00001.s3.dualstack.us-west-2.amazonaws.com
 
+  # > PBS
+  - DOMAIN-SUFFIX,pbs.org
+   
   # > Paramount+
-  # USER-AGENT,PPlus*
-  # USER-AGENT,Paramountlus*
-  # PROCESS-NAME,com.cbs.app
-  # PROCESS-NAME,com.cbs.ott
-  # PROCESS-NAME,com.cbs.ca
+  # US UA
+  # Intl. UA
   - DOMAIN-SUFFIX,cbsi.com
-  # DOMAIN-SUFFIX,cbsaavideo.com
+  # DOMAIN-SUFFIX,cbsaavideo.com #播放
   - DOMAIN-SUFFIX,cbsivideo.com
   - DOMAIN-SUFFIX,paramountplus.com
   - DOMAIN-SUFFIX,pplusstatic.com
-  # DOMAIN-SUFFIX,mtvnservices.com
+  # DOMAIN-SUFFIX,mtvnservices.com #MTV
   # DOMAIN-SUFFIX,cws.conviva.com
   - DOMAIN,link.theplatform.com
+  # US
+  # Intl.
+  # 播放验证，此条 Paramount+ 国际版与美国版共用，可使用 AND 语法区分。iOS 15 下 UA 不可用需 MITM 相关 HOST
   - DOMAIN,cbsi.live.ott.irdeto.com
-  # DOMAIN,thumbnails.cbsig.net
+  # DOMAIN,thumbnails.cbsig.net #缩略图
   # DOMAIN,cbsinteractive.hb.omtrdc.net
-  # DOMAIN,ads.play.cbsi.video
-  # DOMAIN,cbsnews.akamaized.net
+  # DOMAIN,ads.play.cbsi.video #片头动画，可屏蔽
+  # DOMAIN,pubads.g.doubleclick.net #不可屏蔽
+  # DOMAIN,cbsnews.akamaized.net #CBSN Live
+  # CBS live丨US
   - DOMAIN,cbsservice.aws.syncbak.com
   - DOMAIN,cbsplaylistserver.aws.syncbak.com
 
   # > Peacock
   # USER-AGENT,Peacock*
   - PROCESS-NAME,com.peacocktv.peacockandroid
+  - DOMAIN-SUFFIX,cdn.peacocktv.com
   - DOMAIN-SUFFIX,peacocktv.com
+  # 屏蔽广告
+  # DOMAIN,video-ads-module.ad-tech.nbcuni.com
   
   # > Roku
   - DOMAIN-SUFFIX,roku.com
   - DOMAIN-SUFFIX,rokutime.com
+  - PROCESS-NAME,com.wbd.stream
   
   # > F1 TV
   - DOMAIN,d2n9h2wits23hf.cloudfront.net
