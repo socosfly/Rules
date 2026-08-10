@@ -7,6 +7,7 @@ payload:
   - DOMAIN,1d7f286dfb844497ac68dd9d6eeb6ea6.mediatailor.us-west-2.amazonaws.com
   - DOMAIN,29047.performservers.cz
   - DOMAIN,52aad07d9d4f4d479d9b27e08ddf9e8b.mediatailor.us-west-2.amazonaws.com
+  - DOMAIN,7447975b.wurl.com
   - DOMAIN,802017341873.plus-26.com
   - DOMAIN,89514e758f814907be6d14bbc0aa66b7.mediatailor.us-west-2.amazonaws.com
   - DOMAIN,8a4805800dac428ebbf1d3cde0cdcf87.mediatailor.us-west-2.amazonaws.com
@@ -64,6 +65,7 @@ payload:
   - DOMAIN,asmr4k.world
   - DOMAIN,atlanticflixtv.online
   - DOMAIN,bazoka.co
+  - DOMAIN,bgdc.live
   - DOMAIN,cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv
   - DOMAIN,citynewsregional.akamaized.net
   - DOMAIN,c.mjh.nz
@@ -114,6 +116,7 @@ payload:
   - DOMAIN,d3bsgqzbpkrvbb.cloudfront.net
   - DOMAIN,d3ca4qxsdzlrju.cloudfront.net
   - DOMAIN,d3dem8ae9kaqav.cloudfront.net
+  - DOMAIN,d3f4oii5n0oeqi.cloudfront.net
   - DOMAIN,d3hqevbyoxtkoi.cloudfront.net
   - DOMAIN,d3j50s1rkjmwi9.cloudfront.net
   - DOMAIN,d3k1hz1izayob5.cloudfront.net
@@ -213,6 +216,7 @@ payload:
   - DOMAIN,pb-wmei1j77c66s0.akamaized.net
   - DOMAIN,pb-xp0ozx9lyqeiv.akamaized.net
   - DOMAIN,pddl.sharewithyou.dpdns.org
+  - DOMAIN,php.jdshipin.com
   - DOMAIN,psk-sdk.ddno.us
   - DOMAIN,rbmn-live.akamaized.net
   - DOMAIN,rebrand.ly
@@ -240,7 +244,7 @@ payload:
   - DOMAIN,www.940media.org
   - DOMAIN,x88tv.co
   - DOMAIN,xumo-drct-skynews-nc91a.fast.nbcuni.com
- 
+
   - IP-CIDR,23.237.104.106/32,no-resolve
   - IP-CIDR,23.239.31.26/32,no-resolve
   - IP-CIDR,31.43.191.125/32,no-resolve
