@@ -9,7 +9,7 @@ payload:
   # > Dedicate IP Seattle，#12085
   - IP-CIDR,79.132.77.77/32,no-resolve
   # > US Server IP
-    - IP-CIDR,2.56.190.0/24,no-resolve
+  - IP-CIDR,2.56.190.0/24,no-resolve
   - IP-CIDR,2.56.191.0/24,no-resolve
   - IP-CIDR,5.181.234.0/24,no-resolve
   - IP-CIDR,31.13.189.0/24,no-resolve
