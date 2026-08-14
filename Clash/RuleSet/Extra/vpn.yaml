@@ -1,10 +1,14 @@
 payload:
   # > NordVpN
   - DOMAIN-SUFFIX,nordvpn.com
+  - DOMAIN-SUFFIX,nordvpn.org
+  - DOMAIN-SUFFIX,nordauth.com
+  - DOMAIN-SUFFIX,nordaccount.com
   - DOMAIN-SUFFIX,napps-1.com
   - DOMAIN-SUFFIX,nordhold.net
-  # > Dedicate IP Seattle
-  - IP-CIDR,149.40.62.198/24,no-resolve
+  # > Dedicate IP Seattle，#12085
+  - IP-CIDR,79.132.77.77/32,no-resolve
+  
   # > LAX
   - IP-CIDR,5.182.16.204/24,no-resolve
   - IP-CIDR,84.17.44.146/24,no-resolve
