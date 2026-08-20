@@ -8,6 +8,7 @@ payload:
   - DOMAIN-SUFFIX,nordhold.net
   # > Dedicate IP Seattle #12085
   - IP-CIDR,79.132.77.77/32,no-resolve
+  - IP-CIDR,149.40.62.198/32,no-resolve
   # > US Server IP
   - IP-CIDR,2.56.190.0/24,no-resolve
   - IP-CIDR,2.56.191.0/24,no-resolve
