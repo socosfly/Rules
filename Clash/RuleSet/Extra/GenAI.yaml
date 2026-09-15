@@ -38,29 +38,40 @@ payload:
   # Augment
   - DOMAIN-SUFFIX,augment.com
   - DOMAIN-SUFFIX,augmentcode.com
-  
-  # > Chat GPT API & CDN
-  - AND,((DOMAIN-KEYWORD,openaicom-api-),(DOMAIN-SUFFIX,azurefd.net))
-  - AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
-  - DOMAIN,chatgpt.livekit.cloud
-  - DOMAIN,host.livekit.cloud
-  - DOMAIN,turn.livekit.cloud
-  - DOMAIN-SUFFIX,chat.com
+
+  # > ChatGPT
+  - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,livekit.cloud
+  - DOMAIN-SUFFIX,ct.sendgrid.net
+  - DOMAIN-SUFFIX,featureassets.org
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,sora.com
-  - DOMAIN,api.statsig.com
-  - DOMAIN,api-iam.intercom.io
+  - DOMAIN-SUFFIX,prodregistryv2.org
+  - DOMAIN-SUFFIX,statsig.com
+  - DOMAIN-SUFFIX,statsigapi.net
+  
+  # > ChatGPT API & CDN
+  - DOMAIN,cdn.openaimerge.com
+  - DOMAIN,cdn.workos.com
+  - DOMAIN,challenges.cloudflare.com
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN,forwarder.workos.com
+  - DOMAIN,humb.apple.com
+  - DOMAIN,images.workoscdn.com
+  - DOMAIN,js.stripe.com
+  - DOMAIN,o207216.ingest.sentry.io
   - DOMAIN,o33249.ingest.sentry.io
-  - DOMAIN,openai.com.cdn.cloudflare.net
   - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN-KEYWORD,openaiapi
-  - DOMAIN-KEYWORD,openaicom
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN,rum.browser-intake-datadoghq.com
+  - DOMAIN,setup.workos.com
+  - DOMAIN,workos.imgix.net
 
   # > Cerebras
   - DOMAIN-SUFFIX,cerebras.ai
@@ -98,13 +109,16 @@ payload:
   - DOMAIN,antigravity-pa.googleapis.com
   - DOMAIN,antigravity.googleapis.com
   - DOMAIN-SUFFIX,antigravity-unleash.goog
+  
   # > Google DeepMind
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
+  
   # > Google Generative Language API
   - DOMAIN-SUFFIX,generativelanguage.googleapis.com
   - DOMAIN-SUFFIX,geller-pa.googleapis.com
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+  
   # > Google Gemini
   - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
   - DOMAIN-SUFFIX,apis.google.com
@@ -112,8 +126,11 @@ payload:
   - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,gemini.google
   - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
+  
   # > Google NotebookLM
   - DOMAIN-KEYWORD,notebooklm.google
+  - DOMAIN-SUFFIX,notebooklm.google.com
+  
   # > Search Labs
   - DOMAIN-KEYWORD,labs.google
 
