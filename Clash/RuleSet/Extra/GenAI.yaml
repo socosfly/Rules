@@ -152,8 +152,8 @@ payload:
   - DOMAIN-SUFFIX,meta.ai
   - DOMAIN-SUFFIX,meta.com
   - DOMAIN,imagine.meta.com
-  - DOMAIN-SUFFIX,meta.ai
-  - DOMAIN-SUFFIX,metaaivm.com 
+  - DOMAIN-SUFFIX,muse.ai
+  - DOMAIN-SUFFIX,metaaivm.com
 
   # Microsoft
   # > Copilot
