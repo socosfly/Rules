@@ -3,11 +3,11 @@ payload:
   # - USER-AGENT,InstantVideo.US*
   # - USER-AGENT,Prime%20Video*
 
-  # DOMAIN,d1v5ir2lpwr8os.cloudfront.net
-  # DOMAIN,d22qjgkvxw22r6.cloudfront.net
-  # DOMAIN,d25xi40x97liuc.cloudfront.net
-  # DOMAIN,d27xxe7juh1us6.cloudfront.net
-  # DOMAIN,dmqdd6hw24ucf.cloudfront.net
+  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net
+  - DOMAIN,d22qjgkvxw22r6.cloudfront.net
+  - DOMAIN,d25xi40x97liuc.cloudfront.net
+  - DOMAIN,d27xxe7juh1us6.cloudfront.net
+  - DOMAIN,dmqdd6hw24ucf.cloudfront.net
 
   - DOMAIN-SUFFIX,aiv-cdn.net
   - DOMAIN-SUFFIX,aiv-delivery.net
