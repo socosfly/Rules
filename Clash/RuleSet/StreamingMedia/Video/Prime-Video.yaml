@@ -2,24 +2,43 @@ payload:
   # > Amazon Prime Video
   # - USER-AGENT,InstantVideo.US*
   # - USER-AGENT,Prime%20Video*
-
-  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net
-  - DOMAIN,d22qjgkvxw22r6.cloudfront.net
-  - DOMAIN,d25xi40x97liuc.cloudfront.net
-  - DOMAIN,d27xxe7juh1us6.cloudfront.net
-  - DOMAIN,dmqdd6hw24ucf.cloudfront.net
-
+  - DOMAIN-SUFFIX,primevideo.com
+  - DOMAIN-SUFFIX,amazonvideo.com
+  - DOMAIN-SUFFIX,media-amazon.com
+  - DOMAIN-SUFFIX,pv-cdn.net
   - DOMAIN-SUFFIX,aiv-cdn.net
   - DOMAIN-SUFFIX,aiv-delivery.net
-  - DOMAIN-SUFFIX,amazonvideo.com
-  - DOMAIN-SUFFIX,atv-ext-eu.amazon.com
-  - DOMAIN-SUFFIX,atv-ext-fe.amazon.com
-  - DOMAIN-SUFFIX,atv-ext.amazon.com
-  - DOMAIN-SUFFIX,atv-ps-eu.amazon.co.uk
-  - DOMAIN-SUFFIX,atv-ps-eu.amazon.com
-  - DOMAIN-SUFFIX,atv-ps-fe.amazon.co.jp
-  - DOMAIN-SUFFIX,atv-ps-fe.amazon.com
-  - DOMAIN-SUFFIX,atv-ps.amazon.com
+  # DOMAIN,www.amazon.com
+  - DOMAIN,ktpx.amazon.com
+  - DOMAIN,atv-ps.amazon.com
+  - DOMAIN,avodmp4s3ww-a.akamaihd.net
+  # DOMAIN,d184dfn36gombl.cloudfront.net
+  # DOMAIN,d1xfray82862hr.cloudfront.net
+  # DOMAIN,d1v5ir2lpwr8os.cloudfront.net
+  # DOMAIN,d22qjgkvxw22r6.cloudfront.net
+  # DOMAIN,d25xi40x97liuc.cloudfront.net
+  # DOMAIN,d27xxe7juh1us6.cloudfront.net
+  # DOMAIN,d3196yreox78o9.cloudfront.net
+  # DOMAIN,dmqdd6hw24ucf.cloudfront.net
+  - DOMAIN-KEYWORD,avoddashs
+
+  # DOMAIN,d1v5ir2lpwr8os.cloudfront.net
+  # DOMAIN,d22qjgkvxw22r6.cloudfront.net
+  # DOMAIN,d25xi40x97liuc.cloudfront.net
+  # DOMAIN,d27xxe7juh1us6.cloudfront.net
+  # DOMAIN,dmqdd6hw24ucf.cloudfront.net
+
+  # DOMAIN-SUFFIX,aiv-cdn.net
+  # DOMAIN-SUFFIX,aiv-delivery.net
+  # DOMAIN-SUFFIX,amazonvideo.com
+  # DOMAIN-SUFFIX,atv-ext-eu.amazon.com
+  # DOMAIN-SUFFIX,atv-ext-fe.amazon.com
+  # DOMAIN-SUFFIX,atv-ext.amazon.com
+  # DOMAIN-SUFFIX,atv-ps-eu.amazon.co.uk
+  # DOMAIN-SUFFIX,atv-ps-eu.amazon.com
+  # DOMAIN-SUFFIX,atv-ps-fe.amazon.co.jp
+  # DOMAIN-SUFFIX,atv-ps-fe.amazon.com
+  # DOMAIN-SUFFIX,atv-ps.amazon.com
   - DOMAIN-SUFFIX,primevideo.com
   - DOMAIN-SUFFIX,pv-cdn.net
   - DOMAIN-SUFFIX,video.a2z.com
