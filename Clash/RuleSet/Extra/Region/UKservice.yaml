@@ -1,0 +1,8 @@
+  - DOMAIN-SUFFIX,entsrv-uk.vodafone.com
+  - DOMAIN-SUFFIX,epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,vuk-gto.prod.ondemandconnectivity.com
+  - IP-CIDR,88.82.0.0/19,no-resolve
+
+  - DOMAIN-SUFFIX,epdg.epc.mnc004.mcc204.pub.3gppnetwork.org
+  - IP-CIDR,109.32.0.0/13,no-resolve
