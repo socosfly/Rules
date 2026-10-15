@@ -44,6 +44,12 @@ payload:
   # > IPTV Gary
   - DOMAIN,garyshare.sharewithyou.dpdns.org
 
+  # > ibkr
+  - DOMAIN-SUFFIX,ibkr.com
+  - DOMAIN-SUFFIX,interactivebrokers.com
+  - DOMAIN-SUFFIX,interactivebrokers.com.hk
+  - DOMAIN-KEYWORD,interactivebrokers
+
 
 
 
