@@ -95,6 +95,29 @@ payload:
   # > Dify.AI
   - DOMAIN-SUFFIX,dify.ai
   
+  # > Google Antigravity Enterprise / Gemini Enterprise
+  # https://antigravity.google/docs/enterprise#network-allowlists-and-mtls-endpoints
+  # Global, US, EU and mTLS endpoints; shared API traffic also uses the AI egress
+  - DOMAIN,aiplatform.eu.rep.googleapis.com
+  - DOMAIN,aiplatform.googleapis.com
+  - DOMAIN,aiplatform.mtls.googleapis.com
+  - DOMAIN,aiplatform.us.rep.googleapis.com
+  - DOMAIN,businessaicode.eu.rep.googleapis.com
+  - DOMAIN,businessaicode.googleapis.com
+  - DOMAIN,businessaicode.mtls.googleapis.com
+  - DOMAIN,businessaicode.us.rep.googleapis.com
+  - DOMAIN,discoveryengine.googleapis.com
+  - DOMAIN,discoveryengine.mtls.googleapis.com
+  - DOMAIN,eu-discoveryengine.googleapis.com
+  - DOMAIN,eu-discoveryengine.mtls.googleapis.com
+  - DOMAIN,us-discoveryengine.googleapis.com
+  - DOMAIN,us-discoveryengine.mtls.googleapis.com
+
+  # > Google Chrome DevTools AI assistance
+  # Hong Kong is excluded from the supported locations
+  # https://developer.chrome.com/docs/devtools/ai-assistance/get-started
+  - DOMAIN,aida.googleapis.com
+  
   # > Google AI Studio
   - DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
   - DOMAIN-SUFFIX,aistudio.google.com
@@ -130,13 +153,20 @@ payload:
   # > Google NotebookLM
   - DOMAIN-KEYWORD,notebooklm.google
   - DOMAIN-SUFFIX,notebooklm.google.com
+  - DOMAIN-SUFFIX,notebook.google
+  - DOMAIN-SUFFIX,notebook.google.com
+  - DOMAIN-SUFFIX,notebooklm.cloud.google.com
   
   # > Search Labs
   - DOMAIN-KEYWORD,labs.google
 
-  # > Grok
-  - DOMAIN-SUFFIX,x.ai
+  # > xAI / Grok
+  # xAI runs sign-in for Grok and Cursor; wildcard domains per official guidance
+  # https://cursor.com/help/troubleshooting/sign-in-domains
   - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,grokipedia.com
+  - DOMAIN-SUFFIX,grokusercontent.com
+  - DOMAIN-SUFFIX,x.ai
 
   # Groq
   - DOMAIN-SUFFIX,groq.com
@@ -151,7 +181,6 @@ payload:
   # Meta
   - DOMAIN-SUFFIX,meta.ai
   - DOMAIN-SUFFIX,meta.com
-  - DOMAIN,imagine.meta.com
   - DOMAIN-SUFFIX,muse.ai
   - DOMAIN-SUFFIX,metaaivm.com
 
